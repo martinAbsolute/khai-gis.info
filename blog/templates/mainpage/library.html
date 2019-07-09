@@ -1,0 +1,406 @@
+{% extends 'blog/layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+Бібліотека | KHAI-GIS ©
+{% endblock %}
+
+{% block content %}
+
+
+<div id="content-wrapper" class="background-gragient">
+    <div class="blocks-container">
+        <div class="wardrobe">
+            <!-- BLOCK "TYPE 19" -->
+            <div class="lamp"></div>
+            <div class="shkaf">
+                <script type="text/javascript" src="http://yandex.st/jquery/2.0.3/jquery.min.js"></script>
+                <script type="text/javascript">
+                    var randomcolor;    //создаем переменную
+                    function get_random_color() {
+                        randomcolor = "#" + ((1 << 24) * Math.random() | 0).toString(16);//генерация hex-кода вида #000000-#FFFFFF
+                    }
+                    $(document).ready(function () { //после загрузки документа            
+                        $('div.book').each(function () {
+                            get_random_color(); //запускаем функцию 
+                            $(this).css('background', randomcolor); //для каждого p добавляем атрибут style="color:#код;"
+                        });
+                    }); 
+                </script>
+                <script type="text/javascript">
+                    var randomheight;
+                    function get_random_height() {
+                        randomheight = (Math.random() * (90 - 60) + 60).toString(10) + "px";
+                    }
+                    $(document).ready(function () {
+                        $('div.book').each(function () {
+                            get_random_height();
+                            $(this).css('height', randomheight);
+                        });
+                    });
+                    var randomwidth;
+                    function get_random_width() {
+                        randomwidth = (Math.random() * (17 - 10) + 10).toString(10) + "px";
+                    }
+                    $(document).ready(function () {
+                        $('div.book').each(function () {
+                            get_random_width();
+                            $(this).css('width', randomwidth);
+                        });
+                    }); 
+                </script>
+                <script>
+                    function openModal() {
+                        document.getElementById('myModal').style.display = "block";
+                    }
+                    function closeModal() {
+                        document.getElementById('myModal').style.display = "none";
+                    }
+
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                    }
+                    function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("demo");
+                        var captionText = document.getElementById("caption");
+                        if (n > slides.length) { slideIndex = 1 }
+                        if (n < 1) { slideIndex = slides.length }
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        captionText.innerHTML = dots[slideIndex - 1].alt;
+                    }
+                </script>
+                <div class="polka clear">
+                    <div class="kurs"><a href="#" onclick="openModal();currentSlide(6)" class="hover-shadow">6 курс</a></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="div globus"><img src="img/globus.gif" alt=""></div>
+
+                </div>
+                <div class="polka clear">
+                    <div class="kurs"><a href="#" onclick="openModal();currentSlide(5)" class="hover-shadow">5 курс</a></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                </div>
+                <div class="polka clear">
+                    <div class="kurs"><a href="#" onclick="openModal();currentSlide(4)" class="hover-shadow">4 курс</a></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                </div>
+                <div class="polka clear">
+                    <div class="kurs"><a href="#" onclick="openModal();currentSlide(3)" class="hover-shadow">3 курс</a></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                </div>
+                <div class="polka clear">
+                    <div class="kurs"><a href="#" onclick="openModal();currentSlide(2)" class="hover-shadow">2 курс</a></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                </div>
+                <div class="polka clear">
+                    <div class="kurs"><a href="#" onclick="openModal();currentSlide(1)" class="hover-shadow">1 курс</a></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                    <div class="book"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</div>
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">
+                <h2 class="h2">1 курс</h2>
+                <div class="curs-content">
+                    <a href="docs/1/geod_lek.rar" download title="rar">Геодезия <span class="doctyp">Сборник лекций<span></a>
+                    <a href="docs/1/geology.rar" download title="rar">Геология и геоморфология <span class="doctyp">Сборник
+                            лекций, справочники<span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">
+                <h2 class="h2">2 курс</h2>
+                <div class="curs-content">
+                    <a href="docs/2/kartogr.rar" download title="rar">Картография <span class="doctyp">Методические
+                            пособоия<span></a>
+                    <a href="docs/2/kniga_zemleustroystvo.pdf" download title="pdf">М. А. Сулин "Землеустройство" <span
+                            class="doctyp">Литература<span></a>
+                    <a href="docs/2/Metodichka.pdf" download title="pdf"> А. В. Попов, И. К. Васильева "Математические
+                        методы и модели" <span class="doctyp">Методическое пособие<span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">
+                <h2 class="h2">3 курс</h2>
+                <div class="curs-content">
+                    <a href="docs/3/vasileva_i_k_elcov_p_e_metody_raspoznavaniya_obrazov_uchebno.pdf" download title="pdf">И.
+                        К. Васильева, П. Е. Ельцов "Методы распознаваняи образов" <span class="doctyp">Методическое
+                            пособоие <span></a>
+                    <a href="docs/3/В.И.Завгородний-Комплексная_защита_информации_в_компьютерных_системах.pdf" download
+                        title="pdf">В. И. Завгородний "Комплексная защита информации в компьютерных системах" <span
+                            class="doctyp">Литература <span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">
+                <h2 class="h2">4 курс</h2>
+                <div class="curs-content">
+                    <a href="docs/4/labs_gis_analys.doc" download title="doc">ГИС-анализ <span class="doctyp">лабораторные
+                            работы<span></a>
+                    <a href="docs/4/ODZ.pdf" download title="pdf">Основы дистанционного зондирования <span class="doctyp">учебное
+                            пособие<span></a>
+                    <a href="docs/4/graphics.rar" download title="rar">Компьютерная графика <span class="doctyp">Материал
+                            на семестр<span></a>
+                    <a href="docs/4/graph.rar" download title="rar">Компьютерная графика <span class="doctyp">Лабораторные
+                            работы<span></a>
+                    <a href="docs/4/organiz_rab.rar" download title="rar">Организация и управление работами по
+                        землеустройству <span class="doctyp">Учебные пособия<span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">
+                <h2 class="h2">5 курс</h2>
+                <div class="curs-content">
+                    <a href="docs/5/BZHD.rar" download title="rar">БЖД <span class="doctyp">Материал на семестр<span></a>
+                    <a href="docs/5/MM_GIS.pdf" download title="pdf">"Математическое моделирование в ГИС" Васильева
+                        И.К., Попов А. В. <br>Ельцов Е. П. <span class="doctyp"> Методическое пособие<span></a>
+                    <a href="docs/5/diagn.pdf" download title="pdf">"Методы технического диагностирования электронных
+                        стредств" М.Ф. Бабаков, <br>П.Е. Ельцов, М.И. Луханин <span class="doctyp"> Методическое
+                            пособие<span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">
+                <h2 class="h2">6 курс</h2>
+                <div class="curs-content">
+
+                </div>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+</div>
+
+{% endblock %}

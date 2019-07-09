@@ -1,0 +1,1548 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-26 18:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\blog\templates\blog\blogmain.html:6 .\blog\templates\blog\blogpost.html:6
+#: .\blog\templates\blog\layout.html:102
+msgid "Новини"
+msgstr "News"
+
+#: .\blog\templates\blog\blogmain.html:6
+msgid "Міжнародні Відносини"
+msgstr "International relations"
+
+#: .\blog\templates\blog\blogmain.html:18
+msgid " МІЖНАРОДНІ ВІДНОСИНИ "
+msgstr " INTERNATIONAL RELATIONS "
+
+#: .\blog\templates\blog\blogmain.html:18
+msgid " НОВИНИ КАФЕДРИ "
+msgstr " NEWS OF THE DEPARTMENT "
+
+#: .\blog\templates\blog\blogmain.html:48
+#: .\blog\templates\blog\blogpost.html:47
+msgid "Файли для завантаження:"
+msgstr "Files for download:"
+
+#: .\blog\templates\blog\blogmain.html:93
+msgid "Попередня"
+msgstr "Previous"
+
+#: .\blog\templates\blog\blogmain.html:99
+msgid "Наступна "
+msgstr "Next "
+
+#: .\blog\templates\blog\blogpost.html:18
+msgid "Життя кафедри"
+msgstr "Life of the department"
+
+#: .\blog\templates\blog\layout.html:10
+msgid "ХАИ ГИС кафедра 407"
+msgstr "KhAI GIS department 407"
+
+#: .\blog\templates\blog\layout.html:11
+msgid "uk"
+msgstr "en"
+
+#: .\blog\templates\blog\layout.html:33 .\blog\templates\blog\layout.html:34
+msgid "Кафедра геоінформаційних технологій та космічного моніторингу Землі"
+msgstr ""
+"Department of geoinformation technologies and space monitoring of the Earth"
+
+#: .\blog\templates\blog\layout.html:41
+msgid "НОВИНИ"
+msgstr "NEWS"
+
+#: .\blog\templates\blog\layout.html:42
+msgid "АБІТУРІЄНТУ"
+msgstr "APPLICANTS"
+
+#: .\blog\templates\blog\layout.html:43
+msgid "МІЖНАРОДНІ ВІДНОСИНИ"
+msgstr "INTERNATIONAL RELATIONS"
+
+#: .\blog\templates\blog\layout.html:44
+#: .\blog\templates\mainpage\gallery-container.html:18
+msgid "ГАЛЕРЕЯ"
+msgstr "GALLERY"
+
+#: .\blog\templates\blog\layout.html:46
+msgid "РОЗДІЛИ"
+msgstr "SECTIONS"
+
+#: .\blog\templates\blog\layout.html:48
+msgid "ПРО КАФЕДРУ"
+msgstr "ABOUT DEPARTMENT"
+
+#: .\blog\templates\blog\layout.html:49
+msgid "НАПРЯМИ ПІДГОТОВКИ"
+msgstr "SPECIALIZATIONS"
+
+#: .\blog\templates\blog\layout.html:50
+msgid "МІЖНАРОДНІ ПРОЕКТИ"
+msgstr "INTERNATIONAL PROJECTS"
+
+#: .\blog\templates\blog\layout.html:51
+msgid "АКТУАЛЬНІ ДАНІ ДЗЗ"
+msgstr "REMOTE SENSING DATA"
+
+#: .\blog\templates\blog\layout.html:53
+msgid "ДЕНЬ ГІС"
+msgstr "GIS DAY"
+
+#: .\blog\templates\blog\layout.html:54
+msgid "СТУДЕНТУ"
+msgstr "STUDENTS"
+
+#: .\blog\templates\blog\layout.html:55
+msgid "ПАРТНЕРИ"
+msgstr "PARTNERS"
+
+#: .\blog\templates\blog\layout.html:56
+msgid "ЗВОРОТНІЙ ЗВ'ЯЗОК"
+msgstr "FEEDBACK"
+
+#: .\blog\templates\blog\layout.html:59
+msgid "КОНТАКТИ"
+msgstr "CONTACT"
+
+#: .\blog\templates\blog\layout.html:93
+msgid "Маєте бажання навчатися у нас?"
+msgstr "Do you have the willingness to study with us?"
+
+#: .\blog\templates\blog\layout.html:95
+msgid "ВВЕДІТЬ СВІЙ № ТЕЛЕФОНУ"
+msgstr "ENTER YOUR PHONE NUMBER"
+
+#: .\blog\templates\blog\layout.html:98
+msgid "   і ми з Вами зв'яжемося"
+msgstr "   and we will contact you"
+
+#: .\blog\templates\blog\layout.html:103
+#: .\blog\templates\mainpage\gallery-container.html:6
+#: .\blog\templates\mainpage\gallery.html:6
+msgid "Галерея"
+msgstr "Gallery"
+
+#: .\blog\templates\blog\layout.html:104
+#: .\blog\templates\mainpage\abit.html:17
+msgid "Абітурієнту"
+msgstr "Applicants"
+
+#: .\blog\templates\blog\layout.html:106
+msgid "Контакти"
+msgstr "Contact"
+
+#: .\blog\templates\blog\layout.html:121
+#: .\blog\templates\mainpage\contact.html:96
+msgid "Розробники"
+msgstr "Developers"
+
+#: .\blog\templates\mainpage\abit.html:6
+msgid "Информація для Абітурієнтів | KHAI-GIS ©"
+msgstr "Information for entrants | KHAI-GIS ©"
+
+#: .\blog\templates\mainpage\abit.html:25
+msgid "бакалаврат"
+msgstr "bachelor's degree"
+
+#: .\blog\templates\mainpage\abit.html:28
+msgid "магістратура"
+msgstr "master's degree"
+
+#: .\blog\templates\mainpage\abit.html:31
+msgid "аспірантура"
+msgstr "postgraduate studies"
+
+#: .\blog\templates\mainpage\abit.html:34
+msgid "студентське життя"
+msgstr "student Life"
+
+#: .\blog\templates\mainpage\abit.html:37
+msgid "працевлаштування"
+msgstr "student employment"
+
+#: .\blog\templates\mainpage\abit.html:47
+msgid ""
+"Шановні абітурієнти та їх батьки, докладніше з правилами прийому Ви можете "
+"ознайомитись"
+msgstr ""
+"Dear entrants and their parents, you can read more about the rules of "
+"admission"
+
+#: .\blog\templates\mainpage\abit.html:47
+msgid " на офіційному сайті ХАІ"
+msgstr " on the official website of KhAI"
+
+#: .\blog\templates\mainpage\abit.html:53
+msgid ""
+"ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та Землевпорядкування "
+"(бакалаврат)"
+msgstr ""
+"KhAI GIS - info - Program of entrance tests - Geodesy and Land management "
+"(bachelor's degree)"
+
+#: .\blog\templates\mainpage\abit.html:56
+msgid ""
+"ХАІ ГІС - інфо - Програма додаткових вступних тестів - Геодезія та "
+"Землевпорядкування (бакалаврат)"
+msgstr ""
+"KhAI GIS - info - Program of additional entrance tests - Geodesy and Land "
+"management (bachelor's degree)"
+
+#: .\blog\templates\mainpage\abit.html:59
+msgid ""
+"ХАІ ГІС - інфо - Програма вступних тестів - Науки про Землю (бакалаврат)"
+msgstr ""
+"KhAI GIS - info - Program of entrance tests - Earth sciences (bachelor's "
+"degree)"
+
+#: .\blog\templates\mainpage\abit.html:62
+msgid ""
+"ХАІ ГІС - інфо - Програма додаткових вступних тестів - Науки про Землю "
+"(бакалаврат)"
+msgstr ""
+"KhAI GIS - info - Program of additional entrance tests - Earth sciences "
+"(bachelor's degree)"
+
+#: .\blog\templates\mainpage\abit.html:68
+#: .\blog\templates\mainpage\abit.html:103
+msgid "Спеціальність:"
+msgstr "Speciality:"
+
+#: .\blog\templates\mainpage\abit.html:68
+msgid "193 - Геодезія та землеустрій"
+msgstr "193 - Geodesy and Land management"
+
+#: .\blog\templates\mainpage\abit.html:70
+#: .\blog\templates\mainpage\abit.html:105
+msgid "Тривалість навчання: 4 роки;"
+msgstr "The duration of studies goes 4 years;"
+
+#: .\blog\templates\mainpage\abit.html:71
+#: .\blog\templates\mainpage\abit.html:106
+msgid "ЗНО:"
+msgstr "External Independent Examinations:"
+
+#: .\blog\templates\mainpage\abit.html:73
+#: .\blog\templates\mainpage\abit.html:109
+msgid "Українська мова та література;"
+msgstr "Ukrainian language and literature;"
+
+#: .\blog\templates\mainpage\abit.html:74
+#: .\blog\templates\mainpage\abit.html:108
+msgid "Математика;"
+msgstr "Maths;"
+
+#: .\blog\templates\mainpage\abit.html:75
+msgid "Географія, або Історія України;"
+msgstr "Geography or History of Ukraine;"
+
+#: .\blog\templates\mainpage\abit.html:78
+msgid "Ліцензійний обсяг набору в 2019 році: 65 місць;"
+msgstr "Licensed volume in 2019: 65 seats;"
+
+#: .\blog\templates\mainpage\abit.html:79
+#: .\blog\templates\mainpage\abit.html:114
+msgid "Держ. замовлення в 2019 році:"
+msgstr "State orders in 2019:"
+
+#: .\blog\templates\mainpage\abit.html:80
+msgid "              на підставі повної загальної середньої освіти: 28 місць;"
+msgstr "              on the basis of full secondary education: 28 seats;"
+
+#: .\blog\templates\mainpage\abit.html:81
+#: .\blog\templates\mainpage\abit.html:116
+msgid "              на підставі ОКР «молодший спеціаліст» (ІІ курс): 5 місць;"
+msgstr ""
+"              on the basis of the JR 'junior specialist' (II course): 5 "
+"seats;"
+
+#: .\blog\templates\mainpage\abit.html:82
+#: .\blog\templates\mainpage\abit.html:117
+msgid "Вартість контрактного навчання в 2019 році: 11250 грн/рік;"
+msgstr "In 2019, the contract value is 11250 UAH / year"
+
+#: .\blog\templates\mainpage\abit.html:87
+msgid "ХАИ ГИС - инфо (стр.1)"
+msgstr "KhAI GIS - info (page 1)"
+
+#: .\blog\templates\mainpage\abit.html:90
+msgid "День ГИС - инфо (стр.2)"
+msgstr "GIS Day - Info (page 2)"
+
+#: .\blog\templates\mainpage\abit.html:92
+msgid "Що таке бакалаврат?"
+msgstr "What does bachelor's degree mean?"
+
+#: .\blog\templates\mainpage\abit.html:94
+msgid ""
+" Бакалаврат - це перша ступінь вищої освіти на рівні світових стандартів, а "
+"диплом бакалавра є документом про вищу освіту."
+msgstr ""
+" The bachelor degree is the first stage of higher education at the level of "
+"world standards and the bachelor's degree is a document of higher education."
+
+#: .\blog\templates\mainpage\abit.html:95
+msgid ""
+" Кожна ступінь кваліфікації випускника сучасного ВНЗ відрізняється ступенем "
+"«Занурення» в тонкощі майбутньої спеціалізації. Виходячи з цього, для кожної "
+"кваліфікації формується особлива навчальна програма, яка дозує знання "
+"Залежно від обраного студентом варіанту майбутньої кваліфікації. "
+msgstr ""
+" Each level of qualification in the university allows you to learn more  "
+"about the subtleties of future specialization. Therefore, on the basis of "
+"this understanding, for each qualification a special curriculum is  formed, "
+"which distributes knowledge according to future qualifications. "
+
+#: .\blog\templates\mainpage\abit.html:96
+msgid ""
+" На даний час, коли технології та знання оновлюються з великою швидкістю, "
+"недоцільно готувати «вузьких» спеціалістів в стінах вузу, починаючи з "
+"першого курсу, протягом п'яти-шести років. Тому введення широкої "
+"бакалаврської програми з подальшою спеціалізацією в магістратурі буде більше "
+"відповідати стрімкому та мінливому ринку праці. "
+msgstr ""
+" Currently, when technology and knowledge are updated so quickly, it  is not "
+"necessary for the university to prepare specialists in narrow  niche over "
+"the next five or six years. As a result, there was a wider  curriculum which "
+"will more closely match a changing labour market. "
+
+#: .\blog\templates\mainpage\abit.html:103
+msgid "103 - Науки про Землю"
+msgstr "103 - Earth sciences"
+
+#: .\blog\templates\mainpage\abit.html:110
+msgid "Географія, або Фізика;"
+msgstr "Geography or Physics;"
+
+#: .\blog\templates\mainpage\abit.html:113
+msgid "Ліцензійний обсяг набору в 2019 році: 27 місць;"
+msgstr "Licensed volume in 2019: 27 seats"
+
+#: .\blog\templates\mainpage\abit.html:115
+msgid "              на підставі повної загальної середньої освіти: 10 місць;"
+msgstr "              on the basis of full secondary education: 10 seats;"
+
+#: .\blog\templates\mainpage\abit.html:119
+msgid "особливості підготовки за спеціальностями"
+msgstr "features of vocational training in specialties"
+
+#: .\blog\templates\mainpage\abit.html:122
+msgid ""
+"Навчальні плани створені з урахуванням кредитно-модульної сиситеми "
+"відповідно до європейських стандартів;"
+msgstr ""
+"Curriculum created with the credit-modular system in accordance with "
+"European standards;"
+
+#: .\blog\templates\mainpage\abit.html:123
+msgid ""
+"Студенти під час навчання працюють з сучасними обчислювальними системами і "
+"геодезичним обладнанням, використовуючи ліцензійне програмне забезпечення "
+"провідних світових виробників;"
+msgstr ""
+"During the study period, students work with modern computer systems and "
+"geodetic equipment, using the licensed software of leading world "
+"manufacturers;"
+
+#: .\blog\templates\mainpage\abit.html:124
+msgid ""
+"Протягом усіх курсів навчання поглиблено вивчаються професійно-орієнтовані "
+"Іноземні мови;"
+msgstr ""
+"Throughout the course, professionally-oriented foreign languages ​​are studied "
+"in depth;"
+
+#: .\blog\templates\mainpage\abit.html:125
+msgid ""
+"Можливість продовження навчання в магістратурі та отримання кваліфікації "
+"'Інженер-геоінформатики'"
+msgstr ""
+"Possibility of continuing education in the master's degree and obtaining the "
+"qualification 'Geoinformatics engineer'"
+
+#: .\blog\templates\mainpage\abit.html:126
+msgid "Участь студентів в науково-дослідних проектах;"
+msgstr "Students' participation in scientific projects;"
+
+#: .\blog\templates\mainpage\abit.html:127
+msgid ""
+"Можливість продовження навчання в аспірантурі (отримання міжнародного "
+"ступеня Ph. D.);"
+msgstr ""
+"Possibility of continuing education in postgraduate studies (obtaining an "
+"international degree from Ph.D.);"
+
+#: .\blog\templates\mainpage\abit.html:128
+msgid ""
+"Співпраця з \"ESRI Europe\", \"ECCOM Co\", \"HERE maps\", \"ScanEx\", "
+"\"Leica    Geosystems Geospatial Imaging\", Інститут проблем національної "
+"безпеки,     інститут телекомунікацій та глобального інформаційного "
+"простору, Науковий     центр аерокосмічних досліджень Землі."
+msgstr ""
+"Cooperation with \"ESRI Europe\", \"ECCOM Co\", \"HERE maps\", \"ScanEx\", "
+"\"Leica    Geosystems Geospatial Imaging\", Institute for National Security "
+"Problems,     Institute of Telecommunications and the Global Information "
+"Space, Center     for Earth Aerospace Research."
+
+#: .\blog\templates\mainpage\abit.html:142
+msgid ""
+"ХАІ ГІС - інфо - Освітньо - професійна програма - Геодезія та "
+"Землевпорядкування (магістратура)"
+msgstr ""
+"KhAI GIS - Info - Educational - Professional Program - Geodesy and Land "
+"Management (master's degree)"
+
+#: .\blog\templates\mainpage\abit.html:144
+msgid ""
+"ХАІ ГІС - інфо - Освітньо - професійна програма - Науки про Землю "
+"(магістратура)"
+msgstr ""
+"KhAI GIS - Info - Educational - Professional Program - Earth sciences "
+"(master's degree)"
+
+#: .\blog\templates\mainpage\abit.html:147
+msgid ""
+"ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та Землевпорядкування "
+"(магістратура)"
+msgstr ""
+"KhAI GIS - info - Program of entrance tests - Geodesy and Land management "
+"(master's degree)"
+
+#: .\blog\templates\mainpage\abit.html:150
+msgid ""
+"ХАІ ГІС - інфо - Програма додаткових вступних тестів - Геодезія та "
+"Землевпорядкування (магістратура)"
+msgstr ""
+"KhAI GIS - info - Program of additional entrance tests - Geodesy and Land "
+"management (master's degree)"
+
+#: .\blog\templates\mainpage\abit.html:153
+msgid ""
+"ХАІ ГІС - інфо - Програма вступних тестів - Науки про Землю (магістратура)"
+msgstr ""
+"KhAI GIS - info - Program of entrance tests - Earth sciences (master's "
+"degree)"
+
+#: .\blog\templates\mainpage\abit.html:156
+msgid ""
+"ХАІ ГІС - інфо - Програма додаткових вступних тестів - Науки про Землю "
+"(магістратура)"
+msgstr ""
+"KhAI GIS - info - Program of additional entrance tests - Earth sciences "
+"(master's degree)"
+
+#: .\blog\templates\mainpage\abit.html:161
+msgid "СПЕЦІАЛЬНІСТЬ 193 - ГЕОДЕЗІЯ ТА ЗЕМЛЕУСТРІЙ"
+msgstr "SPECIALTY 193 - GEODESY AND LAND MANAGEMENT"
+
+#: .\blog\templates\mainpage\abit.html:162
+msgid "ОСВІТНЬО-ПРОФЕСІЙНА ПРОГРАМА «ГЕОІНФОРМАЦІЙНІ СИСТЕМИ І ТЕХНОЛОГІЇ»"
+msgstr "EDUCATIONAL-PROFESSIONAL PROGRAM «GEOINFORMATION SYSTEMS AND TECHNOLOGIES»"
+
+#: .\blog\templates\mainpage\abit.html:164
+#: .\blog\templates\mainpage\abit.html:182
+msgid "Тривалість навчання: 1 рік 4 міс.;"
+msgstr "The duration of studies goes 1 year 4 months;"
+
+#: .\blog\templates\mainpage\abit.html:165
+msgid "Вступні іспити:"
+msgstr "Entrance exams:"
+
+#: .\blog\templates\mainpage\abit.html:167
+#: .\blog\templates\mainpage\abit.html:185
+msgid "Комплексний іспит за фахом;"
+msgstr "Specialist examination;"
+
+#: .\blog\templates\mainpage\abit.html:168
+#: .\blog\templates\mainpage\abit.html:186
+msgid "Іноземна мова;"
+msgstr "Foreign Language;"
+
+#: .\blog\templates\mainpage\abit.html:171
+msgid "Ліцензійний обсяг набору в 2019 році: 10 місць; "
+msgstr "Licensed volume in 2019: 10 seats; "
+
+#: .\blog\templates\mainpage\abit.html:172
+#: .\blog\templates\mainpage\abit.html:190
+msgid "Держ. замовлення в 2019 році: 10 місць; "
+msgstr "State orders in 2019: 10 seats; "
+
+#: .\blog\templates\mainpage\abit.html:173
+#: .\blog\templates\mainpage\abit.html:191
+msgid "Вартість навчання: 12330 грн / рік; "
+msgstr "The contract value is 12330 UAH / year"
+
+#: .\blog\templates\mainpage\abit.html:174
+#: .\blog\templates\mainpage\abit.html:192
+msgid "Заочне відділення: так "
+msgstr "Extramural department: yes "
+
+#: .\blog\templates\mainpage\abit.html:180
+msgid "СПЕЦІАЛЬНІСТЬ 103 - НАУКИ ПРО ЗЕМЛЮ"
+msgstr "SPECIALTY 103 - EARTH SCIENCES"
+
+#: .\blog\templates\mainpage\abit.html:180
+msgid "ОСВІТНЬО-ПРОФЕСІЙНА ПРОГРАМА «КОСМІЧНИЙ МОНІТОРИНГ ЗЕМЛІ»"
+msgstr "EDUCATIONAL PROFESSIONAL PROGRAM «SPACE MONITORING OF EARTH»"
+
+#: .\blog\templates\mainpage\abit.html:183
+msgid " Вступні іспити:"
+msgstr " Entrance exams:"
+
+#: .\blog\templates\mainpage\abit.html:189
+msgid "Ліцензійний обсяг набору в 2019 році: 15 місць; "
+msgstr "Licensed volume in 2019: 15 seats;"
+
+#: .\blog\templates\mainpage\abit.html:201
+msgid "Навчання в аспірантурі"
+msgstr "Postgraduate education"
+
+#: .\blog\templates\mainpage\abit.html:203
+msgid "Термін навчання 4 роки."
+msgstr "The duration of studies goes 4 years."
+
+#: .\blog\templates\mainpage\abit.html:204
+msgid ""
+"Щорічно кафедра набирає магістрів, що пройшли навчання за однією з "
+"спеціальностей кафедри, до аспірантуру. Вступити до аспірантури ХАІ можна "
+"після закінчення магістратури як ХАІ, так і іншого вузу. Протягом усього "
+"періоду навчання студенти поглиблено вивчають професійно-орієнтовану "
+"іноземну мову."
+msgstr ""
+"Every year at the department there is a process of recruiting masters who "
+"have been trained in one of the specialties of the department,to graduate "
+"school.Admission programmes for postgraduate students are available after "
+"graduation from the KhAI as well as from another university.Students learn "
+"in-depth professional-oriented foreign language throughout their entire "
+"education. "
+
+#: .\blog\templates\mainpage\abit.html:205
+msgid ""
+"Значною перевагою навчання в аспірантурі на базі кафедри 407 є можливість "
+"підвищення кваліфікації в Vancouver Island University з отриманням "
+"сертифіката межднародного зразка."
+msgstr ""
+"The advantage of studying in the postgraduate course on the basis of the "
+"Department 407 is the possibility of continuing education in Vancouver "
+"Island University with obtaining an international certificate."
+
+#: .\blog\templates\mainpage\abit.html:210
+#: .\blog\templates\mainpage\abit.html:271
+#: .\blog\templates\mainpage\abit.html:272
+msgid "аспирантура ХАИ"
+msgstr "postgraduate education in KhAI"
+
+#: .\blog\templates\mainpage\abit.html:217
+#: .\blog\templates\mainpage\gisdayteaser.html:6
+msgid "День ГІС"
+msgstr "GIS Day"
+
+#: .\blog\templates\mainpage\abit.html:218
+msgid ""
+"Спільно з усією світовою ГІС-спільнотою, кожної другої середи листопада на "
+"нашій кафедрі відзначається день ГІС. Свято є одним з найяскравіших і "
+"очікуваних подій протягом навчального року. Студенти та викладачі виступають "
+"з доповідями щодо своїх досягнень і наукової роботи, беруть участь у "
+"конкурсах на найкращий відеокліп про навчання в ХАІ та, звичайно, в "
+"змаганнях на найоригінальніший торт! Дивіться фотографії в "
+msgstr ""
+"Together with the world GIS community, on the second Wednesday of November, "
+"our department has a GIS day. It is one of the brightest and expected events "
+"throughout the year. Students and lecturers report on their achievements and "
+"scientific work,take part in competitions for the best video about study in "
+"KhAI and for the most original cake! See photos in "
+
+#: .\blog\templates\mainpage\abit.html:218
+msgid "галереї."
+msgstr "galleries."
+
+#: .\blog\templates\mainpage\abit.html:220
+#: .\blog\templates\mainpage\abit.html:222
+#: .\blog\templates\mainpage\abit.html:224
+#: .\blog\templates\mainpage\gisdayteaser.html:39
+msgid "День ГИС"
+msgstr "GIS Day"
+
+#: .\blog\templates\mainpage\abit.html:226
+msgid "1001 ніч"
+msgstr "1001 nights"
+
+#: .\blog\templates\mainpage\abit.html:227
+msgid ""
+"Щорічно студенти третього курсу всього університету відправляються на кілька "
+"днів на базу відпочинку, щоб відзначити '1001 ніч', що пройшла за час "
+"навчання в ХАІ. У програмі заходу - всілякі конкурси, ігри, дискотеки. Це "
+"свято назавжди залишається в пам`яті студентів ХАІ."
+msgstr ""
+"Every year, third-year students of the whole university  go to the "
+"recreation  center for a few days to celebrate the '1001 nights'.The program "
+"of the event includes various contests, games, discos. This holiday will "
+"forever remain in the memory of the students of KhAI."
+
+#: .\blog\templates\mainpage\abit.html:229
+#: .\blog\templates\mainpage\abit.html:231
+#: .\blog\templates\mainpage\abit.html:233
+msgid "1001 ніч ХАІ"
+msgstr "1001 nights in KhAI"
+
+#: .\blog\templates\mainpage\abit.html:238
+msgid "Профком студентів та аспірантів ХАІ"
+msgstr "The trade union of students and postgraduates of KhAI"
+
+#: .\blog\templates\mainpage\abit.html:239
+msgid ""
+"Первинна профспілкова організація студентів та аспірантів - це добровільна "
+"профспілкова організація студентів та аспірантів університету, метою якої є "
+"представництво, здійснення та захист навчальних, соціально-економічних, прав "
+"та інтересів членів профспілки. Профком займається безліччю різних завдань: "
+"захистом прав студентів, контролем якості проживання в гуртожитках та "
+"харчування в їдальнях, налагодженням контактів з центром зайнятості, "
+"організацією екскурсій, заходів, щорічними поїздками до Карпат і багатьом "
+"іншим. Дізнайтеся більше про діяльність профкому ХАІ на "
+msgstr ""
+"The primary trade union organization of undergraduate and graduate students "
+"is a voluntary trade union organization of undergraduate and graduate "
+"students of a university. Their purpose is to represent, exercise and "
+"protect the training, socio-economic, rights and interests of union members. "
+"The trade union committee is  responsible for protecting the rights of "
+"students, monitoring the quality of living in dormitories and catering in "
+"canteens, establishing contacts with the employment center, organizing "
+"excursions, events, annual visits to the Carpathians and many others. Learn "
+"more about the activities of the KhAI trade union at "
+
+#: .\blog\templates\mainpage\abit.html:239
+msgid "офіційному сайті."
+msgstr "official site."
+
+#: .\blog\templates\mainpage\abit.html:240
+#: .\blog\templates\mainpage\abit.html:243
+#: .\blog\templates\mainpage\abit.html:245
+#: .\blog\templates\mainpage\abit.html:247
+msgid "День ХАІ"
+msgstr "KhAI Day"
+
+#: .\blog\templates\mainpage\abit.html:241
+msgid ""
+"День Харківського авіаційного інституту традиційно вважається головним "
+"святом університету. Відзначається цей день в останню суботу травня. На день "
+"ХАІ в університеті збираються і зустрічаються випускники всіх років, "
+"влаштовується концерт, святковий салют і танці прямо на території "
+"університету."
+msgstr ""
+"Day of the Kharkov Aviation Institute is traditionally considered the main "
+"event of the university. This day is celebrated on the last Saturday of May."
+"Graduates of all years gather and meet in the university.On this day a "
+"concert, fireworks and dances are organized in the campus. "
+
+#: .\blog\templates\mainpage\abit.html:254
+msgid "Працевлаштування випускників забезпечується:"
+msgstr "The successful employment of graduates is ensured by::"
+
+#: .\blog\templates\mainpage\abit.html:257
+msgid " Національним космічним агентством України; "
+msgstr " National Space Agency of Ukraine; "
+
+#: .\blog\templates\mainpage\abit.html:258
+msgid " Обласними науково-геодезичними центрами; "
+msgstr " Regional scientific-geodesic centers; "
+
+#: .\blog\templates\mainpage\abit.html:259
+msgid ""
+" Регіональними підрозділами інстітіутов космічних досліджень НАН України; "
+msgstr ""
+" Regional divisions of the Space Research Institutes of the National Academy "
+"of Sciences of Ukraine; "
+
+#: .\blog\templates\mainpage\abit.html:260
+msgid ""
+" Регіональними підрозділами державного науково-виробничого центру 'Природа' "
+"НКАУ; "
+msgstr ""
+" Regional divisions of the state scientific and production center 'Nature' "
+"NSAU; "
+
+#: .\blog\templates\mainpage\abit.html:261
+msgid ""
+" Науково-дослідними проектними організаціями, котрі підпорядковуються "
+"Міністерству екології України та Аграрній академії України; "
+msgstr ""
+" Scientific research project organizations that are subordinated to the "
+"Ministry of Ecology of Ukraine and the Agrarian Academy of Ukraine; "
+
+#: .\blog\templates\mainpage\abit.html:262
+msgid " Обласними управліннями охорони природного середовища; "
+msgstr " Regional Departments of Environmental Protection; "
+
+#: .\blog\templates\mainpage\abit.html:263
+msgid " Обласними управліннями земельних і лісових ресурсів; "
+msgstr " Regional departments of land and forest resources; "
+
+#: .\blog\templates\mainpage\abit.html:264
+msgid ""
+" Підприємствами, які виконують геодезичні роботи і завдання тематичного "
+"картографування. "
+msgstr " Enterprises performing geodetic works and thematic mapping tasks. "
+
+#: .\blog\templates\mainpage\contact.html:6
+msgid "Де Нас Знайти | Контакти | KHAI-GIS ©"
+msgstr "Where to find us | Contacts | KHAI-GIS ©"
+
+#: .\blog\templates\mainpage\contact.html:21
+msgid ""
+"Місто Харків, вулиця Чкалова 17, Навчально-лабораторний корпус ХАІ. Кафедра "
+"407. <br> Аудиторія 208 - викладацька; Аудиторія 307 - кабінет завідувача; "
+"Аудиторія 301 - Центр ГІС"
+msgstr ""
+"Kharkiv City, Chkalov Street 17 Educational and Laboratory Building of the "
+"KhAI.Department 407. <br> Сlassroom 208 - teachers' lounge; Сlassroom 307 - "
+"department head's office ; Сlassroom 301 - GIS Center"
+
+#: .\blog\templates\mainpage\contact.html:30
+msgid "на зв'язку"
+msgstr "in touch"
+
+#: .\blog\templates\mainpage\contact.html:31
+msgid "Ви можете зв'язати з нами, відправивши повідомлення."
+msgstr "You can contact us by sending a message."
+
+#: .\blog\templates\mainpage\contact.html:40
+msgid "Довідки за телефонами:"
+msgstr "Telephone inquiry:"
+
+#: .\blog\templates\mainpage\contact.html:42
+msgid " - Викладацька"
+msgstr " - Teachers' lounge"
+
+#: .\blog\templates\mainpage\contact.html:44
+msgid " - Кабінет завідувача"
+msgstr " - Department Head's office"
+
+#: .\blog\templates\mainpage\contact.html:46
+msgid " - Лабораторія ГІС"
+msgstr " - GIS Laboratory"
+
+#: .\blog\templates\mainpage\contact.html:58
+msgid "Ми в Instagram @khaigis:"
+msgstr "Our Instagram @khaigis:"
+
+#: .\blog\templates\mainpage\contact.html:60
+msgid ""
+"Підписуйтесь щоб бути в курсі найсвіжіших подій, дивіться світлини з життя "
+"наших студентів та ставте свої запитання до нашої кафедри в інстаграмі"
+msgstr ""
+"Subscribe to be well informed about the most recent events, see photos from "
+"the life of our students and ask your questions to our department in "
+"Instagram"
+
+#: .\blog\templates\mainpage\contact.html:67
+msgid "Ваше ім'я"
+msgstr "Your name"
+
+#: .\blog\templates\mainpage\contact.html:68
+msgid "Ваша електрона адреса"
+msgstr "Your email address"
+
+#: .\blog\templates\mainpage\contact.html:69
+msgid "Тема запитання"
+msgstr " Topic of your question"
+
+#: .\blog\templates\mainpage\contact.html:71
+msgid "Абітурієнт"
+msgstr "Entrant"
+
+#: .\blog\templates\mainpage\contact.html:72
+msgid "Студент"
+msgstr "Student"
+
+#: .\blog\templates\mainpage\contact.html:73
+msgid "Представник іншого вузу"
+msgstr "Representative of another university"
+
+#: .\blog\templates\mainpage\contact.html:74
+msgid "Представник комерційної організації"
+msgstr "Representative of a commercial organization"
+
+#: .\blog\templates\mainpage\contact.html:75
+msgid "Інше"
+msgstr "Other"
+
+#: .\blog\templates\mainpage\contact.html:77
+msgid "Текст звернення"
+msgstr "The text of an appeal"
+
+#: .\blog\templates\mainpage\contact.html:79
+msgid "надіслати"
+msgstr "send"
+
+#: .\blog\templates\mainpage\contact.html:103
+msgid "Нечаусов Артем  "
+msgstr "Artem Nechausov"
+
+#: .\blog\templates\mainpage\contact.html:104
+msgid "Доцент кафедри 407. Кандидат технічних наук."
+msgstr "Associate Professor 407. Candidate of Technical Sciences."
+
+#: .\blog\templates\mainpage\contact.html:109
+msgid "Багнюк Мартін "
+msgstr "Martin Bagnyuk "
+
+#: .\blog\templates\mainpage\contact.html:110
+msgid "Студент кафедри 407."
+msgstr ""
+
+#: .\blog\templates\mainpage\gallery-container.html:25
+msgid "Оберіть альбом"
+msgstr "Choose an album"
+
+#: .\blog\templates\mainpage\gisdayteaser.html:40
+msgid "Уже скоро... "
+msgstr "Soon ..."
+
+#: .\blog\templates\mainpage\gisdayteaser.html:53
+msgid "Дней"
+msgstr "Days"
+
+#: .\blog\templates\mainpage\gisdayteaser.html:66
+msgid "Часов"
+msgstr "Hours"
+
+#: .\blog\templates\mainpage\gisdayteaser.html:79
+msgid "Минут"
+msgstr "Minutes"
+
+#: .\blog\templates\mainpage\gisdayteaser.html:92
+msgid "Секунд"
+msgstr "Seconds"
+
+#: .\blog\templates\mainpage\index.html:5
+msgid "Кафедра Геоінформаційних Технологій | НАУ ХАІ | ХАИ | KHAI-GIS ©"
+msgstr ""
+"Department of Geographic Information Technologies NAU KhAI | KhAI | KHAI-GIS "
+"©"
+
+#: .\blog\templates\mainpage\index.html:9
+msgid ""
+"Сайт кафедри 407 ХАІ геоінформаційних технологій та космічного моніторингу "
+"Землі"
+msgstr ""
+"Site of the Department 407 KhAI of geoinformation technologies and space "
+"monitoring of the Earth "
+
+#: .\blog\templates\mainpage\index.html:10
+msgid ""
+"Кафедра 407 ХАІ, Напрями підготовки, Інформація для вступників, контакти"
+msgstr ""
+"Department 407 KhAI, Specialization, Information for entrants, contacts"
+
+#: .\blog\templates\mainpage\index.html:12
+msgid ""
+"Національний аерокосмічний університет ім. М.Є. Жуковського - Харківський "
+"Авіаційний інститут, факултет ракетно-космічної техніки"
+msgstr ""
+"National Aerospace University - Kharkiv Aviation Institute, Faculty of "
+"Rocket and Space Technology"
+
+#: .\blog\templates\mainpage\index.html:14
+msgid ""
+"кафедра 407 ХАІ, Геоинформаційні системи, космічний моніторинг Землі, "
+"геодезія Харків, кафедра геоінформаційних систем, ГІС"
+msgstr ""
+"Department 407 KhAI, Geoinformation Systems, Space Monitoring of the Earth, "
+"Geodesy Kharkiv, Department of Geographic Information Systems, GIS"
+
+#: .\blog\templates\mainpage\index.html:15
+#: .\blog\templates\mainpage\index.html:16
+msgid "ХАІ ГІС кафедра 407"
+msgstr "KhAI GIS Department 407"
+
+#: .\blog\templates\mainpage\index.html:44
+msgid "кафедра геоінформаційних технологій та космічного моніторингу Землі"
+msgstr ""
+"Department of geoinformation technologies and space monitoring of the Earth"
+
+#: .\blog\templates\mainpage\index.html:48
+msgid ""
+"Запрошуємо всіх бажаючих вступати до нас на освітню програму Геоінформаційні "
+"системи і технології, спеціальності ◂ 193 - Геодезія та Землеустрій та "
+"космічний моніторинг Землі ◂ 103 - Науки про Землю"
+msgstr ""
+"Welcome all comers to join us in the specialty ◂ 193 - Geodesy and Land "
+"Management ◂ 103 - Earth Sciences"
+
+#: .\blog\templates\mainpage\index.html:61
+msgid "Детальніше"
+msgstr "Read more"
+
+#: .\blog\templates\mainpage\index.html:72
+msgid "ГІС, GIS, геоінформатика, геодезія, картографія"
+msgstr "ГІС, GIS, geoinformatics, geodesy, cartography"
+
+#: .\blog\templates\mainpage\index.html:74
+msgid "геоінформатика, геодезія, картографія, it освіта, ГІС, GIS, ГИС"
+msgstr "geoinformatics, geodesy, cartography, it education, ГІС, GIS, ГИС"
+
+#: .\blog\templates\mainpage\index.html:76
+msgid "дисципліни"
+msgstr "discipline"
+
+#: .\blog\templates\mainpage\index.html:82
+msgid "Грамоти, нагороди"
+msgstr "Certificates, awards"
+
+#: .\blog\templates\mainpage\index.html:84
+msgid "Грамоти, нагороди, ГІС, GIS, ГИС"
+msgstr "Certificates, awards, ГІС, GIS, ГИС"
+
+#: .\blog\templates\mainpage\index.html:86
+msgid "років праці"
+msgstr "years of work"
+
+#: .\blog\templates\mainpage\index.html:93
+msgid "Here Maps Україна, ГІС, GIS, ГИС"
+msgstr "Here Maps Ukraine, ГІС, GIS, ГИС"
+
+#: .\blog\templates\mainpage\index.html:94
+msgid "1-ші місця"
+msgstr "First places"
+
+#: .\blog\templates\mainpage\index.html:95
+msgid "В змаганнях HERE maps"
+msgstr "In competitions HERE maps"
+
+#: .\blog\templates\mainpage\index.html:100
+msgid "випускники ХАІ"
+msgstr "KhAI graduates"
+
+#: .\blog\templates\mainpage\index.html:102
+msgid "випускники ХАІ, ГІС, GIS, ГИС"
+msgstr "KhAI graduates, ГІС, GIS, ГИС"
+
+#: .\blog\templates\mainpage\index.html:104
+msgid "випускників"
+msgstr "graduates"
+
+#: .\blog\templates\mainpage\index.html:118
+msgid "напрями підготовки"
+msgstr "specialization"
+
+#: .\blog\templates\mainpage\index.html:119
+msgid ""
+"Кафедра надає навчання за двома напрямками підготовки з можливістю вступу до "
+"магістратури."
+msgstr ""
+"The department provides training in two specialties with the opportunity to "
+"enter the magistracy."
+
+#: .\blog\templates\mainpage\index.html:125
+msgid "Геоінформаційні cистеми і технології"
+msgstr "Geographic information systems and technologies"
+
+#: .\blog\templates\mainpage\index.html:126
+msgid "Геодезія та землеустрій"
+msgstr "Geodesy and land management"
+
+#: .\blog\templates\mainpage\index.html:127
+msgid ""
+"Геоінформаційні системи і технології - один з IT - напрямків, що найбільш "
+"стрімко розвиваються, який охоплює безліч актуальних завдань в таких "
+"областях, як геодезія, цифрова картографія, землевпорядкування та кадастр, "
+"технології глобального позиціонування (GPS, ГЛОНАСС, Galileo, Compass), "
+"Internet технології, 3D моделювання, методи цифрової обробки аерокосмічних "
+"зображень, проектування баз геоданих."
+msgstr ""
+"Geoinformation systems and technologies are one of the most  rapidly "
+"developing reas of IT technology which includes many  actual tasks in such "
+"areas as  geodesy, digital cartography, land management and cadastre,global "
+"positioning technologies (GPS, GLONASS, Galileo, Compass), Internet "
+"technologies, 3D modeling, methods of digital processing of aerospace "
+"images, design of geodata bases."
+
+#: .\blog\templates\mainpage\index.html:132
+msgid "Космічний моніторинг Землі"
+msgstr "Space monitoring of the Earth"
+
+#: .\blog\templates\mainpage\index.html:133
+msgid "Науки про Землю"
+msgstr "Earth Sciences"
+
+#: .\blog\templates\mainpage\index.html:134
+msgid ""
+" 'Науки про Землю' - комплекс наук, які вивчають Землю, геосферу та "
+"космічний простір навколо неї. Фахівці даного напрямку затребувані в галузі "
+"нафтогазової та рудної геології, геодезичних вимірювань поверхні Землі, "
+"прогнозування погоди, обробки даних ДЗЗ (дистанційного зондування Землі), "
+"тематичного картографування, екологічного моніторингу та ін. "
+msgstr ""
+" Earth Sciences is a set of sciences that study the Earth, the geosphere, "
+"and the outer space around it. The professionals in this area are of "
+"importance to such technical fields as oil and gas and ore geology, geodetic "
+"measurements of the earth's surface, weather forecast, processing of remote "
+"sensing data(remote sensing of the Earth), thematic mapping and others. "
+
+#: .\blog\templates\mainpage\index.html:146
+msgid "Склад кафедри"
+msgstr "Teaching personnel"
+
+#: .\blog\templates\mainpage\index.html:147
+msgid ""
+"На кафедрі працюють фахівці вищого рівня - професора, доктора наук, доктора "
+"філософії технічних наук."
+msgstr ""
+"The high-level specialists, such as professors, doctors of sciences, doctors "
+"of philosophy of technical sciences are working at the department."
+
+#: .\blog\templates\mainpage\index.html:156
+msgid "Андрєєв Сергій Михайлович, Харків, ГІС, GIS"
+msgstr "Andreev Sergey Mikhailovich, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:158
+msgid "Андрєєв Сергій Михайлович"
+msgstr "Andreev Sergey Mikhailovich"
+
+#: .\blog\templates\mainpage\index.html:159
+msgid "к.т.н, доцент "
+msgstr "Ph.D., Associate Professor"
+
+#: .\blog\templates\mainpage\index.html:160
+#: .\blog\templates\mainpage\index.html:194
+#: .\blog\templates\mainpage\index.html:216
+#: .\blog\templates\mainpage\index.html:227
+#: .\blog\templates\mainpage\index.html:238
+#: .\blog\templates\mainpage\index.html:260
+#: .\blog\templates\mainpage\index.html:282
+#: .\blog\templates\mainpage\index.html:293
+#: .\blog\templates\mainpage\index.html:305
+msgid "Доцент кафедри 407"
+msgstr "Associate Professor of the Department 407"
+
+#: .\blog\templates\mainpage\index.html:167
+msgid "Бутенко Ольга Станіславівна, Харків, ГІС, GIS"
+msgstr "Butenko Olga Stanislavivna, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:169
+msgid "Бутенко Ольга Станіславівна"
+msgstr "Butenko Olga Stanislavivna"
+
+#: .\blog\templates\mainpage\index.html:170
+#: .\blog\templates\mainpage\index.html:204
+msgid "д.т.н, професор"
+msgstr "Ph.D., professor"
+
+#: .\blog\templates\mainpage\index.html:171
+#: .\blog\templates\mainpage\index.html:205
+msgid "Професор кафедри 407"
+msgstr "Professor of the Department 407"
+
+#: .\blog\templates\mainpage\index.html:179
+msgid "Горелик Станіслав Ігорович, Харків, ГІС, GIS"
+msgstr "Gorelik Stanislav Igorovich, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:181
+msgid "Горелик Станіслав Ігорович"
+msgstr "Gorelik Stanislav Igorovich"
+
+#: .\blog\templates\mainpage\index.html:182
+#: .\blog\templates\mainpage\index.html:193
+#: .\blog\templates\mainpage\index.html:215
+msgid "к.т.н, доцент"
+msgstr "Ph.D., Associate Professor"
+
+#: .\blog\templates\mainpage\index.html:183
+msgid "Завідуючий кафедрою 407"
+msgstr "Acting Head of Department 407"
+
+#: .\blog\templates\mainpage\index.html:190
+msgid "Жилін Володимир Анатолійович, Харків, ГІС, GIS"
+msgstr "Zhilin Volodymyr Anatolievich, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:192
+msgid "Жилін Володимир Анатолійович"
+msgstr "Zhilin Volodymyr Anatolievich"
+
+#: .\blog\templates\mainpage\index.html:201
+msgid "Пащенко Руслан Едуардович, Харків, ГІС, GIS"
+msgstr "Paschenko Ruslan Eduardovich, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:203
+msgid "Пащенко Руслан Едуардович"
+msgstr "Paschenko Ruslan Eduardovich"
+
+#: .\blog\templates\mainpage\index.html:212
+msgid "Даншина Світлана Юріївна, Харків, ГІС, GIS"
+msgstr "Danshina Svetlana Yuriivna, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:214
+msgid "Даншина Світлана Юріївна"
+msgstr "Danshina Svetlana Yuriivna"
+
+#: .\blog\templates\mainpage\index.html:223
+msgid "Красовська Інеса Григоріївна, Харків, ГІС, GIS"
+msgstr "Krasovskaya Inessa Grigorievna, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:225
+msgid "Красовська Інеса Григоріївна"
+msgstr "Krasovskaya Inessa Grigorievna"
+
+#: .\blog\templates\mainpage\index.html:226
+msgid "к.т.н, с.н.с"
+msgstr "Ph.D., Senior Scientist"
+
+#: .\blog\templates\mainpage\index.html:234
+msgid "Нечаусов Артем Сергійович, Харків, ГІС, GIS"
+msgstr "Nechayusov Artem Sergeevich, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:236
+msgid "Нечаусов Артем Сергійович"
+msgstr "Nechayusov Artem Sergeevich"
+
+#: .\blog\templates\mainpage\index.html:237
+msgid "к.т.н</div>"
+msgstr "Ph.D."
+
+#: .\blog\templates\mainpage\index.html:245
+msgid "Гребінь Александр Сергійович, Харків, ГІС, GIS"
+msgstr "Grebin Alexander Sergeevich, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:247
+msgid "Гребінь Александр Сергійович"
+msgstr "Grebin Alexander Sergeevich"
+
+#: .\blog\templates\mainpage\index.html:249
+msgid "Старший викладач кафедри 407"
+msgstr "Senior lecturer of the department 407"
+
+#: .\blog\templates\mainpage\index.html:256
+msgid "Березіна Світлана Олександрівна, Харків, ГІС, GIS"
+msgstr "Berezina Svetlana Aleksandrovna, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:258
+msgid "Березіна Світлана Іванівна"
+msgstr "Berezina Svetlana Aleksandrovna"
+
+#: .\blog\templates\mainpage\index.html:259
+#: .\blog\templates\mainpage\index.html:281
+msgid "к.т.н., доцент"
+msgstr "Ph.D., Associate Professor"
+
+#: .\blog\templates\mainpage\index.html:267
+msgid "Лазарєва Ольга Євгенівна, Харків, ГІС, GIS"
+msgstr "Lazareva Olga Yevhenivna, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:269
+msgid "Лазарєва Ольга Євгенівна"
+msgstr "Lazareva Olga Yevhenivna"
+
+#: .\blog\templates\mainpage\index.html:271
+#: .\blog\templates\mainpage\index.html:316
+msgid "Асистент кафедри 407"
+msgstr "Assistant of the department 407"
+
+#: .\blog\templates\mainpage\index.html:278
+msgid "Сухомлин Людмила Володимирівна, Харків, ГІС, GIS"
+msgstr "Sukhomlin Lyudmila Vladimirovna, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:280
+msgid "Сухомлин Людмила Володимирівна"
+msgstr "Sukhomlin Lyudmila Vladimirovna"
+
+#: .\blog\templates\mainpage\index.html:289
+msgid "Ковальова Віра Олександрівна, Харків, ГІС, GIS"
+msgstr "Kovaleva Vera Aleksandrovna, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:291
+msgid "Ковальова Віра Олександрівна"
+msgstr "Kovaleva Vera Aleksandrovna"
+
+#: .\blog\templates\mainpage\index.html:292
+msgid "к.т.н"
+msgstr "Ph.D."
+
+#: .\blog\templates\mainpage\index.html:301
+msgid "Зубкович Cвітлана Олександрівна, Харків, ГІС, GIS"
+msgstr "Zubkovich Svetlana Aleksandrovna, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:303
+msgid "Зубкович Cвітлана Олександрівна"
+msgstr "Zubkovich Svetlana Aleksandrovna"
+
+#: .\blog\templates\mainpage\index.html:304
+msgid "к.геогр.н., доцент"
+msgstr "Candidate of Geological Sciences, Associate Professor"
+
+#: .\blog\templates\mainpage\index.html:312
+msgid "Марюшко Максим В'ячеславович, Харків, ГІС, GIS"
+msgstr "Maryshko Maksim Vyacheslavovich, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:314
+msgid "Марюшко Максим В'ячеславович"
+msgstr "Maryshko Maksim Vyacheslavovich"
+
+#: .\blog\templates\mainpage\index.html:323
+msgid "Красовський Григорій Якович, Харків, ГІС, GIS"
+msgstr "Krasovskii Grigory Yakovlevich, Kharkiv, ГІС, GIS"
+
+#: .\blog\templates\mainpage\index.html:325
+msgid "Красовський Григорій Якович<"
+msgstr "Krasovskii Grigory Yakovlevich"
+
+#: .\blog\templates\mainpage\index.html:326
+msgid "д.т.н, професор, Лауреат Державної премії України."
+msgstr "Ph.D., Professor, Laureate of the State Prize of Ukraine."
+
+#: .\blog\templates\mainpage\index.html:327
+msgid "Засновник кафедри 407"
+msgstr "The founder of the department 407"
+
+#: .\blog\templates\mainpage\index.html:340
+msgid "Про кафедру"
+msgstr "About the department"
+
+#: .\blog\templates\mainpage\index.html:341
+#: .\blog\templates\mainpage\index.html:373
+msgid "КАФЕДРА 407"
+msgstr "DEPARTMENT 407"
+
+#: .\blog\templates\mainpage\index.html:342
+#: .\blog\templates\mainpage\index.html:380
+msgid "ІСТОРІЯ КАФЕДРИ"
+msgstr "HISTORY OF THE DEPARTMENT"
+
+#: .\blog\templates\mainpage\index.html:342
+msgid "ЧОМУ МИ НАВЧАЄМО?"
+msgstr "WHAT DO WE TEACH?"
+
+#: .\blog\templates\mainpage\index.html:354
+msgid ""
+"Літальний корпус, навчально-лабораторний корпус, ФРКТ, ХАІ, it освіту "
+"Харків, ГІС, GIS"
+msgstr ""
+"Educational and laboratory building, FRKT, KhAI, it education Kharkiv, ГІС, "
+"GIS"
+
+#: .\blog\templates\mainpage\index.html:359
+#: .\blog\templates\mainpage\index.html:364
+msgid "геоінформатика, картографія, ГІС, геодезія, навігаційні системи Харків"
+msgstr ""
+"geoinformatics, cartography, GIS, geodesy, navigation systems of Kharkiv"
+
+#: .\blog\templates\mainpage\index.html:374
+msgid ""
+" Кафедра 'Геоінформаційних технологій та космічного моніторингу Землі' "
+"входить до складу факультету ракетно-космічної техніки в ХАІ. Виконуючий "
+"обов'язки завідувача кафедри - кандидат технічних наук Горелик Станіслав "
+"Ігорович."
+msgstr ""
+" The Department of Geoinformation Technologies and Space Monitoring of the "
+"Earth is a part of the Faculty of Rocket and Space Engineering in KhAI. "
+"Acting Head of the Department - Candidate of Technical Sciences Gorelik "
+"Stanislav Igorevich."
+
+#: .\blog\templates\mainpage\index.html:375
+msgid ""
+"Кафедра 407 оснащена сучасним обчислювальним, комп'ютерним та геодезичним "
+"обладнанням, в тому числі, власною станцією прийому даних дистанційного "
+"зондування Землі з супутників "
+msgstr ""
+"The Department 407 is equipped with modern computer and geodetic equipment, "
+"including its own station for receiving remote sensing data from satellites "
+
+#: .\blog\templates\mainpage\index.html:376
+msgid ""
+"У розпорядженні кафедри також є ліцензія на використання найбільш потужного "
+"та сучасного на сьогоднішній день програмного пакета компанії"
+msgstr ""
+"The department also has a license to use the most powerful and modern "
+"software package of the company"
+
+#: .\blog\templates\mainpage\index.html:377
+msgid ""
+"для аналізу геоінформаційних даних, обробки супутникових знімків, а також "
+"створення та обробки картографічних даних"
+msgstr ""
+"to analyse geoinformation data, processing of satellite images, as well as "
+"the creation and processing of map data"
+
+#: .\blog\templates\mainpage\index.html:378
+msgid ""
+"Викладачі кафедри систематично проходять інтенсивні курси підвищення "
+"кваліфікації в"
+msgstr ""
+"The teachers of the department systematically  receive intensive training "
+"courses in"
+
+#: .\blog\templates\mainpage\index.html:381
+msgid ""
+"Кафедра була заснована видатним діячем та новатором в сфері геоінформаційних "
+"технологій, професором, доктором технічних наук, Лауреатом Державної премії "
+"України, Красовським Григорієм Яковичем, який йшов до цієї мети протягом 12 "
+"років з моменту відкриття спеціальності в 2004."
+msgstr ""
+"The department was founded by a prominent figure and innovator in the field "
+"of geoinformation technologies, a doctor of technical sciences, a laureate "
+"of the State Prize of Ukraine, a professor Krasovsky Grigory Yakovlevich who "
+"has been pursuing this goal for 12 years since the opening of the specialty "
+"in 2004."
+
+#: .\blog\templates\mainpage\index.html:382
+msgid ""
+"Перший набір студентів за напрямом 'Геодезія, картографія та землеустрій' "
+"відбувся в 2004 році. Тоді спеціальність базувалася на кафедрі виробництва "
+"радіоелектронних сиситем літальних апаратів факультету №5 - 'Радіотехнічних "
+"систем літальних апаратів'."
+msgstr ""
+"The first intake of students in the direction of 'Geodesy, Cartography and "
+"Land Management' was held in 2004. Then the specialty was based on the "
+"department of the Faculty  №5 'Radio-technical systems of aircraft'. "
+
+#: .\blog\templates\mainpage\index.html:383
+msgid ""
+"У 2008 році, разом з першим випуском бакалаврів, відбувся перший набір "
+"магістрів та спеціалістів з напряму 'Геоінформаційні системи і технології'."
+msgstr ""
+"In 2008, together with the first graduation of bachelors, the first batch "
+"masters and specialists in the field of geoinformation systems and "
+"technologies were recruited."
+
+#: .\blog\templates\mainpage\index.html:384
+msgid ""
+"У 2013 році була акредитована нова затребувана спеціальність - 'Космічний "
+"моніторинг Землі'."
+msgstr ""
+"In 2013, a new specialty 'Space Monitoring of the Earth' was accredited. "
+
+#: .\blog\templates\mainpage\index.html:385
+msgid ""
+"20 листопада 2016 року відбулась реструктуризація ХАІ: на базі факультету №4 "
+"- Ракетно-космічної техніки - з'явилася нова кафедра 'Геоінформаційних "
+"технологій і космічного моніторингу Землі'."
+msgstr ""
+"2On November 20, 2016, the KhAI was restructured. A new Department of "
+"Geoinformational  Technologies and Space Monitoring of the Earth appeared on "
+"the basis of Faculty №4 'Rocket and Space Technology'."
+
+#: .\blog\templates\mainpage\index.html:390
+msgid "Чому ми навчаємо?"
+msgstr "What do we teach?"
+
+#: .\blog\templates\mainpage\index.html:392
+msgid "Internet технології та мережі (html, PHP, Java, ASP.NET, CMS);"
+msgstr "Internet technologies and networks (html, PHP, Java, ASP.NET, CMS);"
+
+#: .\blog\templates\mainpage\index.html:393
+msgid "інформатика і програмування (С#, C++, Python);"
+msgstr "computer science and programming (C #, C ++, Python);"
+
+#: .\blog\templates\mainpage\index.html:394
+msgid "системи та засоби 3D моделювання рельєфу місцевості; "
+msgstr "systems and tools for 3D terrain modeling; "
+
+#: .\blog\templates\mainpage\index.html:395
+msgid "методи цифрової обробки аерокосмічних знімків; "
+msgstr "methods of digital processing of aerospace images; "
+
+#: .\blog\templates\mainpage\index.html:396
+msgid "системи і методи дистанційного зондування Землі; "
+msgstr "systems and methods of remote sensing of the Earth; "
+
+#: .\blog\templates\mainpage\index.html:397
+msgid "системи глобального навігаційного позиціонування; "
+msgstr "global navigation positioning system; "
+
+#: .\blog\templates\mainpage\index.html:398
+msgid "системи цифрової картографії (Панорама, ArcGis); "
+msgstr "digital mapping systems (Panorama, ArcGis); "
+
+#: .\blog\templates\mainpage\index.html:399
+msgid "системи землевпорядкування та кадастру (ERDAS Imagine); "
+msgstr "Land Management and Cadastre Systems (ERDAS Imagine); "
+
+#: .\blog\templates\mainpage\index.html:400
+msgid "методи аналізу, фотограмметрії і дешифрування геоданих (ScanMagic); "
+msgstr ""
+"methods of analysis, photogrammetry and interpretation of geodata "
+"(ScanMagic); "
+
+#: .\blog\templates\mainpage\index.html:401
+msgid "земельне право та інвестиційний аналіз; "
+msgstr "land law and investment analysis;"
+
+#: .\blog\templates\mainpage\index.html:402
+msgid "загальна, вища і супутникова геодезія; "
+msgstr "general, higher and satellite geodesy; "
+
+#: .\blog\templates\mainpage\index.html:403
+msgid "геоінформаційні та експертні системи; "
+msgstr "geographic information and expert systems; "
+
+#: .\blog\templates\mainpage\index.html:404
+msgid "засоби та методи захисту інформації; "
+msgstr "tools and methods of information protection;"
+
+#: .\blog\templates\mainpage\index.html:405
+msgid "програмування та проектування баз геоданих; "
+msgstr "programming and designing of geospatial databases; "
+
+#: .\blog\templates\mainpage\index.html:406
+msgid ""
+"дизайн і підготовка картографічних матеріалів (AdobePhotoshop, CorelDraw);"
+msgstr ""
+"design and preparation of cartographic materials (AdobePhotoshop, CorelDraw);"
+
+#: .\blog\templates\mainpage\index.html:407
+msgid "географія, геологія, метеорологія, кліматологія, екологія. "
+msgstr "geography, geology, meteorology, climatology, ecology. "
+
+#: .\blog\templates\mainpage\index.html:428
+msgid "Наші партнери"
+msgstr "Our partners"
+
+#: .\blog\templates\mainpage\index.html:429
+msgid ""
+"Кафедра співпрацює з вітчизняними та зарубіжними компаніями за різними "
+"напрямками: навчальна практика, працевлаштування випускників та наукова "
+"робота."
+msgstr ""
+"The department co-operates with domestic and foreign companies in different "
+"directions: academic practice, graduates employment and scientific work. "
+
+#: .\blog\templates\mainpage\index.html:453
+msgid "Напрямки працевлаштування"
+msgstr "Employment Directions"
+
+#: .\blog\templates\mainpage\index.html:462
+msgid "Підприємства, що виконують геодезичні роботи"
+msgstr "Companies that perform geodetic works"
+
+#: .\blog\templates\mainpage\index.html:463
+msgid "Геодезисти, інженери-технологи"
+msgstr "Geodesy, engineering technology"
+
+#: .\blog\templates\mainpage\index.html:470
+msgid "Підприємства із землевпорядкування та кадастру"
+msgstr "Land Management and Cadastre Companies"
+
+#: .\blog\templates\mainpage\index.html:471
+msgid "Землевпорядники, кадастрові інженери, фахівці з грошової оцінки землі"
+msgstr "Land surveyors, cadastral engineers, land value specialists"
+
+#: .\blog\templates\mainpage\index.html:476
+msgid "ГИС, ГІС, GIS, it образование Харьков, it спеціальності Харків"
+msgstr "ГИС, ГІС, GIS, it education Kharkiv, it specialty Kharkiv"
+
+#: .\blog\templates\mainpage\index.html:478
+msgid "IT-компанії та підприємства"
+msgstr "IT companies and enterprises"
+
+#: .\blog\templates\mainpage\index.html:479
+msgid "Розробники ПЗ, адміністратори систем і баз даних, веб-програмісти"
+msgstr "Software developers, system and databases administrators , web developers"
+"Software developers, system administrators and databases, web developers"
+
+#: .\blog\templates\mainpage\index.html:484
+msgid "ГИС, ГІС, GIS, Картографія Харків, Картография Харьков"
+msgstr "ГИС, ГІС, GIS, Cartography Kharkiv, Картографія Харків"
+
+#: .\blog\templates\mainpage\index.html:486
+msgid "Картографічні підприємства"
+msgstr "Cartographic enterprises"
+
+#: .\blog\templates\mainpage\index.html:487
+msgid "ГІС-спеціалісти, картографи, геокодери, технологи, керівники"
+msgstr "GIS specialists, cartographers, geocoders, technologists, managers"
+
+#: .\blog\templates\mainpage\index.html:491
+msgid ""
+"ГИС, GIS, ГІС, Працевлаштування геодезія Харків, Трудоустройство геодезия "
+"Харьков"
+msgstr ""
+"ГИС, GIS, ГІС, Employment geodesy Kharkov, Працевлаштування геодезія Харків"
+
+#: .\blog\templates\mainpage\index.html:493
+msgid "Державні та обласні управління"
+msgstr "State and regional administrations"
+
+#: .\blog\templates\mainpage\index.html:494
+msgid ""
+"Спеціалісти з охорони природного серидовища, управління земельними, водними, "
+"лісними ресурсами"
+msgstr ""
+"Specialists in environmental protection, management of land, water, forest  "
+"resources"
+
+#: .\blog\templates\mainpage\index.html:498
+msgid "ГИС, ГІС, GIS, Точне землеробство Харків, Точное земледелие Харьков"
+msgstr ""
+"ГИС, ГІС, GIS, Precision agriculture Kharkiv, Точне землеробство Харків"
+
+#: .\blog\templates\mainpage\index.html:500
+msgid "Аграрна сфера"
+msgstr "Agrarian area"
+
+#: .\blog\templates\mainpage\index.html:501
+msgid "Фахівці з точного землеробства, оптимізації процесу збору врожаю"
+msgstr "Specialists in precision farming, optimizing the harvesting process"
+
+#: .\blog\templates\mainpage\maintenance.html:6
+msgid "Завітайте пізніше"
+msgstr "Come back later"
+
+#: .\blog\templates\mainpage\maintenance.html:23
+msgid "РОЗДІЛ В РОЗРОБЦІ"
+msgstr "SECTION IN DEVELOPMENT"
+
+#: .\blog\templates\mainpage\maintenance.html:30
+msgid "НА ГОЛОВНУ"
+msgstr "TO THE MAIN PAGE"
+
+#: .\blog\templates\mainpage\stud.html:6
+msgid "Информація для Студентів"
+msgstr "Information for Students"
+
+#: .\blog\templates\mainpage\stud.html:15
+msgid "Студенту"
+msgstr "Students"
+
+#: .\blog\templates\mainpage\stud.html:24
+msgid "методичне забезпечення"
+msgstr "methodical support"
+
+#: .\blog\templates\mainpage\stud.html:34
+msgid "Методичне забезпечення:"
+msgstr "Methodical support"
+
+#: .\blog\templates\mainpage\stud.html:37
+msgid "ПОРЯДОК ОФОРМЛЕНИЯ УЧЕБНЫХ И НАУЧНО-ИССЛЕДОВАТЕЛЬСКИХ ДОКУМЕНТОВ"
+msgstr "PROCEDURES FOR THE PREPARATION EDUCATIONAL AND RESEARCH DOCUMENTS"
+
+#: .\myapp\settings.py:110
+msgid "Ukrainian"
+msgstr ""
+
+#: .\myapp\settings.py:111
+msgid "English"
+msgstr ""
+
+#: .\myapp\settings.py:112
+msgid "Russian"
+msgstr ""
+
+#~ msgid "Землеустройство Харьков, Землеустрій Харків, Land management Kharkiv"
+#~ msgstr "Land management Kharkiv"

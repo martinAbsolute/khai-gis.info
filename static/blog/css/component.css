@@ -1,0 +1,188 @@
+/*
+	Author: Ashfaq Ahmed @ Codeconvey.
+	Author URI: http://www.codeconvey.com/
+*/
+
+
+
+#cc-slider {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 850px;
+}
+#cc-slider input {
+	display: none;
+}
+#cc-slider label, a {
+	color: #ef023f;
+	cursor: pointer;
+	text-decoration: none;
+}
+#cc-slider label:hover {
+	color: #ff0042 !important;
+}
+
+#slide1:checked ~ #cc-slides .inner { margin-left:0; }
+#slide2:checked ~ #cc-slides .inner { margin-left:-100%; }
+#slide3:checked ~ #cc-slides .inner { margin-left:-200%; }
+#slide4:checked ~ #cc-slides .inner { margin-left:-300%; }
+#slide5:checked ~ #cc-slides .inner { margin-left:-400%; }
+
+
+#overflow {
+	width: 100%;
+	overflow: hidden;
+}
+#cc-slides article img {
+	width: 100%;
+}
+#cc-slides .inner {
+	width: 500%;
+	line-height: 0;
+}
+#cc-slides article {
+	width: 20%;
+	float: left;
+}
+
+#controls {
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#controls label {
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+#controls label:hover {
+	opacity: 0.8;
+}
+#slide1:checked ~ #controls label:nth-child(2), 
+#slide2:checked ~ #controls label:nth-child(3), 
+#slide3:checked ~ #controls label:nth-child(4), 
+#slide4:checked ~ #controls label:nth-child(5), 
+#slide5:checked ~ #controls label:nth-child(1) {
+	background: url('{% static 'blog/img/mainpage/next.png'%}') no-repeat;
+	float: right;
+	display: block;
+	background-color:#4ea651;
+}
+
+
+#slide1:checked ~ #controls label:nth-child(5),
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2),
+#slide4:checked ~ #controls label:nth-child(3),
+#slide5:checked ~ #controls label:nth-child(4) {
+	background: url('{% static 'blog/img/mainpage/prev.png'%}') no-repeat;
+	float: left;
+	display: block;
+	background-color:#4ea651;
+}
+
+
+
+/* cctooltip Box */
+.cctooltip {
+    color: #FFFFFF;
+    font-style: italic;
+    line-height: 18px;
+margin-top:142px;
+    opacity: 99;
+    position: absolute;
+    text-align: left;
+	-webkit-transform: translateZ(0);
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.cctooltip h3 {
+	color: #FFFFFF;
+	margin: 0 0 5px;
+	font-weight: normal;
+	font-size: 16px;
+	font-style: normal;
+	background: none repeat scroll rgba(0,0,0, 0.7);
+	padding: 5px;
+}
+.cctooltip h4 {
+	color: #FFFFFF;
+	margin: 0 0 5px;
+	font-weight: bold;
+	font-size: 14px;
+	font-style: normal;
+	background: none repeat scroll rgba(0,0,0, 0.7);
+	padding: 5px;
+	text-align:left;
+	width:160px;
+}
+
+
+
+/* cc-slider Styling */
+
+#cc-slides {
+	margin: 0 0 0;
+	padding: 1%;
+	background: rgba(0,0,0, 0.3);
+}
+
+
+/* Animation */
+#cc-slides .inner {
+	-webkit-transform: translateZ(0);
+	-webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+	-moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+    -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+     -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+        transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+	-webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+	-moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+    -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+        transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+}
+#cc-slider {
+	-webkit-transform: translateZ(0);
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+#controls label{
+	-webkit-transform: translateZ(0);
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
+}
+
+#slide1:checked ~ #cc-slides article:nth-child(1) .cctooltip,
+#slide2:checked ~ #cc-slides article:nth-child(2) .cctooltip,
+#slide3:checked ~ #cc-slides article:nth-child(3) .cctooltip,
+#slide4:checked ~ #cc-slides article:nth-child(4) .cctooltip,
+#slide5:checked ~ #cc-slides article:nth-child(5) .cctooltip,
+{
+	opacity: 1;
+	-webkit-transition: all 1s ease-out 0.6s;
+	-moz-transition: all 1s ease-out 0.6s;
+	-o-transition: all 1s ease-out 0.6s;
+	transition: all 1s ease-out 0.6s;
+}
+
+
+@media only screen and (min-width:240px) and (max-width: 800px){
+	
+	.cctooltip{
+		margin-top:0;	
+	}
+	
+}
+
+

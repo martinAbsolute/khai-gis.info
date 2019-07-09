@@ -1,0 +1,146 @@
+{% extends 'blog/layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+{% trans "Де Нас Знайти | Контакти | KHAI-GIS ©" %}
+{% endblock %}
+
+{% block content %}
+
+{% load static %}
+
+
+
+<div>
+    <div id="map-canvas" data-lat="50.0434159" data-lng="36.2832524" data-zoom="16">
+
+    </div>
+    <div class="addresses-block">
+        <a data-lat="50.0434059" data-lng="36.289739"
+            data-string="{% trans "Місто Харків, вулиця Чкалова 17, Навчально-лабораторний корпус ХАІ. Кафедра 407. <br> Аудиторія 208 - викладацька; Аудиторія 307 - кабінет завідувача; Аудиторія 301 - Центр ГІС" %}"></a>
+    </div>
+    <!-- BLOCK "MAP" -->
+
+    <!-- BLOCK "TYPE 7" -->
+    <div class="block type-7 scroll-to-block" data-id="contact">
+        <div class="container">
+            <div class="row page-tagline">
+                <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                    <h2 class="title">{% trans "на зв'язку" %}</h2>
+                    <div class="description">{% trans "Ви можете зв'язати з нами, відправивши повідомлення." %}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="contact-thumbs">
+                        <img src="{% static 'blog/img/theme-3/callus-02.png'%}" alt="" />
+                        <article class="normall">
+                            <p>
+                                {% trans "Довідки за телефонами:" %}
+                                <br>
+                                <a href="#">(057) 788-46-56</a>{% trans " - Викладацька" %}
+                                <br>
+                                <a href="#">(057) 788-44-79</a>{% trans " - Кабінет завідувача" %}
+                                <br>
+                                <a href="#">(057) 788-45-83</a>{% trans " - Лабораторія ГІС" %}
+                            </p>
+                        </article>
+                    </div>
+                    <br>
+                    <div class="contact-thumbs">
+                        <br>
+                        <a href="https://www.instagram.com/khaigis/"><img
+                                src="{% static 'blog/img/theme-3/instaicon-01.png'%}" alt="" /> </a>
+                        <article class="normall">
+
+                            <p>
+                                {% trans "Ми в Instagram @khaigis:" %}
+                                <br>
+                                <a href="https://www.instagram.com/khaigis/">{% trans "Підписуйтесь щоб бути в курсі найсвіжіших подій, дивіться світлини з життя наших студентів та ставте свої запитання до нашої кафедри в інстаграмі" %}</a>
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-md-7 col-md-offset-1 wow fadeInRight" data-wow-delay="0.3s">
+                    <form class="contact-form" method="post">
+                        <input class="required" type="text" placeholder="{% trans "Ваше ім'я" %}" value="" name="name" />
+                        <input class="required" type="text" placeholder="{% trans "Ваша електрона адреса" %}" value="" name="email" />
+                        <input type="text" placeholder="{% trans "Тема запитання" %}" value="" name="subject" />
+                        <select name="department">
+                            <option>{% trans "Абітурієнт" %}</option>
+                            <option>{% trans "Студент" %}</option>
+                            <option>{% trans "Представник іншого вузу" %}</option>
+                            <option>{% trans "Представник комерційної організації" %}</option>
+                            <option>{% trans "Інше" %}</option>
+                        </select>
+                        <textarea class="required" placeholder="{% trans "Текст звернення" %}" name="text"></textarea>
+                        <div class="submit-wraper">
+                            <div class="button">{% trans "надіслати" %}<input id="submit" type="submit" value="" /></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-popup">
+                    <div class="form-popup-close-layer"></div>
+                    <div class="form-popup-content">
+                        <div class="text">Lorem Ipsum Dollor Sit Ammet consectetur dim Elit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block type-3 type-3-1 scroll-to-block" id="devs">
+        <div class="container type-3-text">
+            <div class="row page-tagline">
+                <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                    <h2 class="title">{% trans "Розробники" %}</h2>
+                    <div class="description"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 little-img-text-entry">
+                    <a href="#" class=""><img alt="Нечаусов Артем" src="{% static 'blog/img/mainpage/staff/authorArtem.jpg'%}" class="img-circle" style="height: 80px; width: auto;"></a>
+                    <article class="small" style="min-height:105px"><h5 class="h5">{% trans "Нечаусов Артем  " %}</h5>
+                    <p>{% trans "Доцент кафедри 407. Кандидат технічних наук." %}</p>
+                    </article>
+                </div>
+                <div class="col-md-6 col-sm-6 little-img-text-entry">
+                    <a href="#" class=""><img alt="Багнюк Мартін" src="{% static 'blog/img/mainpage/staff/authorMartin.jpg'%}" class="img-circle" style="height: 80px; width: auto;"></a>
+                    <article class="small" style="min-height:105px"><h5 class="h5">{% trans "Багнюк Мартін " %}</h5>
+                    <p>{% trans "Студент кафедри 407." %}</p>
+                    <p>martin.bagniuk@gmail.com</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    {% endblock %}
+
+    {% block plushead %}
+    <script type="text/javascript">
+        function send(dataform) {
+            $.ajax({
+                url: 'send_mail.php',
+                type: 'POST',
+                data: dataform,
+                success: function (msg) {
+                    var response = JSON.parse(msg);
+                    if (response.success) {
+                        swal("Повідомлення надіслано! Дякуємо.", "Ми зв'яжемося з Вами", "success");
+                    } else {
+                        swal("Помилка", "Введіть текст повідомлення", "error");
+                    }
+                },
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+        }
+        $('#submit, #submittel').click(function () {
+            var dataform = $('form').serialize();
+            send(dataform);
+            return false;
+        });
+    </script>
+    {% endblock %}

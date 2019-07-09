@@ -1,0 +1,311 @@
+{% extends 'blog/layout.html' %}
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+{% block title %}
+{% trans "Информація для Абітурієнтів | KHAI-GIS ©" %} 
+{% endblock %}
+
+{% block content %}
+
+{% load static %}
+
+<div class="new-block type-14" style="max-width: 100%; overflow-x: hidden;">
+    <div class="container">
+        <div class="row page-tagline abit">
+            <div class="col-md-6 col-md-offset-3">
+                <h2 class="title">{% trans "Абітурієнту" %}</h2>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="row tabs-switch-container">
+            <div class="col-md-3">
+                <div class="tabs-limit-container">
+                    <div class="tabs-switch active abitfixicons" data-wow-delay="0.1s">
+                        <img src="{% static 'blog/img/theme-3/study-01.png'%}" alt="бакалаврат" /><span>{% trans "бакалаврат" %}</span>
+                    </div>
+                    <div class="tabs-switch abitfixicons">
+                        <img src="{% static 'blog/img/theme-3/study-02.png'%}" alt="магістратура" /><span>{% trans "магістратура" %}</span>
+                    </div>
+                    <div class="tabs-switch abitfixicons">
+                        <img src="{% static 'blog/img/theme-3/study-03.png'%}" alt="аспірантура" /><span>{% trans "аспірантура" %}</span>
+                    </div>
+                    <div class="tabs-switch abitfixicons">
+                        <img src="{% static 'blog/img/theme-3/study-04.png'%}" alt="студентське життя в ХАІ" /><span>{% trans "студентське життя" %}</span>
+                    </div>
+                    <div class="tabs-switch abitfixicons">
+                        <img src="{% static 'blog/img/theme-3/study-05.png'%}" alt="працевлаштування" /><span>{% trans "працевлаштування" %}</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row tabs-entry">
+
+                    <div class="tabs-title">{% trans "Шановні абітурієнти та їх батьки, докладніше з правилами прийому Ви можете ознайомитись" %}<a href="https://khai.edu/ru/abiturientu/priemnaya-komissiya/">{% trans " на офіційному сайті ХАІ" %}</a></div>
+
+
+                    <div style="display:flex; flex-wrap: wrap; justify-content: center;">
+                        <a href="{% static 'blog/docs/abit/khai_2018_4f_geodezia_zemleystriy_2.pdf' %}" target="_blank"><img
+                                style="width:200px; height: 110px; padding: 0 3px;" src="{% static 'blog/img/abit/bachelors/GISnorter0.jpg'%}"
+                                alt="{% trans "ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та Землевпорядкування (бакалаврат)" %}"></a>
+                        <a href="{% static 'blog/docs/abit/khai_2018_4f_geodezia_zemleystriy_2_dod.pdf' %}" target="_blank"><img
+                                style="width:200px; height: 110px; padding: 0 3px;" src="{% static 'blog/img/abit/bachelors/GISnorter.jpg'%}"
+                                alt="{% trans "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Геодезія та Землевпорядкування (бакалаврат)" %}"></a>
+                        <a href="{% static 'blog/docs/abit/khai_2018_4f_nayku_pro_Zemliu_2.pdf' %}" target="_blank"><img
+                                style="width:200px; height: 110px; padding: 0 3px;" src="{% static 'blog/img/abit/bachelors/EARTHnorter0.jpg'%}"
+                                alt="{% trans "ХАІ ГІС - інфо - Програма вступних тестів - Науки про Землю (бакалаврат)" %}"></a>
+                        <a href="{% static 'blog/docs/abit/khai_2018_4f_nayku_pro_Zemliu_2_dod.pdf' %}" target="_blank"><img
+                                style="width:200px; height: 110px; padding: 0 3px;" src="{% static 'blog/img/abit/bachelors/EARTHnorter.jpg'%}"
+                                alt="{% trans "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Науки про Землю (бакалаврат)" %}"></a>
+                    </div>
+
+
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view">
+                            <div class="tabs-title">{% trans "Спеціальність:" %}<br>{% trans "193 - Геодезія та землеустрій" %}</div>
+                            <div class="tabs-text">
+                                <p>{% trans "Тривалість навчання: 4 роки;" %}</p>
+                                <p>{% trans "ЗНО:" %}
+                                    <ul>
+                                        <li>{% trans "Українська мова та література;" %}
+                                        <li>{% trans "Математика;" %}
+                                        <li>{% trans "Географія, або Історія України;" %}
+                                    </ul>
+                                </p>
+                                <p>{% trans "Ліцензійний обсяг набору в 2019 році: 65 місць;" %}</p>
+                                <p>{% trans "Держ. замовлення в 2019 році:" %}</p>
+                                <p>{% trans "              на підставі повної загальної середньої освіти: 28 місць;" %}</p>
+                                <p>{% trans "              на підставі ОКР «молодший спеціаліст» (ІІ курс): 5 місць;" %}</p>
+                                <p>{% trans "Вартість контрактного навчання в 2019 році: 11250 грн/рік;" %}</p>
+                            </div>
+                            {% if LANGUAGE_CODE == 'en' %}
+                            <div style="display:flex; flex-wrap: wrap; justify-content: center; flex-direction: row;">
+                                <a href="{% static 'blog/docs/abit/en/GIS-brochure-1.jpg'%}" data-fancybox="gallery-info-list"><img
+                                        style="width: 230px;" src="{% static 'blog/docs/abit/en/GIS-brochure-1-thumb.jpg'%}"
+                                        alt="{% trans "ХАИ ГИС - инфо (стр.1)" %}"></a>
+                                        <a href="{% static 'blog/docs/abit/en/GIS-brochure-2.jpg'%}" data-fancybox="gallery-info-list"><img
+                                            style="width: 230px;" src="{% static 'blog/docs/abit/en/GIS-brochure-2-thumb.jpg'%}"
+                                            alt="{% trans "ХАИ ГИС - инфо (стр.1)" %}"></a>
+                            </div>
+                            {% else %}
+                            <div style="display:flex; flex-wrap: wrap; justify-content: center; flex-direction: row;">
+                                <a href="{% static 'blog/img/abit/info-list/1.jpg'%}" data-fancybox="gallery-info-list"><img
+                                        style="width: 230px;" src="{% static 'blog/img/abit/info-list/1-thumb.jpg'%}"
+                                        alt="{% trans "ХАИ ГИС - инфо (стр.1)" %}"></a>
+                                <a href="{% static 'blog/img/abit/info-list/2.jpg'%}" data-fancybox="gallery-info-list"><img
+                                        style="width: 230px;" src="{% static 'blog/img/abit/info-list/2-thumb.jpg'%}"
+                                        alt="{% trans "День ГИС - инфо (стр.2)" %}"></a>
+                            </div>
+                            {% endif %}
+                            <div class="tabs-title">{% trans "Що таке бакалаврат?" %}</div>
+                            <div class="tabs-text">
+                                <p>{% trans " Бакалаврат - це перша ступінь вищої освіти на рівні світових стандартів, а диплом бакалавра є документом про вищу освіту." %}</p> <br>
+                                <P>{% trans " Кожна ступінь кваліфікації випускника сучасного ВНЗ відрізняється ступенем «Занурення» в тонкощі майбутньої спеціалізації. Виходячи з цього, для кожної кваліфікації формується особлива навчальна програма, яка дозує знання Залежно від обраного студентом варіанту майбутньої кваліфікації. " %}</p> <br>
+                                <P>{% trans " На даний час, коли технології та знання оновлюються з великою швидкістю, недоцільно готувати «вузьких» спеціалістів в стінах вузу, починаючи з першого курсу, протягом п'яти-шести років. Тому введення широкої бакалаврської програми з подальшою спеціалізацією в магістратурі буде більше відповідати стрімкому та мінливому ринку праці. " %}</p> <br>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view">
+                            <div class="tabs-title">{% trans "Спеціальність:" %}<br>{% trans "103 - Науки про Землю" %}</div>
+                            <div class="tabs-text">
+                                <p>{% trans "Тривалість навчання: 4 роки;" %}</p>
+                                <p>{% trans "ЗНО:" %}
+                                    <ul>
+                                        <li>{% trans "Математика;" %}
+                                        <li>{% trans "Українська мова та література;" %}
+                                        <li>{% trans "Географія, або Фізика;" %}
+                                    </ul>
+                                </p>
+                                <p>{% trans "Ліцензійний обсяг набору в 2019 році: 27 місць;" %}</p>
+                                <p>{% trans "Держ. замовлення в 2019 році:" %}</p>
+                                <p>{% trans "              на підставі повної загальної середньої освіти: 10 місць;" %}</p>
+                                <p>{% trans "              на підставі ОКР «молодший спеціаліст» (ІІ курс): 5 місць;" %}</p>
+                                <p>{% trans "Вартість контрактного навчання в 2019 році: 11250 грн/рік;" %}</p>
+                            </div>
+                            {% if LANGUAGE_CODE == 'en' %}
+                                <div style="display:flex; flex-wrap: wrap; justify-content: center; flex-direction: row;">
+                                    <a href="{% static 'blog/docs/abit/en/Earth-brochure-1.jpg'%}" data-fancybox="gallery-info-list"><img
+                                            style="width: 230px;" src="{% static 'blog/docs/abit/en/Earth-brochure-1-thumb.jpg'%}"
+                                            alt="{% trans "ХАИ ГИС - инфо (стр.1)" %}"></a>
+                                            <a href="{% static 'blog/docs/abit/en/Earth-brochure-2.jpg'%}" data-fancybox="gallery-info-list"><img
+                                                style="width: 230px;" src="{% static 'blog/docs/abit/en/Earth-brochure-2-thumb.jpg'%}"
+                                                alt="{% trans "ХАИ ГИС - инфо (стр.1)" %}"></a>
+                                </div>
+                                {% endif %}
+                            <div class="tabs-title">{% trans "особливості підготовки за спеціальностями" %}</div>
+                            <div class="tabs-text">
+                                <ul>
+                                    <li>{% trans "Навчальні плани створені з урахуванням кредитно-модульної сиситеми відповідно до європейських стандартів;" %}
+                                    <Li> {% trans "Студенти під час навчання працюють з сучасними обчислювальними системами і геодезичним обладнанням, використовуючи ліцензійне програмне забезпечення провідних світових виробників;" %}
+                                    <Li> {% trans "Протягом усіх курсів навчання поглиблено вивчаються професійно-орієнтовані Іноземні мови;" %}
+                                    <Li> {% trans "Можливість продовження навчання в магістратурі та отримання кваліфікації 'Інженер-геоінформатики'" %}
+                                    <Li> {% trans "Участь студентів в науково-дослідних проектах;" %}
+                                    <Li> {% trans "Можливість продовження навчання в аспірантурі (отримання міжнародного ступеня Ph. D.);" %}
+                                    <Li> {% trans 'Співпраця з "ESRI Europe", "ECCOM Co", "HERE maps", "ScanEx", "Leica    Geosystems Geospatial Imaging", Інститут проблем національної безпеки,     інститут телекомунікацій та глобального інформаційного простору, Науковий     центр аерокосмічних досліджень Землі.' %}
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row tabs-entry">
+
+                    {% if LANGUAGE_CODE == 'en' %}
+                    <a href="{% static 'blog/docs/abit/en/osvprog193en.pdf' %}" target="_blank"><img style="width:404px; height: 110px;"
+                        src="{% static 'blog/img/abit/masters/GISmaster2.jpg'%}" alt="{% trans "ХАІ ГІС - інфо - Освітньо - професійна програма - Геодезія та Землевпорядкування (магістратура)" %}"></a>
+                    <a href="{% static 'blog/docs/abit/en/osvprog103en.pdf' %}" target="_blank"><img style="width:404px; height: 110px;"
+                        src="{% static 'blog/img/abit/masters/EARTHmaster2.jpg'%}" alt="{% trans "ХАІ ГІС - інфо - Освітньо - професійна програма - Науки про Землю (магістратура)" %}"></a>
+                    {% else %}
+                    <a href="{% static 'blog/docs/abit/osvprog193.pdf' %}" target="_blank"><img style="width:404px; height: 110px;"
+                        src="{% static 'blog/img/abit/masters/GISmaster2.jpg'%}" alt="{% trans "ХАІ ГІС - інфо - Освітньо - професійна програма - Геодезія та Землевпорядкування (магістратура)" %}"></a>
+                    <a href="{% static 'blog/docs/abit/osvprog103.pdf' %}" target="_blank"><img style="width:404px; height: 110px;"
+                        src="{% static 'blog/img/abit/masters/EARTHmaster2.jpg'%}" alt="{% trans "ХАІ ГІС - інфо - Освітньо - професійна програма - Науки про Землю (магістратура)" %}"></a>
+                    {% endif %}
+                    
+                    <a href="{% static 'blog/docs/abit/khai_2018_4f_geodezia_zemleystriy_op.pdf' %}" target="_blank"><img
+                            style="width:200px; height: 110px;" src="{% static 'blog/img/abit/masters/GISmaster0.jpg' %}"
+                            alt="{% trans "ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та Землевпорядкування (магістратура)" %}"></a>
+                    <a href="{% static 'blog/docs/abit/khai_2018_4f_geodezia_zemleystriy_op_dod.pdf' %}" target="_blank"><img
+                            style="width:200px; height: 110px;" src="{% static 'blog/img/abit/masters/GISmaster.jpg' %}"
+                            alt="{% trans "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Геодезія та Землевпорядкування (магістратура)" %}"></a>
+                    <a href="{% static 'blog/docs/abit/khai_2018_4f_nayku_pro_Zemliu_op.pdf' %}" target="_blank"><img
+                            style="width:200px; height: 110px;" src="{% static 'blog/img/abit/masters/EARTHmaster0.jpg'%}"
+                            alt="{% trans "ХАІ ГІС - інфо - Програма вступних тестів - Науки про Землю (магістратура)" %}"></a>
+                    <a href="{% static 'blog/docs/abit/khai_2018_4f_nayku_pro_Zemliu_op_dod.pdf' %}" target="_blank"><img
+                            style="width:200px; height: 110px;" src="{% static 'blog/img/abit/masters/EARTHmaster.jpg'%}"
+                            alt="{% trans "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Науки про Землю (магістратура)" %}"></a>
+
+
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view">
+                            <div class="tabs-title">{% trans "СПЕЦІАЛЬНІСТЬ 193 - ГЕОДЕЗІЯ ТА ЗЕМЛЕУСТРІЙ" %}<br>
+                                {% trans "ОСВІТНЬО-ПРОФЕСІЙНА ПРОГРАМА «ГЕОІНФОРМАЦІЙНІ СИСТЕМИ І ТЕХНОЛОГІЇ»" %}</div>
+                            <div class="tabs-text">
+                                <p>{% trans "Тривалість навчання: 1 рік 4 міс.;" %}</p>
+                                <p>{% trans "Вступні іспити:" %}
+                                    <ul>
+                                        <li>{% trans "Комплексний іспит за фахом;" %}
+                                        <li>{% trans "Іноземна мова;" %}
+                                    </ul>
+                                </p>
+                                <P> {% trans "Ліцензійний обсяг набору в 2019 році: 10 місць; " %}</p>
+                                <P> {% trans "Держ. замовлення в 2019 році: 10 місць; " %}</p>
+                                <P> {% trans "Вартість навчання: 12330 грн / рік; " %}</p>
+                                <p> {% trans "Заочне відділення: так " %}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view">
+                            <div class="tabs-title">{% trans "СПЕЦІАЛЬНІСТЬ 103 - НАУКИ ПРО ЗЕМЛЮ" %} <br> {% trans "ОСВІТНЬО-ПРОФЕСІЙНА ПРОГРАМА «КОСМІЧНИЙ МОНІТОРИНГ ЗЕМЛІ»" %}</div>
+                            <div class="tabs-text">
+                                <p>{% trans "Тривалість навчання: 1 рік 4 міс.;" %}</p>
+                                <p>{% trans " Вступні іспити:" %}
+                                    <ul>
+                                        <li> {% trans "Комплексний іспит за фахом;" %}
+                                        <li> {% trans "Іноземна мова;" %}
+                                    </ul>
+                                </p>
+                                <P> {% trans "Ліцензійний обсяг набору в 2019 році: 15 місць; " %}</p>
+                                <p> {% trans "Держ. замовлення в 2019 році: 10 місць; " %}</p>
+                                <P> {% trans "Вартість навчання: 12330 грн / рік; " %}</p>
+                                <p> {% trans "Заочне відділення: так " %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row tabs-entry">
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view">
+                            <div class="tabs-title">{% trans "Навчання в аспірантурі" %}</div>
+
+                            <div class="tabs-text">{% trans "Термін навчання 4 роки." %}</div>
+                            <div class="tabs-text">{% trans "Щорічно кафедра набирає магістрів, що пройшли навчання за однією з спеціальностей кафедри, до аспірантуру. Вступити до аспірантури ХАІ можна після закінчення магістратури як ХАІ, так і іншого вузу. Протягом усього періоду навчання студенти поглиблено вивчають професійно-орієнтовану іноземну мову." %}</div>
+                            <div class="tabs-text">{% trans "Значною перевагою навчання в аспірантурі на базі кафедри 407 є можливість підвищення кваліфікації в Vancouver Island University з отриманням сертифіката межднародного зразка." %}</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view phdcol">
+                            <img src="{% static 'blog/img/abit/student.png'%}" alt="{% trans "аспирантура ХАИ" %}" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row tabs-entry">
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view clear">
+                            <div class="tabs-title">{% trans "День ГІС" %}</div>
+                            <div class="tabs-text">{% trans "Спільно з усією світовою ГІС-спільнотою, кожної другої середи листопада на нашій кафедрі відзначається день ГІС. Свято є одним з найяскравіших і очікуваних подій протягом навчального року. Студенти та викладачі виступають з доповідями щодо своїх досягнень і наукової роботи, беруть участь у конкурсах на найкращий відеокліп про навчання в ХАІ та, звичайно, в змаганнях на найоригінальніший торт! Дивіться фотографії в " %}<a href="/gallery">{% trans "галереї." %}</a></div>
+                            <a class="hover-shadow" data-fancybox="gallery-1" href="{% static 'blog/img/abit/studphoto/1.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/1.jpg'%}" alt="{% trans "День ГИС" %}"></a>
+                            <a class="hover-shadow" data-fancybox="gallery-1" href="{% static 'blog/img/abit/studphoto/2.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/2.jpg'%}" alt="{% trans "День ГИС" %}"></a>
+                            <a class="hover-shadow" data-fancybox="gallery-1" href="{% static 'blog/img/abit/studphoto/3.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/3.jpg'%}" alt="{% trans "День ГИС" %}">
+                            </a>
+                            <div class="tabs-title">{% trans "1001 ніч" %}</div>
+                            <div class="tabs-text">{% trans "Щорічно студенти третього курсу всього університету відправляються на кілька днів на базу відпочинку, щоб відзначити '1001 ніч', що пройшла за час навчання в ХАІ. У програмі заходу - всілякі конкурси, ігри, дискотеки. Це свято назавжди залишається в пам`яті студентів ХАІ." %}</div>
+                            <a class="hover-shadow" data-fancybox="gallery-2" href="{% static 'blog/img/abit/studphoto/4.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/4.jpg'%}" alt="{% trans "1001 ніч ХАІ" %}"></a>
+                            <a class="hover-shadow" data-fancybox="gallery-2" href="{% static 'blog/img/abit/studphoto/5.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/5.jpg'%}" alt="{% trans "1001 ніч ХАІ" %}"></a>
+                            <a class="hover-shadow" data-fancybox="gallery-2" href="{% static 'blog/img/abit/studphoto/6.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/6.jpg'%}" alt="{% trans "1001 ніч ХАІ" %}"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view clear">
+                            <div class="tabs-title">{% trans "Профком студентів та аспірантів ХАІ" %}</div>
+                            <div class="tabs-text">{% trans "Первинна профспілкова організація студентів та аспірантів - це добровільна профспілкова організація студентів та аспірантів університету, метою якої є представництво, здійснення та захист навчальних, соціально-економічних, прав та інтересів членів профспілки. Профком займається безліччю різних завдань: захистом прав студентів, контролем якості проживання в гуртожитках та харчування в їдальнях, налагодженням контактів з центром зайнятості, організацією екскурсій, заходів, щорічними поїздками до Карпат і багатьом іншим. Дізнайтеся більше про діяльність профкому ХАІ на " %}<a href="http://profkom.xai.edu.ua/">{% trans "офіційному сайті." %}</a></div>
+                            <div class="tabs-title">{% trans "День ХАІ" %}</div>
+                            <div class="tabs-text">{% trans "День Харківського авіаційного інституту традиційно вважається головним святом університету. Відзначається цей день в останню суботу травня. На день ХАІ в університеті збираються і зустрічаються випускники всіх років, влаштовується концерт, святковий салют і танці прямо на території університету." %}</div>
+                            <a class="hover-shadow" data-fancybox="gallery-3" href="{% static 'blog/img/abit/studphoto/9.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/9.jpg'%}" alt="{% trans "День ХАІ" %}"></a>
+                            <a class="hover-shadow" data-fancybox="gallery-3" href="{% static 'blog/img/abit/studphoto/8.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/8.jpg'%}" alt="{% trans "День ХАІ" %}"></a>
+                            <a class="hover-shadow" data-fancybox="gallery-3" href="{% static 'blog/img/abit/studphoto/7.jpg'%}"><img
+                                    src="{% static 'blog/img/abit/studphoto/7.jpg'%}" alt="{% trans "День ХАІ" %}"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tabs-entry">
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view">
+                            <div class="tabs-title">{% trans "Працевлаштування випускників забезпечується:" %}</div>
+                            <div class="tabs-text">
+                                <ul>
+                                    <Li>{% trans " Національним космічним агентством України; " %}</li>
+                                    <Li>{% trans " Обласними науково-геодезичними центрами; " %}</li>
+                                    <Li>{% trans " Регіональними підрозділами інстітіутов космічних досліджень НАН України; " %}</li>
+                                    <Li>{% trans " Регіональними підрозділами державного науково-виробничого центру 'Природа' НКАУ; " %}</li>
+                                    <Li>{% trans " Науково-дослідними проектними організаціями, котрі підпорядковуються Міністерству екології України та Аграрній академії України; " %}</li>
+                                    <Li>{% trans " Обласними управліннями охорони природного середовища; " %}</li>
+                                    <Li>{% trans " Обласними управліннями земельних і лісових ресурсів; " %}</li>
+                                    <Li>{% trans " Підприємствами, які виконують геодезичні роботи і завдання тематичного картографування. " %}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view phdcol">
+                            <img src="{% static 'blog/img/abit/people-with-computer.png'%}" alt="{% trans "аспирантура ХАИ" %}" />
+                            <img src="{% static 'blog/img/abit/woman-laptop.png'%}" alt="{% trans "аспирантура ХАИ" %}" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

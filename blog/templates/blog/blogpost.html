@@ -1,0 +1,186 @@
+{% extends 'blog/layout.html' %}
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+{% block title %}
+{{post.title}} | {% trans "Новини" %} | KHAI-GIS ©
+{% endblock %}
+
+
+{% block content %}
+<div id="content-wrapper">
+    <div class="blocks-container">
+        <div class="container blog-container">
+            <div class="new-block type-19">
+                <div class="container">
+                    <div class="row page-tagline">
+                        <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                            <h2 class="title">{% trans "Життя кафедри" %}</h2>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 blog-content-column">
+
+                        {% if post.en == True and LANGUAGE_CODE == 'en' %}
+                        <div class="blog-post style-3">
+                                <div class="row">
+                                    <div class="col-md-6  col-md-push-6">
+                                        {% for image in post.images.all %}
+                                        <a href="{{image.image.url}}" class="thumbnail-entry"
+                                            data-fancybox="{{post.date.day}}{{post.date.month}}{{post.date.year}}"><img
+                                                src="{{image.image.url_thumb}}" alt="{{image.description}}">
+                                            <p style="margin-left: 5px; margin-top: 3px;">{{image.description}}</p>
+                                        </a>
+                                        <div class="clear"></div>
+                                        {% endfor %}
+                                    </div>
+                                    <div class="col-md-6  col-md-pull-6">
+                                        <div class="data">
+                                            <div class="date"><span>{{post.date.day}}</span>{{post.date.month}}<br />
+                                                {{post.date.year}}</div>
+                                            <div class="text">
+                                                <a class="title" href="{{post.get_absolute_url}}"> {{post.entitle}} </a>
+                                                <div class="description"> {{post.enbody|safe}}
+                                                    <br>
+                                                    {% if post.files.all %}
+                                                        <p>{% trans "Файли для завантаження:" %}</p>
+                                                        <ul>
+                                                                {% for file in post.files.all %}
+                                                                <li>
+                                                                    <a href="{{file.filename.url}}" class="">
+                                                                        <p style="margin-left: 5px; margin-top: 3px;">
+                                                                            {{file.description}}</p>
+                                                                    </a>
+                                                                    <div class="clear"></div>
+                                                                </li>
+                                                                {% endfor %}
+                                                            </ul>
+                                                    {% endif %}</div>
+                                                <div class="author-entry">
+                                                    <a href="#" class="author-thumbnail"><img alt=""
+                                                            src="{% static 'blog/img/theme-3/logo-act-1.png' %}"
+                                                            class="img-circle"></a>
+                                                    <div class="author-text">KhAI-K407GIS <span class="category">
+                                                            {{post.category}} </span>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        {% elif post.ru == True and LANGUAGE_CODE == 'ru' %}
+                        <div class="blog-post style-3">
+                                <div class="row">
+                                    <div class="col-md-6  col-md-push-6">
+                                        {% for image in post.images.all %}
+                                        <a href="{{image.image.url}}" class="thumbnail-entry"
+                                            data-fancybox="{{post.date.day}}{{post.date.month}}{{post.date.year}}"><img
+                                                src="{{image.image.url_thumb}}" alt="{{image.description}}">
+                                            <p style="margin-left: 5px; margin-top: 3px;">{{image.description}}</p>
+                                        </a>
+                                        <div class="clear"></div>
+                                        {% endfor %}
+                                    </div>
+                                    <div class="col-md-6  col-md-pull-6">
+                                        <div class="data">
+                                            <div class="date"><span>{{post.date.day}}</span>{{post.date.month}}<br />
+                                                {{post.date.year}}</div>
+                                            <div class="text">
+                                                <a class="title" href="{{post.get_absolute_url}}"> {{post.rutitle}} </a>
+                                                <div class="description"> {{post.rubody|safe}}
+                                                    <br>
+                                                    {% if post.files.all %}
+                                                        <p>{% trans "Файли для завантаження:" %}</p>
+                                                        <ul>
+                                                                {% for file in post.files.all %}
+                                                                <li>
+                                                                    <a href="{{file.filename.url}}" class="">
+                                                                        <p style="margin-left: 5px; margin-top: 3px;">
+                                                                            {{file.description}}</p>
+                                                                    </a>
+                                                                    <div class="clear"></div>
+                                                                </li>
+                                                                {% endfor %}
+                                                            </ul>
+                                                    {% endif %}</div>
+                                                <div class="author-entry">
+                                                    <a href="#" class="author-thumbnail"><img alt=""
+                                                            src="{% static 'blog/img/theme-3/logo-act-1.png' %}"
+                                                            class="img-circle"></a>
+                                                    <div class="author-text">KhAI-K407GIS <span class="category">
+                                                            {{post.category}} </span>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        {% else %}
+                        <div class="blog-post style-3">
+                                <div class="row">
+                                    <div class="col-md-6  col-md-push-6">
+                                        {% for image in post.images.all %}
+                                        <a href="{{image.image.url}}" class="thumbnail-entry"
+                                            data-fancybox="{{post.date.day}}{{post.date.month}}{{post.date.year}}"><img
+                                                src="{{image.image.url_thumb}}" alt="{{image.description}}">
+                                            <p style="margin-left: 5px; margin-top: 3px;">{{image.description}}</p>
+                                        </a>
+                                        <div class="clear"></div>
+                                        {% endfor %}
+                                    </div>
+                                    <div class="col-md-6  col-md-pull-6">
+                                        <div class="data">
+                                            <div class="date"><span>{{post.date.day}}</span>{{post.date.month}}<br />
+                                                {{post.date.year}}</div>
+                                            <div class="text">
+                                                <a class="title" href="{{post.get_absolute_url}}"> {{post.title}} </a>
+                                                <div class="description"> {{post.body|safe}}
+                                                    <br>
+                                                    {% if post.files.all %}
+                                                        <p>{% trans "Файли для завантаження:" %}</p>
+                                                        <ul>
+                                                                {% for file in post.files.all %}
+                                                                <li>
+                                                                    <a href="{{file.filename.url}}" class="">
+                                                                        <p style="margin-left: 5px; margin-top: 3px;">
+                                                                            {{file.description}}</p>
+                                                                    </a>
+                                                                    <div class="clear"></div>
+                                                                </li>
+                                                                {% endfor %}
+                                                            </ul>
+                                                    {% endif %}</div>
+                                                <div class="author-entry">
+                                                    <a href="#" class="author-thumbnail"><img alt=""
+                                                            src="{% static 'blog/img/theme-3/logo-act-1.png' %}"
+                                                            class="img-circle"></a>
+                                                    <div class="author-text">KhAI-K407GIS <span class="category">
+                                                            {{post.category}} </span>
+                                                        <div class="clear"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        {% endif %}
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

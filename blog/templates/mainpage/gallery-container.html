@@ -1,0 +1,51 @@
+{% extends 'blog/layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+{{gallery.title}} | {% trans "Галерея" %} {{gallery.category}} | KHAI-GIS ©
+{% endblock %}
+
+{% block content %}
+<div id="content-wrapper">
+    <div class="blocks-container">
+        <div class="container blog-container">
+
+            <div class="new-block type-19">
+                <div class="container">
+                    <div class="row page-tagline">
+                        <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                            <h2 class="title">{% trans "ГАЛЕРЕЯ" %}</h2>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="sorting-menu wow flipInX" data-wow-delay="0.3s">
+                    <div class="responsive-filtration-title">{% trans "Оберіть альбом" %}<span aria-hidden="true" class="glyphicon glyphicon-chevron-down"></span></div>
+                    <div class="responsive-filtration-toggle" style="margin-left:25px;">
+                        {% for cat in categories %}
+                        <a href="{{ cat.get_absolute_url}}" class="{% if gallery.category == cat %}active{% endif %}">{{cat.name}}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="sorting-menu wow flipInX" data-wow-delay="0.1s" style="margin-bottom: 30px">
+                    <div style="margin-left:25px">
+                        {% for gal in gallery.category.gals.all %}
+                        <a href="{{gal.get_absolute_url}}" class="{% if gal.title == gallery.title %}active{% endif %}">{{gal.title}}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                {% block gallery %}
+                {% endblock %}
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    {% endblock %}

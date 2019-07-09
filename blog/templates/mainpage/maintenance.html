@@ -1,0 +1,44 @@
+{% extends 'blog/layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+{% trans "Завітайте пізніше" %} | KHAI-GIS ©
+{% endblock %}
+
+{% block content %}
+<div id="content-wrapper">
+    <div class="blocks-container">
+        <div class="container blog-container">
+            <div class="page-wrap d-flex flex-row align-items-center" style="min-height: 70vh;">
+                    <div style="background-image: linear-gradient(45deg, #ffff66 25%, #100c08 25%, #100c08 50%, #ffff66 50%, #ffff66 75%, #100c08 75%, #100c08 100%);
+                    background-size: 84.85px 84.85px; height: 5vh; margin-right: calc(50% - 50vw); margin-left: calc(50% - 50vw);"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 text-center">
+                            <div class="new-block type-19">
+                                <div class="container">
+                                    <div class="row page-tagline">
+                                        <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                                            <h2 class="title">{% trans "РОЗДІЛ В РОЗРОБЦІ" %}</h2>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <a href="/"><img src="{% static 'blog/img/maintenance.jpg'%}" style="width:35vh"></a>
+                                <div class="clear" style="height:5vh"></div>
+                                <a href="/" class="button">{% trans "НА ГОЛОВНУ" %}</a>
+                                <div class="clear" style="height:5vh"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-image: linear-gradient(45deg, #ffff66 25%, #100c08 25%, #100c08 50%, #ffff66 50%, #ffff66 75%, #100c08 75%, #100c08 100%);
+                            background-size: 84.85px 84.85px; height: 5vh;"></div>
+</div>
+
+
+{% endblock %}

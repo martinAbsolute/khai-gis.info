@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Chivo);
+
+.container {
+   
+     height: auto;
+}
+/* To Navigation Style */
+.codeconTop {
+   background:#523D1F;
+    font-size: 0.69em;
+    line-height: 2.2;
+    padding: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.codeconTop a {
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    padding: 2em;
+    text-decoration: none;
+}
+
+.codeconTop a:hover {
+    background: rgba(255,255,255,0.95);
+    color: #716d62;
+}
+
+.codeconTop span.right {
+    float: right;
+}
+
+.codeconTop span.right a {
+    float: left;
+    display: block;
+}
+
+
+.descriptions{
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-left:72px;
+    line-height:25px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.cctop {
+    background:#222222; 
+    padding:12px;
+    overflow: auto;
+}
+
+
+
+.navbar-brand {
+    color:#FFFFFF;
+}
+
+
+a.navbar-brand :hover{ color:#FFFFFF;}
+.menus {
+    padding: 2em 0 3em;
+}
+
+.menus a {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.7em 1.1em;
+    outline: none;
+    background:#FFFFFF;
+    color: rgba(0,0,0,0.3);
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 1;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color:#608ebd;
+}
+
+.menus a:hover{
+color:#0156ac;
+}
+
+.bottom {
+    padding-bottom: 4em;
+    color: rgba(0,0,0,0.4);
+    text-align:center;
+}
+
+.bottom a {
+    display: inline-block;
+    margin-top: 0.5em;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+
+

@@ -1,0 +1,31 @@
+{% extends 'mainpage/gallery-container.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+{{gallery.title}} | {% trans "Галерея" %} {{gallery.category}} | KHAI-GIS ©
+{% endblock %}
+
+{% block gallery %}
+
+<div class="sorting-container full-page wow fadeInUp" data-wow-delay="0.3s">
+    <div class="grid-sizer"></div>
+    {% for image in gallery.images.all %}
+
+    <div class="sorting-item {% if forloop.counter|divisibleby:5 %} w2 filter-1 {% else %} filter-4 {% endif %}">
+        <a href="{{image.image.url}}" style="color: inherit;" data-fancybox="gallery" data-caption="{{image.description}}">
+            <img src="{% if forloop.counter|divisibleby:5 %} {{image.image.url_bigthumb}} {% else %} {{image.image.url_thumb}} {% endif %}" height="350" width="350" alt="{{image.title}} {{image.description}}" />
+            <div class="tagline">
+                <div class="content">
+                    <div class="title">{{image.title}}</div>
+                    <div class="description" id="gallerydesc">{{image.description}}</div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    {% endfor %}
+</div>
+<div class="clear"></div>
+
+{% endblock %}

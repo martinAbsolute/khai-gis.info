@@ -1,0 +1,56 @@
+{% extends 'blog/layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+{% trans "Информація для Студентів" %} | KHAI-GIS ©
+{% endblock %}
+
+{% block content %}
+
+<div class="new-block type-14" style="max-width: 100%; overflow-x: hidden;">
+    <div class="container">
+        <div class="row page-tagline abit">
+            <div class="col-md-6 col-md-offset-3">
+                <h2 class="title">{% trans "Студенту" %}</h2>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="row tabs-switch-container">
+            <div class="col-md-3">
+                <div class="tabs-limit-container">
+                    <div class="tabs-switch active abitfixicons" data-wow-delay="0.1s">
+                        <img src="{% static 'blog/img/theme-3/study-01.png'%}"
+                            alt="методичне забезпечення" /><span>{% trans "методичне забезпечення" %}</span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="row tabs-entry">
+                    <div class="col-sm-4 abitfix">
+                        <div class="cell-view">
+                            <div class="tabs-title">{% trans "Методичне забезпечення:" %}</div>
+                            <div class="tabs-text">
+                                <ul>
+                                    <li><a href="{% static 'blog/docs/stud/TrebOforml.pdf' %}" target="_blank">{% trans "ПОРЯДОК ОФОРМЛЕНИЯ УЧЕБНЫХ И НАУЧНО-ИССЛЕДОВАТЕЛЬСКИХ ДОКУМЕНТОВ" %}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-sm-4 abitfix">
+                        <div class="cell-view phdcol">
+                            <img src="{% static 'blog/img/abit/people-with-computer.png'%}" alt="аспирантура ХАИ" />
+                            <img src="{% static 'blog/img/abit/woman-laptop.png'%}" alt="аспирантура ХАИ" />
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

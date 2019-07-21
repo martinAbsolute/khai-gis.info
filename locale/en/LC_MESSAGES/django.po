@@ -132,7 +132,7 @@ msgstr "ENTER YOUR PHONE NUMBER"
 
 #: .\blog\templates\blog\layout.html:98
 msgid "   і ми з Вами зв'яжемося"
-msgstr "   and we will contact you"
+msgstr "    and we will contact you"
 
 #: .\blog\templates\blog\layout.html:103
 #: .\blog\templates\mainpage\gallery-container.html:6
@@ -802,11 +802,11 @@ msgstr "Associate Professor 407. Candidate of Technical Sciences."
 
 #: .\blog\templates\mainpage\contact.html:109
 msgid "Багнюк Мартін "
-msgstr "Martin Bagnyuk "
+msgstr "Martin Bagniuk "
 
 #: .\blog\templates\mainpage\contact.html:110
 msgid "Студент кафедри 407."
-msgstr ""
+msgstr "Student of department 407"
 
 #: .\blog\templates\mainpage\gallery-container.html:25
 msgid "Оберіть альбом"

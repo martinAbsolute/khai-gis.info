@@ -73,6 +73,9 @@
                 {% get_language_info_list for LANGUAGES as languages %}
                 {% for language in languages %}
                     <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                        {% if language.code == 'en' %} 🇬🇧 {% endif %}
+                        {% if language.code == 'ru' %} 🇷🇺{% endif %}
+                        {% if language.code == 'uk' %} 🇺🇦{% endif %}
                         {{ language.name_local }} ({{ language.code }})
                     </option>
                 {% endfor %}

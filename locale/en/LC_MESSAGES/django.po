@@ -1044,7 +1044,7 @@ msgstr "Butenko Olga Stanislavivna"
 #: .\blog\templates\mainpage\index.html:170
 #: .\blog\templates\mainpage\index.html:204
 msgid "д.т.н, професор"
-msgstr "Ph.D., professor"
+msgstr "Doctor of Technical sciences, professor"
 
 #: .\blog\templates\mainpage\index.html:171
 #: .\blog\templates\mainpage\index.html:205
@@ -1119,11 +1119,11 @@ msgstr "Ph.D."
 
 #: .\blog\templates\mainpage\index.html:245
 msgid "Гребінь Александр Сергійович, Харків, ГІС, GIS"
-msgstr "Grebin Alexander Sergeevich, Kharkiv, ГІС, GIS"
+msgstr "Greben Alexandr Sergeevich, Kharkiv, ГІС, GIS"
 
 #: .\blog\templates\mainpage\index.html:247
 msgid "Гребінь Александр Сергійович"
-msgstr "Grebin Alexander Sergeevich"
+msgstr "Greben Alexandr Sergeevich"
 
 #: .\blog\templates\mainpage\index.html:249
 msgid "Старший викладач кафедри 407"
@@ -1131,11 +1131,11 @@ msgstr "Senior lecturer of the department 407"
 
 #: .\blog\templates\mainpage\index.html:256
 msgid "Березіна Світлана Олександрівна, Харків, ГІС, GIS"
-msgstr "Berezina Svetlana Aleksandrovna, Kharkiv, ГІС, GIS"
+msgstr "Berezina Svetlana Ivanovna, Kharkiv, ГІС, GIS"
 
 #: .\blog\templates\mainpage\index.html:258
 msgid "Березіна Світлана Іванівна"
-msgstr "Berezina Svetlana Aleksandrovna"
+msgstr "Berezina Svetlana Ivanovna"
 
 #: .\blog\templates\mainpage\index.html:259
 #: .\blog\templates\mainpage\index.html:281
@@ -1205,7 +1205,7 @@ msgstr "Krasovskii Grigory Yakovlevich"
 
 #: .\blog\templates\mainpage\index.html:326
 msgid "д.т.н, професор, Лауреат Державної премії України."
-msgstr "Ph.D., Professor, Laureate of the State Prize of Ukraine."
+msgstr "Doctor of Technical sciences, Professor, Laureate of the State Prize of Ukraine."
 
 #: .\blog\templates\mainpage\index.html:327
 msgid "Засновник кафедри 407"

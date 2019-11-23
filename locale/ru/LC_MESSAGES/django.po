@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-27 15:15+0300\n"
+"POT-Creation-Date: 2019-11-23 15:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,37 +20,45 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\blog\templates\blog\blogmain.html:6 .\blog\templates\blog\blogpost.html:6
-#: .\blog\templates\blog\layout.html:102
+#: .\blog\templates\blog\blogmain.html:7 .\blog\templates\blog\blogpost.html:7
+#: .\blog\templates\blog\layout.html:105
 msgid "Новини"
 msgstr ""
 
-#: .\blog\templates\blog\blogmain.html:6
+#: .\blog\templates\blog\blogmain.html:7
 msgid "Міжнародні Відносини"
 msgstr ""
 
-#: .\blog\templates\blog\blogmain.html:18
+#: .\blog\templates\blog\blogmain.html:19
 msgid " МІЖНАРОДНІ ВІДНОСИНИ "
 msgstr ""
 
-#: .\blog\templates\blog\blogmain.html:18
+#: .\blog\templates\blog\blogmain.html:19
 msgid " НОВИНИ КАФЕДРИ "
 msgstr ""
 
-#: .\blog\templates\blog\blogmain.html:48
-#: .\blog\templates\blog\blogpost.html:47
+#: .\blog\templates\blog\blogmain.html:50
+#: .\blog\templates\blog\blogmain.html:135
+#: .\blog\templates\blog\blogmain.html:220
+#: .\blog\templates\blog\blogpost.html:49
+#: .\blog\templates\blog\blogpost.html:99
+#: .\blog\templates\blog\blogpost.html:149
 msgid "Файли для завантаження:"
 msgstr ""
 
-#: .\blog\templates\blog\blogmain.html:93
+#: .\blog\templates\blog\blogmain.html:95
+#: .\blog\templates\blog\blogmain.html:180
+#: .\blog\templates\blog\blogmain.html:265
 msgid "Попередня"
 msgstr ""
 
-#: .\blog\templates\blog\blogmain.html:99
+#: .\blog\templates\blog\blogmain.html:101
+#: .\blog\templates\blog\blogmain.html:186
+#: .\blog\templates\blog\blogmain.html:271
 msgid "Наступна "
 msgstr ""
 
-#: .\blog\templates\blog\blogpost.html:18
+#: .\blog\templates\blog\blogpost.html:19
 msgid "Життя кафедри"
 msgstr ""
 
@@ -123,34 +131,34 @@ msgstr ""
 msgid "КОНТАКТИ"
 msgstr ""
 
-#: .\blog\templates\blog\layout.html:93
+#: .\blog\templates\blog\layout.html:96
 msgid "Маєте бажання навчатися у нас?"
 msgstr ""
 
-#: .\blog\templates\blog\layout.html:95
+#: .\blog\templates\blog\layout.html:98
 msgid "ВВЕДІТЬ СВІЙ № ТЕЛЕФОНУ"
 msgstr ""
 
-#: .\blog\templates\blog\layout.html:98
+#: .\blog\templates\blog\layout.html:101
 msgid "   і ми з Вами зв'яжемося"
 msgstr ""
 
-#: .\blog\templates\blog\layout.html:103
+#: .\blog\templates\blog\layout.html:106
 #: .\blog\templates\mainpage\gallery-container.html:6
 #: .\blog\templates\mainpage\gallery.html:6
 msgid "Галерея"
 msgstr ""
 
-#: .\blog\templates\blog\layout.html:104
+#: .\blog\templates\blog\layout.html:107
 #: .\blog\templates\mainpage\abit.html:18
 msgid "Абітурієнту"
 msgstr ""
 
-#: .\blog\templates\blog\layout.html:106
+#: .\blog\templates\blog\layout.html:109
 msgid "Контакти"
 msgstr ""
 
-#: .\blog\templates\blog\layout.html:121
+#: .\blog\templates\blog\layout.html:124
 #: .\blog\templates\mainpage\contact.html:96
 msgid "Розробники"
 msgstr ""
@@ -747,120 +755,122 @@ msgstr ""
 msgid "Секунд"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:5
+#: .\blog\templates\mainpage\index.html:6
 msgid "Кафедра Геоінформаційних Технологій | НАУ ХАІ | ХАИ | KHAI-GIS ©"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:9
+#: .\blog\templates\mainpage\index.html:11
 msgid ""
 "Сайт кафедри 407 ХАІ геоінформаційних технологій та космічного моніторингу "
 "Землі"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:10
+#: .\blog\templates\mainpage\index.html:13
 msgid ""
 "Кафедра 407 ХАІ, Напрями підготовки, Інформація для вступників, контакти"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:12
+#: .\blog\templates\mainpage\index.html:15
 msgid ""
 "Національний аерокосмічний університет ім. М.Є. Жуковського - Харківський "
 "Авіаційний інститут, факултет ракетно-космічної техніки"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:14
+#: .\blog\templates\mainpage\index.html:17
 msgid ""
 "кафедра 407 ХАІ, Геоинформаційні системи, космічний моніторинг Землі, "
 "геодезія Харків, кафедра геоінформаційних систем, ГІС"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:15
-#: .\blog\templates\mainpage\index.html:16
+#: .\blog\templates\mainpage\index.html:18
+#: .\blog\templates\mainpage\index.html:19
 msgid "ХАІ ГІС кафедра 407"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:44
+#: .\blog\templates\mainpage\index.html:47
 msgid "кафедра геоінформаційних технологій та космічного моніторингу Землі"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:48
+#: .\blog\templates\mainpage\index.html:52
 msgid ""
 "Запрошуємо всіх бажаючих вступати до нас на освітню програму Геоінформаційні "
 "системи і технології, спеціальності ◂ 193 - Геодезія та Землеустрій та "
 "космічний моніторинг Землі ◂ 103 - Науки про Землю"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:61
+#: .\blog\templates\mainpage\index.html:67
+#: .\blog\templates\mainpage\index.html:78
+#: .\blog\templates\mainpage\index.html:89
 msgid "Детальніше"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:72
+#: .\blog\templates\mainpage\index.html:102
 msgid "ГІС, GIS, геоінформатика, геодезія, картографія"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:74
+#: .\blog\templates\mainpage\index.html:104
 msgid "геоінформатика, геодезія, картографія, it освіта, ГІС, GIS, ГИС"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:76
+#: .\blog\templates\mainpage\index.html:106
 msgid "дисципліни"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:82
+#: .\blog\templates\mainpage\index.html:111
 msgid "Грамоти, нагороди"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:84
+#: .\blog\templates\mainpage\index.html:113
 msgid "Грамоти, нагороди, ГІС, GIS, ГИС"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:86
+#: .\blog\templates\mainpage\index.html:115
 msgid "років праці"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:93
+#: .\blog\templates\mainpage\index.html:122
 msgid "Here Maps Україна, ГІС, GIS, ГИС"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:94
+#: .\blog\templates\mainpage\index.html:123
 msgid "1-ші місця"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:95
+#: .\blog\templates\mainpage\index.html:124
 msgid "В змаганнях HERE maps"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:100
+#: .\blog\templates\mainpage\index.html:129
 msgid "випускники ХАІ"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:102
+#: .\blog\templates\mainpage\index.html:131
 msgid "випускники ХАІ, ГІС, GIS, ГИС"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:104
+#: .\blog\templates\mainpage\index.html:133
 msgid "випускників"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:118
+#: .\blog\templates\mainpage\index.html:147
 msgid "напрями підготовки"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:119
+#: .\blog\templates\mainpage\index.html:149
 msgid ""
 "Кафедра надає навчання за двома напрямками підготовки з можливістю вступу до "
 "магістратури."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:125
+#: .\blog\templates\mainpage\index.html:156
 msgid "Геоінформаційні cистеми і технології"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:126
+#: .\blog\templates\mainpage\index.html:157
 msgid "Геодезія та землеустрій"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:127
+#: .\blog\templates\mainpage\index.html:159
 msgid ""
 "Геоінформаційні системи і технології - один з IT - напрямків, що найбільш "
 "стрімко розвиваються, який охоплює безліч актуальних завдань в таких "
@@ -870,15 +880,15 @@ msgid ""
 "зображень, проектування баз геоданих."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:132
+#: .\blog\templates\mainpage\index.html:165
 msgid "Космічний моніторинг Землі"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:133
+#: .\blog\templates\mainpage\index.html:166
 msgid "Науки про Землю"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:134
+#: .\blog\templates\mainpage\index.html:168
 msgid ""
 " 'Науки про Землю' - комплекс наук, які вивчають Землю, геосферу та "
 "космічний простір навколо неї. Фахівці даного напрямку затребувані в галузі "
@@ -887,248 +897,242 @@ msgid ""
 "тематичного картографування, екологічного моніторингу та ін. "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:146
+#: .\blog\templates\mainpage\index.html:181
 msgid "Склад кафедри"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:147
+#: .\blog\templates\mainpage\index.html:183
 msgid ""
 "На кафедрі працюють фахівці вищого рівня - професора, доктора наук, доктора "
 "філософії технічних наук."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:156
+#: .\blog\templates\mainpage\index.html:193
 msgid "Андрєєв Сергій Михайлович, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:158
+#: .\blog\templates\mainpage\index.html:195
 msgid "Андрєєв Сергій Михайлович"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:159
-msgid "к.т.н, доцент "
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:160
-#: .\blog\templates\mainpage\index.html:194
-#: .\blog\templates\mainpage\index.html:216
-#: .\blog\templates\mainpage\index.html:227
-#: .\blog\templates\mainpage\index.html:238
-#: .\blog\templates\mainpage\index.html:260
-#: .\blog\templates\mainpage\index.html:282
-#: .\blog\templates\mainpage\index.html:293
-#: .\blog\templates\mainpage\index.html:305
-msgid "Доцент кафедри 407"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:167
-msgid "Бутенко Ольга Станіславівна, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:169
-msgid "Бутенко Ольга Станіславівна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:170
-#: .\blog\templates\mainpage\index.html:204
-msgid "д.т.н, професор"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:171
-#: .\blog\templates\mainpage\index.html:205
-msgid "Професор кафедри 407"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:179
-msgid "Горелик Станіслав Ігорович, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:181
-msgid "Горелик Станіслав Ігорович"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:182
-#: .\blog\templates\mainpage\index.html:193
-#: .\blog\templates\mainpage\index.html:215
+#: .\blog\templates\mainpage\index.html:196
+#: .\blog\templates\mainpage\index.html:218
+#: .\blog\templates\mainpage\index.html:229
+#: .\blog\templates\mainpage\index.html:251
 msgid "к.т.н, доцент"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:183
+#: .\blog\templates\mainpage\index.html:197
+#: .\blog\templates\mainpage\index.html:230
+#: .\blog\templates\mainpage\index.html:252
+#: .\blog\templates\mainpage\index.html:263
+#: .\blog\templates\mainpage\index.html:274
+#: .\blog\templates\mainpage\index.html:296
+#: .\blog\templates\mainpage\index.html:318
+#: .\blog\templates\mainpage\index.html:329
+#: .\blog\templates\mainpage\index.html:340
+msgid "Доцент кафедри 407"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:204
+msgid "Бутенко Ольга Станіславівна, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:206
+msgid "Бутенко Ольга Станіславівна"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:207
+#: .\blog\templates\mainpage\index.html:240
+msgid "д.т.н, професор"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:208
+#: .\blog\templates\mainpage\index.html:241
+msgid "Професор кафедри 407"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:215
+msgid "Горелик Станіслав Ігорович, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:217
+msgid "Горелик Станіслав Ігорович"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:219
 msgid "Завідуючий кафедрою 407"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:190
+#: .\blog\templates\mainpage\index.html:226
 msgid "Жилін Володимир Анатолійович, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:192
+#: .\blog\templates\mainpage\index.html:228
 msgid "Жилін Володимир Анатолійович"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:201
+#: .\blog\templates\mainpage\index.html:237
 msgid "Пащенко Руслан Едуардович, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:203
+#: .\blog\templates\mainpage\index.html:239
 msgid "Пащенко Руслан Едуардович"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:212
+#: .\blog\templates\mainpage\index.html:248
 msgid "Даншина Світлана Юріївна, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:214
+#: .\blog\templates\mainpage\index.html:250
 msgid "Даншина Світлана Юріївна"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:223
+#: .\blog\templates\mainpage\index.html:259
 msgid "Красовська Інеса Григоріївна, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:225
+#: .\blog\templates\mainpage\index.html:261
 msgid "Красовська Інеса Григоріївна"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:226
+#: .\blog\templates\mainpage\index.html:262
+#: .\blog\templates\mainpage\index.html:295
 msgid "к.т.н, с.н.с"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:234
+#: .\blog\templates\mainpage\index.html:270
 msgid "Нечаусов Артем Сергійович, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:236
+#: .\blog\templates\mainpage\index.html:272
 msgid "Нечаусов Артем Сергійович"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:237
-msgid "к.т.н</div>"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:245
-msgid "Гребінь Александр Сергійович, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:247
-msgid "Гребінь Александр Сергійович"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:249
-msgid "Старший викладач кафедри 407"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:256
-msgid "Березіна Світлана Олександрівна, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:258
-msgid "Березіна Світлана Іванівна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:259
-#: .\blog\templates\mainpage\index.html:281
-msgid "к.т.н., доцент"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:267
-msgid "Лазарєва Ольга Євгенівна, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:269
-msgid "Лазарєва Ольга Євгенівна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:271
-#: .\blog\templates\mainpage\index.html:316
-msgid "Асистент кафедри 407"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:278
-msgid "Сухомлин Людмила Володимирівна, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:280
-msgid "Сухомлин Людмила Володимирівна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:289
-msgid "Ковальова Віра Олександрівна, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:291
-msgid "Ковальова Віра Олександрівна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:292
+#: .\blog\templates\mainpage\index.html:273
+#: .\blog\templates\mainpage\index.html:328
 msgid "к.т.н"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:301
-msgid "Зубкович Cвітлана Олександрівна, Харків, ГІС, GIS"
+#: .\blog\templates\mainpage\index.html:281
+msgid "Гребінь Александр Сергійович, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:283
+msgid "Гребінь Александр Сергійович"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:285
+msgid "Старший викладач кафедри 407"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:292
+msgid "Березіна Світлана Іванівна, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:294
+msgid "Березіна Світлана Іванівна"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:303
-msgid "Зубкович Cвітлана Олександрівна"
+msgid "Лазарєва Ольга Євгенівна, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:304
-msgid "к.геогр.н., доцент"
+#: .\blog\templates\mainpage\index.html:305
+msgid "Лазарєва Ольга Євгенівна"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:312
-msgid "Марюшко Максим В'ячеславович, Харків, ГІС, GIS"
+#: .\blog\templates\mainpage\index.html:307
+#: .\blog\templates\mainpage\index.html:351
+msgid "Асистент кафедри 407"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:314
-msgid "Марюшко Максим В'ячеславович"
+msgid "Сухомлин Людмила Володимирівна, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:323
-msgid "Красовський Григорій Якович, Харків, ГІС, GIS"
+#: .\blog\templates\mainpage\index.html:316
+msgid "Сухомлин Людмила Володимирівна"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:317
+msgid "канд. е. наук, доцент"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:325
-msgid "Красовський Григорій Якович<"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:326
-msgid "д.т.н, професор, Лауреат Державної премії України."
+msgid "Ковальова Віра Олександрівна, Харків, ГІС, GIS"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:327
+msgid "Ковальова Віра Олександрівна"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:336
+msgid "Зубкович Cвітлана Олександрівна, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:338
+msgid "Зубкович Cвітлана Олександрівна"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:339
+msgid "к.геогр.н., доцент"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:347
+msgid "Марюшко Максим В'ячеславович, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:349
+msgid "Марюшко Максим В'ячеславович"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:358
+msgid "Красовський Григорій Якович, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:360
+msgid "Красовський Григорій Якович"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:361
+msgid "д.т.н, професор, Лауреат Державної премії України."
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:362
 msgid "Засновник кафедри 407"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:340
+#: .\blog\templates\mainpage\index.html:375
 msgid "Про кафедру"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:341
-#: .\blog\templates\mainpage\index.html:373
+#: .\blog\templates\mainpage\index.html:376
+#: .\blog\templates\mainpage\index.html:409
 msgid "КАФЕДРА 407"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:342
-#: .\blog\templates\mainpage\index.html:380
+#: .\blog\templates\mainpage\index.html:377
+#: .\blog\templates\mainpage\index.html:425
 msgid "ІСТОРІЯ КАФЕДРИ"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:342
+#: .\blog\templates\mainpage\index.html:378
 msgid "ЧОМУ МИ НАВЧАЄМО?"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:354
+#: .\blog\templates\mainpage\index.html:390
 msgid ""
 "Літальний корпус, навчально-лабораторний корпус, ФРКТ, ХАІ, it освіту "
 "Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:359
-#: .\blog\templates\mainpage\index.html:364
+#: .\blog\templates\mainpage\index.html:395
+#: .\blog\templates\mainpage\index.html:400
 msgid "геоінформатика, картографія, ГІС, геодезія, навігаційні системи Харків"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:374
+#: .\blog\templates\mainpage\index.html:411
 msgid ""
 " Кафедра 'Геоінформаційних технологій та космічного моніторингу Землі' "
 "входить до складу факультету ракетно-космічної техніки в ХАІ. Виконуючий "
@@ -1136,32 +1140,32 @@ msgid ""
 "Ігорович."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:375
+#: .\blog\templates\mainpage\index.html:414
 msgid ""
 "Кафедра 407 оснащена сучасним обчислювальним, комп'ютерним та геодезичним "
 "обладнанням, в тому числі, власною станцією прийому даних дистанційного "
 "зондування Землі з супутників "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:376
+#: .\blog\templates\mainpage\index.html:417
 msgid ""
 "У розпорядженні кафедри також є ліцензія на використання найбільш потужного "
 "та сучасного на сьогоднішній день програмного пакета компанії"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:377
+#: .\blog\templates\mainpage\index.html:419
 msgid ""
 "для аналізу геоінформаційних даних, обробки супутникових знімків, а також "
 "створення та обробки картографічних даних"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:378
+#: .\blog\templates\mainpage\index.html:421
 msgid ""
 "Викладачі кафедри систематично проходять інтенсивні курси підвищення "
 "кваліфікації в"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:381
+#: .\blog\templates\mainpage\index.html:427
 msgid ""
 "Кафедра була заснована видатним діячем та новатором в сфері геоінформаційних "
 "технологій, професором, доктором технічних наук, Лауреатом Державної премії "
@@ -1169,7 +1173,7 @@ msgid ""
 "років з моменту відкриття спеціальності в 2004."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:382
+#: .\blog\templates\mainpage\index.html:430
 msgid ""
 "Перший набір студентів за напрямом 'Геодезія, картографія та землеустрій' "
 "відбувся в 2004 році. Тоді спеціальність базувалася на кафедрі виробництва "
@@ -1177,174 +1181,174 @@ msgid ""
 "систем літальних апаратів'."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:383
+#: .\blog\templates\mainpage\index.html:433
 msgid ""
 "У 2008 році, разом з першим випуском бакалаврів, відбувся перший набір "
 "магістрів та спеціалістів з напряму 'Геоінформаційні системи і технології'."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:384
+#: .\blog\templates\mainpage\index.html:436
 msgid ""
 "У 2013 році була акредитована нова затребувана спеціальність - 'Космічний "
 "моніторинг Землі'."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:385
+#: .\blog\templates\mainpage\index.html:439
 msgid ""
 "20 листопада 2016 року відбулась реструктуризація ХАІ: на базі факультету №4 "
 "- Ракетно-космічної техніки - з'явилася нова кафедра 'Геоінформаційних "
 "технологій і космічного моніторингу Землі'."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:390
+#: .\blog\templates\mainpage\index.html:445
 msgid "Чому ми навчаємо?"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:392
+#: .\blog\templates\mainpage\index.html:447
 msgid "Internet технології та мережі (html, PHP, Java, ASP.NET, CMS);"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:393
+#: .\blog\templates\mainpage\index.html:448
 msgid "інформатика і програмування (С#, C++, Python);"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:394
+#: .\blog\templates\mainpage\index.html:449
 msgid "системи та засоби 3D моделювання рельєфу місцевості; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:395
+#: .\blog\templates\mainpage\index.html:450
 msgid "методи цифрової обробки аерокосмічних знімків; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:396
+#: .\blog\templates\mainpage\index.html:451
 msgid "системи і методи дистанційного зондування Землі; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:397
+#: .\blog\templates\mainpage\index.html:452
 msgid "системи глобального навігаційного позиціонування; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:398
+#: .\blog\templates\mainpage\index.html:453
 msgid "системи цифрової картографії (Панорама, ArcGis); "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:399
+#: .\blog\templates\mainpage\index.html:454
 msgid "системи землевпорядкування та кадастру (ERDAS Imagine); "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:400
+#: .\blog\templates\mainpage\index.html:455
 msgid "методи аналізу, фотограмметрії і дешифрування геоданих (ScanMagic); "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:401
+#: .\blog\templates\mainpage\index.html:456
 msgid "земельне право та інвестиційний аналіз; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:402
+#: .\blog\templates\mainpage\index.html:457
 msgid "загальна, вища і супутникова геодезія; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:403
+#: .\blog\templates\mainpage\index.html:458
 msgid "геоінформаційні та експертні системи; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:404
+#: .\blog\templates\mainpage\index.html:459
 msgid "засоби та методи захисту інформації; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:405
+#: .\blog\templates\mainpage\index.html:460
 msgid "програмування та проектування баз геоданих; "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:406
+#: .\blog\templates\mainpage\index.html:461
 msgid ""
 "дизайн і підготовка картографічних матеріалів (AdobePhotoshop, CorelDraw);"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:407
+#: .\blog\templates\mainpage\index.html:462
 msgid "географія, геологія, метеорологія, кліматологія, екологія. "
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:428
+#: .\blog\templates\mainpage\index.html:483
 msgid "Наші партнери"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:429
+#: .\blog\templates\mainpage\index.html:485
 msgid ""
 "Кафедра співпрацює з вітчизняними та зарубіжними компаніями за різними "
 "напрямками: навчальна практика, працевлаштування випускників та наукова "
 "робота."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:453
+#: .\blog\templates\mainpage\index.html:519
 msgid "Напрямки працевлаштування"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:462
+#: .\blog\templates\mainpage\index.html:528
 msgid "Підприємства, що виконують геодезичні роботи"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:463
+#: .\blog\templates\mainpage\index.html:529
 msgid "Геодезисти, інженери-технологи"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:470
+#: .\blog\templates\mainpage\index.html:536
 msgid "Підприємства із землевпорядкування та кадастру"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:471
+#: .\blog\templates\mainpage\index.html:537
 msgid "Землевпорядники, кадастрові інженери, фахівці з грошової оцінки землі"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:476
+#: .\blog\templates\mainpage\index.html:542
 msgid "ГИС, ГІС, GIS, it образование Харьков, it спеціальності Харків"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:478
+#: .\blog\templates\mainpage\index.html:544
 msgid "IT-компанії та підприємства"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:479
+#: .\blog\templates\mainpage\index.html:545
 msgid "Розробники ПЗ, адміністратори систем і баз даних, веб-програмісти"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:484
+#: .\blog\templates\mainpage\index.html:550
 msgid "ГИС, ГІС, GIS, Картографія Харків, Картография Харьков"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:486
+#: .\blog\templates\mainpage\index.html:552
 msgid "Картографічні підприємства"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:487
+#: .\blog\templates\mainpage\index.html:553
 msgid "ГІС-спеціалісти, картографи, геокодери, технологи, керівники"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:491
+#: .\blog\templates\mainpage\index.html:558
 msgid ""
 "ГИС, GIS, ГІС, Працевлаштування геодезія Харків, Трудоустройство геодезия "
 "Харьков"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:493
+#: .\blog\templates\mainpage\index.html:560
 msgid "Державні та обласні управління"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:494
+#: .\blog\templates\mainpage\index.html:562
 msgid ""
 "Спеціалісти з охорони природного серидовища, управління земельними, водними, "
 "лісними ресурсами"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:498
+#: .\blog\templates\mainpage\index.html:568
 msgid "ГИС, ГІС, GIS, Точне землеробство Харків, Точное земледелие Харьков"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:500
+#: .\blog\templates\mainpage\index.html:570
 msgid "Аграрна сфера"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:501
+#: .\blog\templates\mainpage\index.html:571
 msgid "Фахівці з точного землеробства, оптимізації процесу збору врожаю"
 msgstr ""
 

@@ -7,12 +7,14 @@
 
 {% block plushead %}
 <meta name="title" content="KhAI-K407GIS" />
-<meta name="description" content="{% trans "Сайт кафедри 407 ХАІ геоінформаційних технологій та космічного моніторингу Землі" %}">
-<meta name="description" content="{% trans "Кафедра 407 ХАІ, Напрями підготовки, Інформація для вступників, контакти" %}">
 <meta name="description"
-    content="{% trans "Національний аерокосмічний університет ім. М.Є. Жуковського - Харківський Авіаційний інститут, факултет ракетно-космічної техніки" %}">
+  content="{% trans "Сайт кафедри 407 ХАІ геоінформаційних технологій та космічного моніторингу Землі" %}">
+<meta name="description"
+  content="{% trans "Кафедра 407 ХАІ, Напрями підготовки, Інформація для вступників, контакти" %}">
+<meta name="description"
+  content="{% trans "Національний аерокосмічний університет ім. М.Є. Жуковського - Харківський Авіаційний інститут, факултет ракетно-космічної техніки" %}">
 <meta name="keywords"
-    content="{% trans "кафедра 407 ХАІ, Геоинформаційні системи, космічний моніторинг Землі, геодезія Харків, кафедра геоінформаційних систем, ГІС" %}">
+  content="{% trans "кафедра 407 ХАІ, Геоинформаційні системи, космічний моніторинг Землі, геодезія Харків, кафедра геоінформаційних систем, ГІС" %}">
 <meta name="title" content="{% trans "ХАІ ГІС кафедра 407" %}" />
 <meta name="author" content="{% trans "ХАІ ГІС кафедра 407" %}" />
 <link href="{% static 'blog/css/component.css'%}" rel="stylesheet" type="text/css" />
@@ -29,507 +31,551 @@
 {% block content %}
 
 <div id="content-wrapper">
-    <div class="blocks-container">
-        <!-- BLOCK "TYPE 1" -->
-        <div class="block type-1 scroll-to-block" data-id="home">
-            <div class="clip">
-                <div class="bg" style="background-image:url({% static 'blog/img/mainpage/backdrop.jpg'%});">
-                </div>
-                <div class="bg-span"></div>
-            </div>
-            <div class="container type-1-text">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 type-1-center header-title">
-
-                        <article class="big white table">
-                            <h1 class="h1">{% trans "кафедра геоінформаційних технологій та космічного моніторингу Землі" %}</h1>
-                            <p>
-                                <marquee behavior="scroll"
-                                    style=" font-weight: bold; width: 100%; background-color: rgba(0, 0, 0, 0.3); color: #4caf50; font-size: 20px">
-                                    <a style="color: #4caf50;" href="/abit">{% trans "Запрошуємо всіх бажаючих вступати до нас на освітню програму Геоінформаційні системи і технології, спеціальності ◂ 193 - Геодезія та Землеустрій та космічний моніторинг Землі ◂ 103 - Науки про Землю" %}</a></marquee>
-                            </p>
-                        </article>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-10 col-md-offset-1 type-1-center banner-slider" style="padding-bottom: 10px;">
-                {% if LANGUAGE_CODE == 'en' %}
-                    {% for post in posts_en %}
-                    <div style="position: relative;">
-                        <img src="{{post.newsfeed.url_banner}}">
-                        <div class="banner-text-box">
-                            <h4>{{post.enabstract|linebreaksbr}}</h4>
-                            <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
-                                    href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
-                        </div>
-                    </div>
-                    {% endfor %}
-                {% elif LANGUAGE_CODE == 'ru' %}
-                    {% for post in posts_ru %}
-                    <div style="position: relative;">
-                        <img src="{{post.newsfeed.url_banner}}">
-                        <div class="banner-text-box">
-                            <h4>{{post.enabstract|linebreaksbr}}</h4>
-                            <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
-                                    href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
-                        </div>
-                    </div>
-                    {% endfor %}
-                {% else %}
-                    {% for post in posts %}
-                    <div style="position: relative;">
-                        <img src="{{post.newsfeed.url_banner}}">
-                        <div class="banner-text-box">
-                            <h4>{{post.abstract|linebreaksbr}}</h4>
-                            <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
-                                    href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
-                        </div>
-                    </div>
-                    {% endfor %}
-                {% endif %}
-                
-            </div>
-            <div class="numbers">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-3 col-xs-6 col-sm-3">
-                            <a href="#about-kaf" class="scroll-to-link"><img class="thumbs-image"
-                                    src="{% static 'blog/img/mainpage/banner_thumbnail_1.jpg'%}"
-                                    alt="{% trans "ГІС, GIS, геоінформатика, геодезія, картографія" %}" />
-                                <img class="thumbs-icon" src="{% static 'blog/img/mainpage/icon_1.png'%}"
-                                    alt="{% trans "геоінформатика, геодезія, картографія, it освіта, ГІС, GIS, ГИС" %}" />
-                                <span class="num">54</span>
-                                <span class="num-text">{% trans "дисципліни" %}</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xs-6  col-sm-3">
-                            <a href="#about-kaf" class="scroll-to-link"><img class="thumbs-image"
-                                    src="{% static 'blog/img/mainpage/banner_thumbnail_2.jpg'%}"
-                                    alt="{% trans "Грамоти, нагороди" %}" />
-                                <img class="thumbs-icon" src="{% static 'blog/img/mainpage/icon_2.png'%}"
-                                    alt="{% trans "Грамоти, нагороди, ГІС, GIS, ГИС" %}" />
-                                <span class="num">12</span>
-                                <span class="num-text">{% trans "років праці" %}</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xs-6 col-sm-3">
-                            <a href="https://here.com/en" class="scroll-to-link"><img class="thumbs-image"
-                                    src="{% static 'blog/img/mainpage/banner_thumbnail_3.jpg'%}" alt="Here Maps" />
-                                <img class="thumbs-icon" src="{% static 'blog/img/mainpage/icon_3.png'%}"
-                                    alt="{% trans "Here Maps Україна, ГІС, GIS, ГИС" %}" />
-                                <span class="num">{% trans "1-ші місця" %}</span>
-                                <span class="num-text">{% trans "В змаганнях HERE maps" %}</span>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xs-6  col-sm-3">
-                            <a href="/abit" class="scroll-to-link"><img class="thumbs-image"
-                                    src="{% static 'blog/img/mainpage/banner_thumbnail_4.jpg'%}" alt="{% trans "випускники ХАІ" %}" />
-                                <img class="thumbs-icon" src="{% static 'blog/img/mainpage/icon_4.png'%}"
-                                    alt="{% trans "випускники ХАІ, ГІС, GIS, ГИС" %}" />
-                                <span class="num">300+</span>
-                                <span class="num-text">{% trans "випускників" %}</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="blocks-container">
+    <!-- BLOCK "TYPE 1" -->
+    <div class="block type-1 scroll-to-block" data-id="home">
+      <div class="clip">
+        <div class="bg" style="background-image:url({% static 'blog/img/mainpage/backdrop.jpg'%});">
         </div>
-        <!-- BLOCK "TYPE 1" -->
+        <div class="bg-span"></div>
+      </div>
+      <div class="container type-1-text">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 type-1-center header-title">
 
-        <!-- BLOCK "TYPE 4" НАПР ПОДГ-->
-        <div class="block type-4 scroll-to-block" data-id="directions">
-            <div class="container type-4-text">
-                <div class="row page-tagline">
-                    <div class="col-md-6 col-md-offset-3">
-                        <h2 class="title">{% trans "напрями підготовки" %}</h2>
-                        <div class="description">{% trans "Кафедра надає навчання за двома напрямками підготовки з можливістю вступу до магістратури." %}</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="bottom-column-left col-md-6 background-spet">
-                        <article class="normall ">
-                            <h2 class="h2 titel-left">{% trans "Геоінформаційні cистеми і технології" %}</h2>
-                            <h3 class="h3">{% trans "Геодезія та землеустрій" %}</h3>
-                            <p> {% trans "Геоінформаційні системи і технології - один з IT - напрямків, що найбільш стрімко розвиваються, який охоплює безліч актуальних завдань в таких областях, як геодезія, цифрова картографія, землевпорядкування та кадастр, технології глобального позиціонування (GPS, ГЛОНАСС, Galileo, Compass), Internet технології, 3D моделювання, методи цифрової обробки аерокосмічних зображень, проектування баз геоданих." %}</p>
-                        </article>
-                    </div>
-                    <div class="bottom-column-right col-md-6">
-                        <article class="normall">
-                            <h2 class="h2 titel-left">{% trans "Космічний моніторинг Землі" %}</h2>
-                            <h3 class="h3">{% trans "Науки про Землю" %}</h3>
-                            <p>{% trans " 'Науки про Землю' - комплекс наук, які вивчають Землю, геосферу та космічний простір навколо неї. Фахівці даного напрямку затребувані в галузі нафтогазової та рудної геології, геодезичних вимірювань поверхні Землі, прогнозування погоди, обробки даних ДЗЗ (дистанційного зондування Землі), тематичного картографування, екологічного моніторингу та ін. " %}</p>
-                        </article>
-                    </div>
-                </div>
-            </div>
+            <article class="big white table">
+              <h1 class="h1">{% trans "кафедра геоінформаційних технологій та космічного моніторингу Землі" %}</h1>
+              <p>
+                <marquee behavior="scroll"
+                  style=" font-weight: bold; width: 100%; background-color: rgba(0, 0, 0, 0.3); color: #4caf50; font-size: 20px">
+                  <a style="color: #4caf50;"
+                    href="/abit">{% trans "Запрошуємо всіх бажаючих вступати до нас на освітню програму Геоінформаційні системи і технології, спеціальності ◂ 193 - Геодезія та Землеустрій та космічний моніторинг Землі ◂ 103 - Науки про Землю" %}</a>
+                </marquee>
+              </p>
+            </article>
+          </div>
         </div>
-        <!-- BLOCK "TYPE 4" -->
-
-        <!-- BLOCK "TEAM" block type 5 -->
-        <div class="new-block type-10 scroll-to-block" data-id="team">
-            <div class="row page-tagline">
-                <div class="col-md-6 col-md-offset-3">
-                    <h2 class="title">{% trans "Склад кафедри" %}</h2>
-                    <div class="description">{% trans "На кафедрі працюють фахівці вищого рівня - професора, доктора наук, доктора філософії технічних наук." %}</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="responsive">
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/andreev.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Андрєєв Сергій Михайлович, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Андрєєв Сергій Михайлович" %}</div>
-                            <div class="position">{% trans "к.т.н, доцент " %}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/butenko.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Бутенко Ольга Станіславівна, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Бутенко Ольга Станіславівна" %}</div>
-                            <div class="position">{% trans "д.т.н, професор" %}</div>
-                            <div class="description">{% trans "Професор кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/gorelik.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Горелик Станіслав Ігорович, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Горелик Станіслав Ігорович" %}</div>
-                            <div class="position">{% trans "к.т.н, доцент" %}</div>
-                            <div class="description">{% trans "Завідуючий кафедрою 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/zhilin.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Жилін Володимир Анатолійович, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Жилін Володимир Анатолійович" %}</div>
-                            <div class="position">{% trans "к.т.н, доцент" %}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/pashenko.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Пащенко Руслан Едуардович, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Пащенко Руслан Едуардович" %}</div>
-                            <div class="position">{% trans "д.т.н, професор" %}</div>
-                            <div class="description">{% trans "Професор кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/danshina.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Даншина Світлана Юріївна, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Даншина Світлана Юріївна" %}</div>
-                            <div class="position">{% trans "к.т.н, доцент" %}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/krasovskaya.jpg'%}" height="320"
-                                    width="250" alt="{% trans "Красовська Інеса Григоріївна, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Красовська Інеса Григоріївна" %}</div>
-                            <div class="position">{% trans "к.т.н, с.н.с" %}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/nechausov1.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Нечаусов Артем Сергійович, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Нечаусов Артем Сергійович" %}</div>
-                            <div class="position">{% trans "к.т.н"%}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/greben.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Гребінь Александр Сергійович, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Гребінь Александр Сергійович" %}</div>
-                            <div class="position"></div>
-                            <div class="description">{% trans "Старший викладач кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/berezina.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Березіна Світлана Олександрівна, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Березіна Світлана Іванівна" %}</div>
-                            <div class="position">{% trans "к.т.н., доцент" %}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/lazareva.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Лазарєва Ольга Євгенівна, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Лазарєва Ольга Євгенівна" %}</div>
-                            <div class="position"></div>
-                            <div class="description">{% trans "Асистент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/sukhomlin.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Сухомлин Людмила Володимирівна, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Сухомлин Людмила Володимирівна" %}</div>
-                            <div class="position">{% trans "к.т.н., доцент" %}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/kovalyova.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Ковальова Віра Олександрівна, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Ковальова Віра Олександрівна" %}</div>
-                            <div class="position">{% trans "к.т.н" %}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/zubkovitch.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Зубкович Cвітлана Олександрівна, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Зубкович Cвітлана Олександрівна" %}</div>
-                            <div class="position">{% trans "к.геогр.н., доцент" %}</div>
-                            <div class="description">{% trans "Доцент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/maryushko.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Марюшко Максим В'ячеславович, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name">{% trans "Марюшко Максим В'ячеславович" %}</div>
-                            <div class="position"></div>
-                            <div class="description">{% trans "Асистент кафедри 407" %}</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="paddings-container">
-                            <div class="image-wrapper">
-                                <img src="{% static 'blog/img/mainpage/staff/krasovski.jpg'%}" height="320" width="250"
-                                    alt="{% trans "Красовський Григорій Якович, Харків, ГІС, GIS" %}" />
-                            </div>
-                            <div class="name"> {% trans "Красовський Григорій Якович" %} </div>
-                            <div class="position">{% trans "д.т.н, професор, Лауреат Державної премії України." %}</div>
-                            <div class="description">{% trans "Засновник кафедри 407" %}</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+      </div>
+      <div class="col-md-10 col-md-offset-1 type-1-center banner-slider" style="padding-bottom: 10px;">
+        {% if LANGUAGE_CODE == 'en' %}
+        {% for post in posts_en %}
+        <div style="position: relative;">
+          <img src="{{post.newsfeed.url_banner}}">
+          <div class="banner-text-box">
+            <h4>{{post.enabstract|linebreaksbr}}</h4>
+            <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
+                href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
+          </div>
         </div>
-        <!-- BLOCK "TEAM" -->
-
-        <!-- BLOCK "TYPE 5" ПРО КАФЕДРУ-->
-        <div class="block type-5 scroll-to-block" data-id="about-kaf">
-            <div class="row page-tagline">
-                <div class="col-md-6 col-md-offset-3    ">
-                    <h2 class="title">{% trans "Про кафедру" %}</h2>
-                    <div class="description">{% trans "КАФЕДРА 407" %} <span style="color: #099934; font-size: 12px;"> ► </span>
-                        {% trans "ІСТОРІЯ КАФЕДРИ" %} <span style="color: #099934; font-size: 12px;"> ► </span> {% trans "ЧОМУ МИ НАВЧАЄМО?" %}
-                    </div>
-                </div>
-            </div>
+        {% endfor %}
+        {% elif LANGUAGE_CODE == 'ru' %}
+        {% for post in posts_ru %}
+        <div style="position: relative;">
+          <img src="{{post.newsfeed.url_banner}}">
+          <div class="banner-text-box">
+            <h4>{{post.enabstract|linebreaksbr}}</h4>
+            <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
+                href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
+          </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6   fadeInLeft" style="padding-top:30px; padding-left: 0px; padding-right: 0px;">
-                    <div class="vertical-slider2" style="max-width: 100vw !important;">
-                        <div class="img-wrap" style="text-align:center; max-width: 100vw !important;">
-                            <img src="{% static 'blog/img/mainpage/how_it_work_image1.png'%}"
-                                style="display:inline-block; max-width: 100vw !important;"
-                                alt="{% trans "Літальний корпус, навчально-лабораторний корпус, ФРКТ, ХАІ, it освіту Харків, ГІС, GIS" %}" />
-                        </div>
-                        <div class="img-wrap" style="text-align:center; max-width: 100vw !important;">
-                            <img src="{% static 'blog/img/mainpage/how_it_work_image3.png'%}"
-                                style="display:inline-block; max-width: 100vw !important;"
-                                alt="{% trans "геоінформатика, картографія, ГІС, геодезія, навігаційні системи Харків" %}" />
-                        </div>
-                        <div class="img-wrap" style="text-align:center; max-width: 100vw !important;">
-                            <img src="{% static 'blog/img/mainpage/how_it_work_image2.png'%}"
-                                style="display:inline-block; max-width: 100vw !important;"
-                                alt="{% trans "геоінформатика, картографія, ГІС, геодезія, навігаційні системи Харків" %}" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-5 col-md-offset-1" style="padding-top:30px;">
-                    <div class="vertical-slider register-login fadeInRight">
-                        <div class="vertical-slider-slide" style="height:700px">
-                            <article class="normall">
-                                <h4 class="h4 titel-left">{% trans "КАФЕДРА 407" %}</h4>
-                                <p>{% trans " Кафедра 'Геоінформаційних технологій та космічного моніторингу Землі' входить до складу факультету ракетно-космічної техніки в ХАІ. Виконуючий обов'язки завідувача кафедри - кандидат технічних наук Горелик Станіслав Ігорович." %}</p>
-                                <p> {% trans "Кафедра 407 оснащена сучасним обчислювальним, комп'ютерним та геодезичним обладнанням, в тому числі, власною станцією прийому даних дистанційного зондування Землі з супутників " %}<a href="http://www.noaa.gov">NOAA</a>.</p>
-                                <p> {% trans "У розпорядженні кафедри також є ліцензія на використання найбільш потужного та сучасного на сьогоднішній день програмного пакета компанії" %}<a href="http://www.esri.com/"> Esri</a>
-                                    {% trans "для аналізу геоінформаційних даних, обробки супутникових знімків, а також створення та обробки картографічних даних" %} - <a href="http://www.esri.com/software/arcgis/arcgis-for-desktop">ArcGIS</a></p>
-                                <p> {% trans "Викладачі кафедри систематично проходять інтенсивні курси підвищення кваліфікації в" %} <a href=https://www.viu.ca> Vancouver Island University(Canada)</a> </p> </article> </div> <div class="vertical-slider-slide" style="height:700px">
-                                        <article class="normall">
-                                            <h4 class="h4 titel-left">{% trans "ІСТОРІЯ КАФЕДРИ" %}</h4>
-                                            <p> {% trans "Кафедра була заснована видатним діячем та новатором в сфері геоінформаційних технологій, професором, доктором технічних наук, Лауреатом Державної премії України, Красовським Григорієм Яковичем, який йшов до цієї мети протягом 12 років з моменту відкриття спеціальності в 2004." %}</p>
-                                            <p> {% trans "Перший набір студентів за напрямом 'Геодезія, картографія та землеустрій' відбувся в 2004 році. Тоді спеціальність базувалася на кафедрі виробництва радіоелектронних сиситем літальних апаратів факультету №5 - 'Радіотехнічних систем літальних апаратів'." %}</p>
-                                            <p> {% trans "У 2008 році, разом з першим випуском бакалаврів, відбувся перший набір магістрів та спеціалістів з напряму 'Геоінформаційні системи і технології'." %}</p>
-                                            <p> {% trans "У 2013 році була акредитована нова затребувана спеціальність - 'Космічний моніторинг Землі'." %}</p>
-                                            <p> {% trans "20 листопада 2016 року відбулась реструктуризація ХАІ: на базі факультету №4 - Ракетно-космічної техніки - з'явилася нова кафедра 'Геоінформаційних технологій і космічного моніторингу Землі'." %}</p>
-                                        </article>
-                        </div>
-                        <div class="vertical-slider-slide" style="height:700px">
-                            <article class="normall">
-                                <h4 class="h4 titel-left">{% trans "Чому ми навчаємо?" %}</h4>
-                                <ul>
-                                    <li> {% trans "Internet технології та мережі (html, PHP, Java, ASP.NET, CMS);" %}</li>
-                                    <li> {% trans "інформатика і програмування (С#, C++, Python);" %}</li>
-                                    <Li> {% trans "системи та засоби 3D моделювання рельєфу місцевості; " %}</li>
-                                    <Li> {% trans "методи цифрової обробки аерокосмічних знімків; " %}</li>
-                                    <Li> {% trans "системи і методи дистанційного зондування Землі; " %}</li>
-                                    <Li> {% trans "системи глобального навігаційного позиціонування; " %}</li>
-                                    <Li> {% trans "системи цифрової картографії (Панорама, ArcGis); " %}</li>
-                                    <Li> {% trans "системи землевпорядкування та кадастру (ERDAS Imagine); " %}</li>
-                                    <Li> {% trans "методи аналізу, фотограмметрії і дешифрування геоданих (ScanMagic); " %}</li>
-                                    <Li> {% trans "земельне право та інвестиційний аналіз; " %}</li>
-                                    <Li> {% trans "загальна, вища і супутникова геодезія; " %}</li>
-                                    <Li> {% trans "геоінформаційні та експертні системи; " %}</li>
-                                    <Li> {% trans "засоби та методи захисту інформації; " %}</li>
-                                    <Li> {% trans "програмування та проектування баз геоданих; " %}</li>
-                                    <Li> {% trans "дизайн і підготовка картографічних матеріалів (AdobePhotoshop, CorelDraw);" %}</li>
-                                    <Li> {% trans "географія, геологія, метеорологія, кліматологія, екологія. " %}</li>
-                                </ul>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="clear"></div>
-                <div class="row" id="slickdotsid"
-                    style="justify-content: center; margin-left: 0px; margin-right: 0px; display: flex; padding: 0 25px; margin-top: 15px;">
-                </div>
-
-            </div>
+        {% endfor %}
+        {% else %}
+        {% for post in posts %}
+        <div style="position: relative;">
+          <img src="{{post.newsfeed.url_banner}}">
+          <div class="banner-text-box">
+            <h4>{{post.abstract|linebreaksbr}}</h4>
+            <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
+                href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
+          </div>
         </div>
+        {% endfor %}
+        {% endif %}
+
+      </div>
+      <div class="numbers">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-xs-6 col-sm-3">
+              <a href="#about-kaf" class="scroll-to-link"><img class="thumbs-image"
+                  src="{% static 'blog/img/mainpage/banner_thumbnail_1.jpg'%}"
+                  alt="{% trans "ГІС, GIS, геоінформатика, геодезія, картографія" %}" />
+                <img class="thumbs-icon" src="{% static 'blog/img/mainpage/icon_1.png'%}"
+                  alt="{% trans "геоінформатика, геодезія, картографія, it освіта, ГІС, GIS, ГИС" %}" />
+                <span class="num">54</span>
+                <span class="num-text">{% trans "дисципліни" %}</span>
+              </a>
+            </div>
+            <div class="col-md-3 col-xs-6  col-sm-3">
+              <a href="#about-kaf" class="scroll-to-link"><img class="thumbs-image"
+                  src="{% static 'blog/img/mainpage/banner_thumbnail_2.jpg'%}" alt="{% trans "Грамоти, нагороди" %}" />
+                <img class="thumbs-icon" src="{% static 'blog/img/mainpage/icon_2.png'%}"
+                  alt="{% trans "Грамоти, нагороди, ГІС, GIS, ГИС" %}" />
+                <span class="num">12</span>
+                <span class="num-text">{% trans "років праці" %}</span>
+              </a>
+            </div>
+            <div class="col-md-3 col-xs-6 col-sm-3">
+              <a href="https://here.com/en" class="scroll-to-link"><img class="thumbs-image"
+                  src="{% static 'blog/img/mainpage/banner_thumbnail_3.jpg'%}" alt="Here Maps" />
+                <img class="thumbs-icon" src="{% static 'blog/img/mainpage/icon_3.png'%}"
+                  alt="{% trans "Here Maps Україна, ГІС, GIS, ГИС" %}" />
+                <span class="num">{% trans "1-ші місця" %}</span>
+                <span class="num-text">{% trans "В змаганнях HERE maps" %}</span>
+              </a>
+            </div>
+            <div class="col-md-3 col-xs-6  col-sm-3">
+              <a href="/abit" class="scroll-to-link"><img class="thumbs-image"
+                  src="{% static 'blog/img/mainpage/banner_thumbnail_4.jpg'%}" alt="{% trans "випускники ХАІ" %}" />
+                <img class="thumbs-icon" src="{% static 'blog/img/mainpage/icon_4.png'%}"
+                  alt="{% trans "випускники ХАІ, ГІС, GIS, ГИС" %}" />
+                <span class="num">300+</span>
+                <span class="num-text">{% trans "випускників" %}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- BLOCK "TYPE 5" -->
+    <!-- BLOCK "TYPE 1" -->
 
-    <!-- Services Section ПАРТНЁРЫ -->
-    <div class="scroll-to-block partners" data-id="partners">
+    <!-- BLOCK "TYPE 4" НАПР ПОДГ-->
+    <div class="block type-4 scroll-to-block" data-id="directions">
+      <div class="container type-4-text">
         <div class="row page-tagline">
-            <div class="col-md-6 col-md-offset-3">
-                <h2 class="title">{% trans "Наші партнери" %}</h2>
-                <div class="description">{% trans "Кафедра співпрацює з вітчизняними та зарубіжними компаніями за різними напрямками: навчальна практика, працевлаштування випускників та наукова робота." %}</div>
+          <div class="col-md-6 col-md-offset-3">
+            <h2 class="title">{% trans "напрями підготовки" %}</h2>
+            <div class="description">
+              {% trans "Кафедра надає навчання за двома напрямками підготовки з можливістю вступу до магістратури." %}
             </div>
+          </div>
         </div>
-        <div class="container" style="text-align: center;">
-            <a class="partner" href="http://www.esri.com/"><img src="{% static 'blog/img/mainpage/esri2.png'%}" alt="Esri"></a>
-            <a class="partner" href="http://ngc.com.ua/"><img src="{% static 'blog/img/mainpage/ngc2.png'%}" alt="Навігаційно-геодезичний центр"></a>
-            <a class="partner" href="https://here.com/en"><img src="{% static 'blog/img/mainpage/here2.png'%}" alt="here map"></a>
-            <a class="partner" href="http://www.gisinfo.ru/"><img src="{% static 'blog/img/mainpage/panorama2.png'%}" alt="гіс-карта, panorama"></a>
-            <a class="partner" href="http://intetics.com/"><img src="{% static 'blog/img/mainpage/intetics2.png'%}" alt="intetics"></a>
+        <div class="row">
+          <div class="bottom-column-left col-md-6 background-spet">
+            <article class="normall ">
+              <h2 class="h2 titel-left">{% trans "Геоінформаційні cистеми і технології" %}</h2>
+              <h3 class="h3">{% trans "Геодезія та землеустрій" %}</h3>
+              <p>
+                {% trans "Геоінформаційні системи і технології - один з IT - напрямків, що найбільш стрімко розвиваються, який охоплює безліч актуальних завдань в таких областях, як геодезія, цифрова картографія, землевпорядкування та кадастр, технології глобального позиціонування (GPS, ГЛОНАСС, Galileo, Compass), Internet технології, 3D моделювання, методи цифрової обробки аерокосмічних зображень, проектування баз геоданих." %}
+              </p>
+            </article>
+          </div>
+          <div class="bottom-column-right col-md-6">
+            <article class="normall">
+              <h2 class="h2 titel-left">{% trans "Космічний моніторинг Землі" %}</h2>
+              <h3 class="h3">{% trans "Науки про Землю" %}</h3>
+              <p>
+                {% trans " 'Науки про Землю' - комплекс наук, які вивчають Землю, геосферу та космічний простір навколо неї. Фахівці даного напрямку затребувані в галузі нафтогазової та рудної геології, геодезичних вимірювань поверхні Землі, прогнозування погоди, обробки даних ДЗЗ (дистанційного зондування Землі), тематичного картографування, екологічного моніторингу та ін. " %}
+              </p>
+            </article>
+          </div>
         </div>
-        <div class="container" style="text-align: center;">
-            <a class="partner" href="http://www.intergraph.com/global/ua/"><img src="{% static 'blog/img/mainpage/intergraph2.png'%}" alt="intergraph"></a>
-            <a class="partner" href="http://www.magellangps.com/"><img src="{% static 'blog/img/mainpage/magellan2.png'%}" alt="magellangps"></a>
-            <!--<a class="partner" href="https://www.digitalglobe.com/"><img src="img/content/partners/digitalglobe2.png" alt=""></a>-->
-            <a class="partner" href="http://www.mapinfo.ru/"><img src="{% static 'blog/img/mainpage/mapinfo2.png'%}" alt="mapinfo"></a>
-            <a class="partner" href="http://www.jelvix.com/"><img src="{% static 'blog/img/mainpage/jelvix2.png'%}" alt="jelvix"></a>
-        </div>
+      </div>
     </div>
-    <!-- Services Section Over -->
+    <!-- BLOCK "TYPE 4" -->
 
-    <!-- BLOCK "TYPE 3" Працевлаштування-->
-    <div class="block type-3 type-3-1">
-        <div class="row page-tagline">
-            <div class="col-md-6 col-md-offset-3">
-                <h2 class="h2">{% trans "Напрямки працевлаштування" %}</h2>
-            </div>
+    <!-- BLOCK "TEAM" block type 5 -->
+    <div class="new-block type-10 scroll-to-block" data-id="team">
+      <div class="row page-tagline">
+        <div class="col-md-6 col-md-offset-3">
+          <h2 class="title">{% trans "Склад кафедри" %}</h2>
+          <div class="description">
+            {% trans "На кафедрі працюють фахівці вищого рівня - професора, доктора наук, доктора філософії технічних наук." %}
+          </div>
         </div>
-        <div class="container type-3-text">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 little-img-text-entry">
-                    <img src="{% static 'blog/img/theme-3/employment-01.png'%}"
-                        alt="Геодезія Харків, ГІС, Геодезия Харьков, направления трудоустройства, напрямки працевлаштування, ГИС" />
-                    <article class="small" style="min-height:105px;">
-                        <h5 class="h5">{% trans "Підприємства, що виконують геодезичні роботи" %}</h5>
-                        <p>{% trans "Геодезисти, інженери-технологи" %}</p>
-                    </article>
-                </div>
-                <div class="col-md-4 col-sm-6 little-img-text-entry">
-                    <img src="{% static 'blog/img/theme-3/employment-02.png'%}"
-                        alt="Землеустройство Харьков, Землеустрій Харків, Land management Kharkiv"/>
-                    <article class="small" style="min-height:105px;">
-                        <h5 class="h5">{% trans "Підприємства із землевпорядкування та кадастру" %}</h5>
-                        <p>{% trans "Землевпорядники, кадастрові інженери, фахівці з грошової оцінки землі" %}</p>
-                    </article>
-                </div>
-                <div class="col-md-4 col-sm-6 little-img-text-entry">
-                    <img src="{% static 'blog/img/theme-3/employment-03.png'%}"
-                        alt="{% trans "ГИС, ГІС, GIS, it образование Харьков, it спеціальності Харків" %}" />
-                    <article class="small" style="min-height:105px;">
-                        <h5 class="h5">{% trans "IT-компанії та підприємства" %}</h5>
-                        <p>{% trans "Розробники ПЗ, адміністратори систем і баз даних, веб-програмісти" %}</p>
-                    </article>
-                </div>
-                <div class="col-md-4 col-sm-6 little-img-text-entry">
-                    <img src="{% static 'blog/img/theme-3/employment-04.png'%}"
-                        alt="{% trans "ГИС, ГІС, GIS, Картографія Харків, Картография Харьков" %}" />
-                    <article class="small" style="min-height:105px;">
-                        <h5 class="h5">{% trans "Картографічні підприємства" %}</h5>
-                        <p>{% trans "ГІС-спеціалісти, картографи, геокодери, технологи, керівники" %}</p>
-                    </article>
-                </div>
-                <div class="col-md-4 col-sm-6 little-img-text-entry    ">
-                    <img src="{% static 'blog/img/theme-3/employment-05.png'%}" alt="{% trans "ГИС, GIS, ГІС, Працевлаштування геодезія Харків, Трудоустройство геодезия Харьков" %}" />
-                    <article class="small" style="min-height:105px;">
-                        <h5 class="h5">{% trans "Державні та обласні управління" %}</h5>
-                        <p>{% trans "Спеціалісти з охорони природного серидовища, управління земельними, водними, лісними ресурсами" %}</p>
-                    </article>
-                </div>
-                <div class="col-md-4 col-sm-6 little-img-text-entry    ">
-                    <img src="{% static 'blog/img/theme-3/employment-06.png'%}" alt="{% trans "ГИС, ГІС, GIS, Точне землеробство Харків, Точное земледелие Харьков" %}" />
-                    <article class="small" style="min-height:105px;">
-                        <h5 class="h5">{% trans "Аграрна сфера" %}</h5>
-                        <p>{% trans "Фахівці з точного землеробства, оптимізації процесу збору врожаю" %}</p>
-                    </article>
-                </div>
+      </div>
+      <div class="row">
+        <div class="responsive">
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/andreev.jpg'%}" height="320" width="250"
+                  alt="{% trans "Андрєєв Сергій Михайлович, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Андрєєв Сергій Михайлович" %}</div>
+              <div class="position">{% trans "к.т.н, доцент" %}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
             </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/butenko.jpg'%}" height="320" width="250"
+                  alt="{% trans "Бутенко Ольга Станіславівна, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Бутенко Ольга Станіславівна" %}</div>
+              <div class="position">{% trans "д.т.н, професор" %}</div>
+              <div class="description">{% trans "Професор кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/gorelik.jpg'%}" height="320" width="250"
+                  alt="{% trans "Горелик Станіслав Ігорович, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Горелик Станіслав Ігорович" %}</div>
+              <div class="position">{% trans "к.т.н, доцент" %}</div>
+              <div class="description">{% trans "Завідуючий кафедрою 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/zhilin.jpg'%}" height="320" width="250"
+                  alt="{% trans "Жилін Володимир Анатолійович, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Жилін Володимир Анатолійович" %}</div>
+              <div class="position">{% trans "к.т.н, доцент" %}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/pashenko.jpg'%}" height="320" width="250"
+                  alt="{% trans "Пащенко Руслан Едуардович, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Пащенко Руслан Едуардович" %}</div>
+              <div class="position">{% trans "д.т.н, професор" %}</div>
+              <div class="description">{% trans "Професор кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/danshina.jpg'%}" height="320" width="250"
+                  alt="{% trans "Даншина Світлана Юріївна, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Даншина Світлана Юріївна" %}</div>
+              <div class="position">{% trans "к.т.н, доцент" %}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/krasovskaya.jpg'%}" height="320" width="250"
+                  alt="{% trans "Красовська Інеса Григоріївна, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Красовська Інеса Григоріївна" %}</div>
+              <div class="position">{% trans "к.т.н, с.н.с" %}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/nechausov1.jpg'%}" height="320" width="250"
+                  alt="{% trans "Нечаусов Артем Сергійович, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Нечаусов Артем Сергійович" %}</div>
+              <div class="position">{% trans "к.т.н"%}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/greben.jpg'%}" height="320" width="250"
+                  alt="{% trans "Гребінь Александр Сергійович, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Гребінь Александр Сергійович" %}</div>
+              <div class="position"></div>
+              <div class="description">{% trans "Старший викладач кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/berezina.jpg'%}" height="320" width="250"
+                  alt="{% trans "Березіна Світлана Іванівна, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Березіна Світлана Іванівна" %}</div>
+              <div class="position">{% trans "к.т.н, с.н.с" %}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/lazareva.jpg'%}" height="320" width="250"
+                  alt="{% trans "Лазарєва Ольга Євгенівна, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Лазарєва Ольга Євгенівна" %}</div>
+              <div class="position"></div>
+              <div class="description">{% trans "Асистент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/sukhomlin.jpg'%}" height="320" width="250"
+                  alt="{% trans "Сухомлин Людмила Володимирівна, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Сухомлин Людмила Володимирівна" %}</div>
+              <div class="position">{% trans "канд. е. наук, доцент" %}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/kovalyova.jpg'%}" height="320" width="250"
+                  alt="{% trans "Ковальова Віра Олександрівна, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Ковальова Віра Олександрівна" %}</div>
+              <div class="position">{% trans "к.т.н" %}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/zubkovitch.jpg'%}" height="320" width="250"
+                  alt="{% trans "Зубкович Cвітлана Олександрівна, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Зубкович Cвітлана Олександрівна" %}</div>
+              <div class="position">{% trans "к.геогр.н., доцент" %}</div>
+              <div class="description">{% trans "Доцент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/maryushko.jpg'%}" height="320" width="250"
+                  alt="{% trans "Марюшко Максим В'ячеславович, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name">{% trans "Марюшко Максим В'ячеславович" %}</div>
+              <div class="position"></div>
+              <div class="description">{% trans "Асистент кафедри 407" %}</div>
+            </div>
+          </div>
+          <div>
+            <div class="paddings-container">
+              <div class="image-wrapper">
+                <img src="{% static 'blog/img/mainpage/staff/krasovski.jpg'%}" height="320" width="250"
+                  alt="{% trans "Красовський Григорій Якович, Харків, ГІС, GIS" %}" />
+              </div>
+              <div class="name"> {% trans "Красовський Григорій Якович" %} </div>
+              <div class="position">{% trans "д.т.н, професор, Лауреат Державної премії України." %}</div>
+              <div class="description">{% trans "Засновник кафедри 407" %}</div>
+            </div>
+          </div>
         </div>
+      </div>
+
     </div>
-    <div class="clear"></div>
-    <!-- BLOCK "TYPE 3" -->
+    <!-- BLOCK "TEAM" -->
+
+    <!-- BLOCK "TYPE 5" ПРО КАФЕДРУ-->
+    <div class="block type-5 scroll-to-block" data-id="about-kaf">
+      <div class="row page-tagline">
+        <div class="col-md-6 col-md-offset-3    ">
+          <h2 class="title">{% trans "Про кафедру" %}</h2>
+          <div class="description">{% trans "КАФЕДРА 407" %} <span style="color: #099934; font-size: 12px;"> ► </span>
+            {% trans "ІСТОРІЯ КАФЕДРИ" %} <span style="color: #099934; font-size: 12px;"> ► </span>
+            {% trans "ЧОМУ МИ НАВЧАЄМО?" %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6   fadeInLeft" style="padding-top:30px; padding-left: 0px; padding-right: 0px;">
+          <div class="vertical-slider2" style="max-width: 100vw !important;">
+            <div class="img-wrap" style="text-align:center; max-width: 100vw !important;">
+              <img src="{% static 'blog/img/mainpage/how_it_work_image1.png'%}"
+                style="display:inline-block; max-width: 100vw !important;"
+                alt="{% trans "Літальний корпус, навчально-лабораторний корпус, ФРКТ, ХАІ, it освіту Харків, ГІС, GIS" %}" />
+            </div>
+            <div class="img-wrap" style="text-align:center; max-width: 100vw !important;">
+              <img src="{% static 'blog/img/mainpage/how_it_work_image3.png'%}"
+                style="display:inline-block; max-width: 100vw !important;"
+                alt="{% trans "геоінформатика, картографія, ГІС, геодезія, навігаційні системи Харків" %}" />
+            </div>
+            <div class="img-wrap" style="text-align:center; max-width: 100vw !important;">
+              <img src="{% static 'blog/img/mainpage/how_it_work_image2.png'%}"
+                style="display:inline-block; max-width: 100vw !important;"
+                alt="{% trans "геоінформатика, картографія, ГІС, геодезія, навігаційні системи Харків" %}" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-md-offset-1" style="padding-top:30px;">
+          <div class="vertical-slider register-login fadeInRight">
+            <div class="vertical-slider-slide" style="height:700px">
+              <article class="normall">
+                <h4 class="h4 titel-left">{% trans "КАФЕДРА 407" %}</h4>
+                <p>
+                  {% trans " Кафедра 'Геоінформаційних технологій та космічного моніторингу Землі' входить до складу факультету ракетно-космічної техніки в ХАІ. Виконуючий обов'язки завідувача кафедри - кандидат технічних наук Горелик Станіслав Ігорович." %}
+                </p>
+                <p>
+                  {% trans "Кафедра 407 оснащена сучасним обчислювальним, комп'ютерним та геодезичним обладнанням, в тому числі, власною станцією прийому даних дистанційного зондування Землі з супутників " %}<a
+                    href="http://www.noaa.gov">NOAA</a>.</p>
+                <p>
+                  {% trans "У розпорядженні кафедри також є ліцензія на використання найбільш потужного та сучасного на сьогоднішній день програмного пакета компанії" %}<a
+                    href="http://www.esri.com/"> Esri</a>
+                  {% trans "для аналізу геоінформаційних даних, обробки супутникових знімків, а також створення та обробки картографічних даних" %}
+                  - <a href="http://www.esri.com/software/arcgis/arcgis-for-desktop">ArcGIS</a></p>
+                <p> {% trans "Викладачі кафедри систематично проходять інтенсивні курси підвищення кваліфікації в" %} <a
+                    href=https://www.viu.ca> Vancouver Island University(Canada)</a> </p> </article> </div> <div
+                    class="vertical-slider-slide" style="height:700px">
+                    <article class="normall">
+                      <h4 class="h4 titel-left">{% trans "ІСТОРІЯ КАФЕДРИ" %}</h4>
+                      <p>
+                        {% trans "Кафедра була заснована видатним діячем та новатором в сфері геоінформаційних технологій, професором, доктором технічних наук, Лауреатом Державної премії України, Красовським Григорієм Яковичем, який йшов до цієї мети протягом 12 років з моменту відкриття спеціальності в 2004." %}
+                      </p>
+                      <p>
+                        {% trans "Перший набір студентів за напрямом 'Геодезія, картографія та землеустрій' відбувся в 2004 році. Тоді спеціальність базувалася на кафедрі виробництва радіоелектронних сиситем літальних апаратів факультету №5 - 'Радіотехнічних систем літальних апаратів'." %}
+                      </p>
+                      <p>
+                        {% trans "У 2008 році, разом з першим випуском бакалаврів, відбувся перший набір магістрів та спеціалістів з напряму 'Геоінформаційні системи і технології'." %}
+                      </p>
+                      <p>
+                        {% trans "У 2013 році була акредитована нова затребувана спеціальність - 'Космічний моніторинг Землі'." %}
+                      </p>
+                      <p>
+                        {% trans "20 листопада 2016 року відбулась реструктуризація ХАІ: на базі факультету №4 - Ракетно-космічної техніки - з'явилася нова кафедра 'Геоінформаційних технологій і космічного моніторингу Землі'." %}
+                      </p>
+                    </article>
+            </div>
+            <div class="vertical-slider-slide" style="height:700px">
+              <article class="normall">
+                <h4 class="h4 titel-left">{% trans "Чому ми навчаємо?" %}</h4>
+                <ul>
+                  <li> {% trans "Internet технології та мережі (html, PHP, Java, ASP.NET, CMS);" %}</li>
+                  <li> {% trans "інформатика і програмування (С#, C++, Python);" %}</li>
+                  <Li> {% trans "системи та засоби 3D моделювання рельєфу місцевості; " %}</li>
+                  <Li> {% trans "методи цифрової обробки аерокосмічних знімків; " %}</li>
+                  <Li> {% trans "системи і методи дистанційного зондування Землі; " %}</li>
+                  <Li> {% trans "системи глобального навігаційного позиціонування; " %}</li>
+                  <Li> {% trans "системи цифрової картографії (Панорама, ArcGis); " %}</li>
+                  <Li> {% trans "системи землевпорядкування та кадастру (ERDAS Imagine); " %}</li>
+                  <Li> {% trans "методи аналізу, фотограмметрії і дешифрування геоданих (ScanMagic); " %}</li>
+                  <Li> {% trans "земельне право та інвестиційний аналіз; " %}</li>
+                  <Li> {% trans "загальна, вища і супутникова геодезія; " %}</li>
+                  <Li> {% trans "геоінформаційні та експертні системи; " %}</li>
+                  <Li> {% trans "засоби та методи захисту інформації; " %}</li>
+                  <Li> {% trans "програмування та проектування баз геоданих; " %}</li>
+                  <Li> {% trans "дизайн і підготовка картографічних матеріалів (AdobePhotoshop, CorelDraw);" %}</li>
+                  <Li> {% trans "географія, геологія, метеорологія, кліматологія, екологія. " %}</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="row" id="slickdotsid"
+          style="justify-content: center; margin-left: 0px; margin-right: 0px; display: flex; padding: 0 25px; margin-top: 15px;">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- BLOCK "TYPE 5" -->
+
+  <!-- Services Section ПАРТНЁРЫ -->
+  <div class="scroll-to-block partners" data-id="partners">
+    <div class="row page-tagline">
+      <div class="col-md-6 col-md-offset-3">
+        <h2 class="title">{% trans "Наші партнери" %}</h2>
+        <div class="description">
+          {% trans "Кафедра співпрацює з вітчизняними та зарубіжними компаніями за різними напрямками: навчальна практика, працевлаштування випускників та наукова робота." %}
+        </div>
+      </div>
+    </div>
+    <div class="container" style="text-align: center;">
+      <a class="partner" href="http://www.esri.com/"><img src="{% static 'blog/img/mainpage/esri2.png'%}"
+          alt="Esri"></a>
+      <a class="partner" href="http://ngc.com.ua/"><img src="{% static 'blog/img/mainpage/ngc2.png'%}"
+          alt="Навігаційно-геодезичний центр"></a>
+      <a class="partner" href="https://here.com/en"><img src="{% static 'blog/img/mainpage/here2.png'%}"
+          alt="here map"></a>
+      <a class="partner" href="http://www.gisinfo.ru/"><img src="{% static 'blog/img/mainpage/panorama2.png'%}"
+          alt="гіс-карта, panorama"></a>
+      <a class="partner" href="http://intetics.com/"><img src="{% static 'blog/img/mainpage/intetics2.png'%}"
+          alt="intetics"></a>
+    </div>
+    <div class="container" style="text-align: center;">
+      <a class="partner" href="http://www.intergraph.com/global/ua/"><img
+          src="{% static 'blog/img/mainpage/intergraph2.png'%}" alt="intergraph"></a>
+      <a class="partner" href="http://www.magellangps.com/"><img src="{% static 'blog/img/mainpage/magellan2.png'%}"
+          alt="magellangps"></a>
+      <!--<a class="partner" href="https://www.digitalglobe.com/"><img src="img/content/partners/digitalglobe2.png" alt=""></a>-->
+      <a class="partner" href="http://www.mapinfo.ru/"><img src="{% static 'blog/img/mainpage/mapinfo2.png'%}"
+          alt="mapinfo"></a>
+      <a class="partner" href="http://www.jelvix.com/"><img src="{% static 'blog/img/mainpage/jelvix2.png'%}"
+          alt="jelvix"></a>
+    </div>
+  </div>
+  <!-- Services Section Over -->
+
+  <!-- BLOCK "TYPE 3" Працевлаштування-->
+  <div class="block type-3 type-3-1">
+    <div class="row page-tagline">
+      <div class="col-md-6 col-md-offset-3">
+        <h2 class="h2">{% trans "Напрямки працевлаштування" %}</h2>
+      </div>
+    </div>
+    <div class="container type-3-text">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 little-img-text-entry">
+          <img src="{% static 'blog/img/theme-3/employment-01.png'%}"
+            alt="Геодезія Харків, ГІС, Геодезия Харьков, направления трудоустройства, напрямки працевлаштування, ГИС" />
+          <article class="small" style="min-height:105px;">
+            <h5 class="h5">{% trans "Підприємства, що виконують геодезичні роботи" %}</h5>
+            <p>{% trans "Геодезисти, інженери-технологи" %}</p>
+          </article>
+        </div>
+        <div class="col-md-4 col-sm-6 little-img-text-entry">
+          <img src="{% static 'blog/img/theme-3/employment-02.png'%}"
+            alt="Землеустройство Харьков, Землеустрій Харків, Land management Kharkiv" />
+          <article class="small" style="min-height:105px;">
+            <h5 class="h5">{% trans "Підприємства із землевпорядкування та кадастру" %}</h5>
+            <p>{% trans "Землевпорядники, кадастрові інженери, фахівці з грошової оцінки землі" %}</p>
+          </article>
+        </div>
+        <div class="col-md-4 col-sm-6 little-img-text-entry">
+          <img src="{% static 'blog/img/theme-3/employment-03.png'%}"
+            alt="{% trans "ГИС, ГІС, GIS, it образование Харьков, it спеціальності Харків" %}" />
+          <article class="small" style="min-height:105px;">
+            <h5 class="h5">{% trans "IT-компанії та підприємства" %}</h5>
+            <p>{% trans "Розробники ПЗ, адміністратори систем і баз даних, веб-програмісти" %}</p>
+          </article>
+        </div>
+        <div class="col-md-4 col-sm-6 little-img-text-entry">
+          <img src="{% static 'blog/img/theme-3/employment-04.png'%}"
+            alt="{% trans "ГИС, ГІС, GIS, Картографія Харків, Картография Харьков" %}" />
+          <article class="small" style="min-height:105px;">
+            <h5 class="h5">{% trans "Картографічні підприємства" %}</h5>
+            <p>{% trans "ГІС-спеціалісти, картографи, геокодери, технологи, керівники" %}</p>
+          </article>
+        </div>
+        <div class="col-md-4 col-sm-6 little-img-text-entry    ">
+          <img src="{% static 'blog/img/theme-3/employment-05.png'%}"
+            alt="{% trans "ГИС, GIS, ГІС, Працевлаштування геодезія Харків, Трудоустройство геодезия Харьков" %}" />
+          <article class="small" style="min-height:105px;">
+            <h5 class="h5">{% trans "Державні та обласні управління" %}</h5>
+            <p>
+              {% trans "Спеціалісти з охорони природного серидовища, управління земельними, водними, лісними ресурсами" %}
+            </p>
+          </article>
+        </div>
+        <div class="col-md-4 col-sm-6 little-img-text-entry    ">
+          <img src="{% static 'blog/img/theme-3/employment-06.png'%}"
+            alt="{% trans "ГИС, ГІС, GIS, Точне землеробство Харків, Точное земледелие Харьков" %}" />
+          <article class="small" style="min-height:105px;">
+            <h5 class="h5">{% trans "Аграрна сфера" %}</h5>
+            <p>{% trans "Фахівці з точного землеробства, оптимізації процесу збору врожаю" %}</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <!-- BLOCK "TYPE 3" -->
 
 
 </div>

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import get_list_or_404, get_object_or_404
-from blog.models import Posts, Gallery, GalleryCategory
+from blog.models import Posts, Gallery, GalleryCategory, Museum
 
 # Create your views here.
 
@@ -22,6 +22,18 @@ def abit(request):
         'active' : 'abit',
     }
     return render(request, 'mainpage/abit.html', context)
+
+def museum(request, slug=""):
+    if slug == "":
+        slug = Museum.objects.latest('id').slug
+    activeMuseum = get_object_or_404(Museum, slug=slug)
+    museums = list(Museum.objects.all())
+    context = {
+        'activeMuseum' : activeMuseum,
+        'museums': museums,
+        'active' : 'museum',
+    }
+    return render(request, 'mainpage/museum.html', context)
 
 def stud(request):
     context = {
@@ -45,7 +57,7 @@ def contact(request):
 def gallery(request, slug=""):
     if slug == "":
         slug = Gallery.objects.latest('id').slug
-    gallery = get_object_or_404(Gallery, slug=slug)
+    
     category = Gallery.category
     categories = GalleryCategory.objects.all()
     context = {

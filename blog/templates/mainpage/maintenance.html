@@ -25,9 +25,10 @@
                                     </div>
                                     <div class="clear"></div>
                                 </div>
-                                <a href="/"><img src="{% static 'blog/img/maintenance.jpg'%}" style="width:35vh"></a>
+                                {% get_current_language as LANGUAGE_CODE %}
+                                <a href="/{{LANGUAGE_CODE}}/"><img src="{% static 'blog/img/maintenance.jpg'%}" style="width:35vh"></a>
                                 <div class="clear" style="height:5vh"></div>
-                                <a href="/" class="button">{% trans "НА ГОЛОВНУ" %}</a>
+                                <a href="/{{LANGUAGE_CODE}}/" class="button">{% trans "НА ГОЛОВНУ" %}</a>
                                 <div class="clear" style="height:5vh"></div>
                             </div>
                         </div>

@@ -36,27 +36,29 @@
             <span></span>
         </div>
         <nav>
+            {% get_current_language as LANGUAGE_CODE %}
             <ul>
-                <li><a href="/" class="submeny-top scroll-to-link {% if active == 'index' %} act {% endif %}">K407</a></li>
-                <li><a href="/blog" class="{% if active == 'blog' %} act {% endif %}">{% trans "НОВИНИ" %}</a></li>
-                <li><a href="/abit" class="scroll-to-link {% if active == 'abit' %} act {% endif %}">{% trans "АБІТУРІЄНТУ" %}</a></li>
-                <li><a href="/blog/international" class="{% if active == 'international' %} act {% endif %}">{% trans "МІЖНАРОДНІ ВІДНОСИНИ" %}</a></li>
-                <li><a href="/gallery" class="{% if active == 'gallery' %} act {% endif %}">{% trans "ГАЛЕРЕЯ" %}</a></li>
+                <li><a href="/{{LANGUAGE_CODE}}/" class="submeny-top scroll-to-link {% if active == 'index' %} act {% endif %}">K407</a></li>
+                <li><a href="/{{LANGUAGE_CODE}}/blog" class="{% if active == 'blog' %} act {% endif %}">{% trans "НОВИНИ" %}</a></li>
+                <li><a href="/{{LANGUAGE_CODE}}/abit" class="scroll-to-link {% if active == 'abit' %} act {% endif %}">{% trans "АБІТУРІЄНТУ" %}</a></li>
+                <li><a href="/{{LANGUAGE_CODE}}/blog/international" class="{% if active == 'international' %} act {% endif %}">{% trans "МІЖНАРОДНІ ВІДНОСИНИ" %}</a></li>
+                <li><a href="/{{LANGUAGE_CODE}}/gallery" class="{% if active == 'gallery' %} act {% endif %}">{% trans "ГАЛЕРЕЯ" %}</a></li>
                 <li class="submeny">
                     <a href="#" class="submeny-top {% if active == 'library' %} act {% endif %}">{% trans "РОЗДІЛИ" %}</a>
                     <ul>
-                        <li><a href="{% if active != 'index' %}/#about-kaf{% else %}#about-kaf{% endif %}" class="scroll-to-link">{% trans "ПРО КАФЕДРУ" %}</a></li>
-                        <li><a href="{% if active != 'index' %}/#directions{% else %}#directions{% endif %}" class="scroll-to-link">{% trans "НАПРЯМИ ПІДГОТОВКИ" %}</a></li>
-                        <li><a href="/internationalprojects">{% trans "МІЖНАРОДНІ ПРОЕКТИ" %}</a></li>
-                        <li><a href="/remotesensingdata">{% trans "АКТУАЛЬНІ ДАНІ ДЗЗ" %}</a></li>
+                        <li><a href="{% if active != 'index' %}/{{LANGUAGE_CODE}}/#about-kaf{% else %}#about-kaf{% endif %}" class="scroll-to-link">{% trans "ПРО КАФЕДРУ" %}</a></li>
+                        <li><a href="{% if active != 'index' %}/{{LANGUAGE_CODE}}/#directions{% else %}#directions{% endif %}" class="scroll-to-link">{% trans "НАПРЯМИ ПІДГОТОВКИ" %}</a></li>
+                        <li><a href="/{{LANGUAGE_CODE}}/internationalprojects">{% trans "МІЖНАРОДНІ ПРОЕКТИ" %}</a></li>
+                        <li><a href="/{{LANGUAGE_CODE}}/museum">{% trans "МУЗЕЙ" %}</a></li>
+                        <li><a href="/{{LANGUAGE_CODE}}/remotesensingdata">{% trans "АКТУАЛЬНІ ДАНІ ДЗЗ" %}</a></li>
                         <!-- <li><a href="/library" class="{% if active == 'library' %} act {% endif %}">БІБЛІОТЕКА</a></li> -->
-                        <li><a href="/gisdayteaser">{% trans "ДЕНЬ ГІС" %}</a></li>
-                        <li><a href="/stud" class="{% if active == 'stud' %} act {% endif %}">{% trans "СТУДЕНТУ" %}</a></li>
-                        <li><a href="{% if active != 'index' %}/#partners{% else %}#partners{% endif %}" class="scroll-to-link">{% trans "ПАРТНЕРИ" %}</a></li>
-                        <li><a href="/contact">{% trans "ЗВОРОТНІЙ ЗВ'ЯЗОК" %}</a></li>
+                        <li><a href="/{{LANGUAGE_CODE}}/gisdayteaser">{% trans "ДЕНЬ ГІС" %}</a></li>
+                        <li><a href="/{{LANGUAGE_CODE}}/stud" class="{% if active == 'stud' %} act {% endif %}">{% trans "СТУДЕНТУ" %}</a></li>
+                        <li><a href="{% if active != 'index' %}/{{LANGUAGE_CODE}}/#partners{% else %}#partners{% endif %}" class="scroll-to-link">{% trans "ПАРТНЕРИ" %}</a></li>
+                        <li><a href="/{{LANGUAGE_CODE}}/contact">{% trans "ЗВОРОТНІЙ ЗВ'ЯЗОК" %}</a></li>
                     </ul>
                 </li>
-                <li><a href="/contact" class="{% if active == 'contact' %} act {% endif %}">{% trans "КОНТАКТИ" %}</a></li>
+                <li><a href="/{{LANGUAGE_CODE}}/contact" class="{% if active == 'contact' %} act {% endif %}">{% trans "КОНТАКТИ" %}</a></li>
                 <li><a href="https://www.instagram.com/khaigis/" class="centeredsociallinks" style="margin-right: 0px; padding-top:2px;"><i class="fab fa-instagram" style="font-size:32px; max-width: 28px;"></i></a>
                 <li><a href="https://facebook.com/groups/1805705046354019" class="centeredsociallinks" style="margin-right: 0px; margin-left: 0px; padding-top:2px;"><i class="fab fa-facebook-square" style="font-size:32px; max-width: 28px;"></i></a>
                 <li><a href="https://plus.google.com/communities/107663742044689445130" class="centeredsociallinks" style="margin-right: 0px; margin-left: 0px; padding-left: 8px; padding-top:2px;"><i class="fab fa-google-plus-g" style="font-size:32px;  max-width: 28px;"></i></a>
@@ -102,11 +104,11 @@
         </div>
         <div class="footer-bottom">
             <div class="footer-linck">
-                <a href="/blog">{% trans "Новини" %}</a>
-                <a href="/gallery">{% trans "Галерея" %}</a>
-                <a href="/abit">{% trans "Абітурієнту" %}</a>
+                <a href="/{{LANGUAGE_CODE}}/blog">{% trans "Новини" %}</a>
+                <a href="/{{LANGUAGE_CODE}}/gallery">{% trans "Галерея" %}</a>
+                <a href="/{{LANGUAGE_CODE}}/abit">{% trans "Абітурієнту" %}</a>
                 <!-- <a href="/library">Бібліотека</a> -->
-                <a href="/contact">{% trans "Контакти" %}</a>
+                <a href="/{{LANGUAGE_CODE}}/contact">{% trans "Контакти" %}</a>
             </div>
             <div class="media-icon">
                 <a href="https://www.instagram.com/khaigis/"><i class="fab fa-instagram" style="font-size:24px; color: #4caf50; margin-top: 4px;"></i></a>
@@ -121,7 +123,7 @@
                 <br>
                 <span></span>
                 <br>
-                <span><a href="/contact#devs">{% trans "Розробники" %}</a></span>
+                <span><a href="/{{LANGUAGE_CODE}}/contact#devs">{% trans "Розробники" %}</a></span>
             </div>
         </div>
         <div class="back-to-top"><i class="fa fa-chevron-up"></i></div>

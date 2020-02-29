@@ -1,0 +1,42 @@
+{% extends 'blog/layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+{{museum.title}} | {% trans "Музей" %} | KHAI-GIS ©
+{% endblock %}
+
+{% block content %}
+<div id="content-wrapper">
+    <div class="blocks-container">
+        <div class="container blog-container">
+
+            <div class="new-block type-19">
+                <div class="container">
+                    <div class="row page-tagline">
+                        <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                            <h2 class="title">{% trans "МУЗЕЙ" %}</h2>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="sorting-menu wow flipInX" data-wow-delay="0.1s" style="margin-bottom: 30px">
+                    <div style="margin-left:25px">
+                        {% for museum in museums %}
+                        <a href="{{ museum.get_absolute_url}}" class="{% if museum.title == activeMuseum.title %}active{% endif %}">{{museum.title}}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                {% block museum %}
+                {% endblock %}
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    {% endblock %}

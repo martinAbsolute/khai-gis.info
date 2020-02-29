@@ -109,7 +109,7 @@ USE_TZ = True
 LANGUAGES = (
     ('uk', _('Ukrainian')),
     ('en', _('English')),
-    ('ru', _('Russian')),
+    # ('ru', _('Russian')),
 )
 
 

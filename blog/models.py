@@ -116,3 +116,40 @@ class PostFile(models.Model):
     posts = models.ForeignKey(Posts, verbose_name="Посты" ,related_name='files', on_delete=models.CASCADE)
     filename = models.FileField("Прикрепленный Файл", null=True, blank=True, upload_to=get_file_path_blog)
     description = models.CharField("Описание Файла", max_length=300, blank=False)
+
+class Museum(models.Model):
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="Создан")
+    updated_at = models.DateTimeField(auto_now=True, verbose_name="Обновлён")
+    title = models.CharField("Название Музея", max_length=255)
+    slug = models.SlugField(unique=True,editable=False,max_length=160)
+    def save(self, *args, **kwargs):
+        self.slug = slugify(unidecode(self.title))
+        super(Museum, self).save(*args, **kwargs)
+    class Meta:
+        verbose_name = "Музей"
+        verbose_name_plural = "Музеи"
+    def __str__(self):
+        return self.title
+    def get_absolute_url(self):
+        return "/museum/%s/" % self.slug
+    def get_file_path(instance, filename):
+        ext = filename.split('.')[-1]
+        filename = "%s.%s" % (uuid.uuid4(), ext)
+        now = timezone.now()
+        return os.path.join('museumphotos/'+now.strftime('%Y')+'/'+now.strftime('%m')+'/'+now.strftime('%d'), filename)
+        
+class MuseumImage(models.Model):
+    SIZES = (
+        {'code': 'thumb', 'wxh': '500x500', 'resize': 'crop'},
+        {'code': 'bigthumb', 'wxh': '1000x1000', 'resize': 'crop'},
+    )
+    DEFAULT_EXAM_ID = 1
+    image = ImageThumbsField("Файл фотографии экспоната", upload_to=get_file_path, help_text="Файл фотографии экспоната", sizes=SIZES)
+    museum = models.ForeignKey(Museum, default=DEFAULT_EXAM_ID, verbose_name="Музей", related_name='images', on_delete=models.CASCADE)
+    title = models.CharField("Оглавление экспоната", default="", max_length=255)
+    description = models.TextField("Описание экспоната", default="")
+    class Meta:
+        verbose_name = "Экспонат в музее"
+        verbose_name_plural = "Экспонаты в музее"
+    def __str__(self):
+        return self.title

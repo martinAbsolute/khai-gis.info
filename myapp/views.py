@@ -57,7 +57,7 @@ def contact(request):
 def gallery(request, slug=""):
     if slug == "":
         slug = Gallery.objects.latest('id').slug
-    
+    gallery = get_object_or_404(Gallery, slug=slug)
     category = Gallery.category
     categories = GalleryCategory.objects.all()
     context = {

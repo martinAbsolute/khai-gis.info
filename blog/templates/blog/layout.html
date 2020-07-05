@@ -29,14 +29,26 @@
 
     <!-- HEADER -->
     <header class="{% if active != 'index' %} act default-act{% endif %} {% if HideHeader == True %}hidden{% endif %}">
+        {% get_current_language as LANGUAGE_CODE %}
         <a href="/" id="logo">
             <img src="{% static 'blog/img/theme-3/logo.png'%}" alt="{% trans "Кафедра геоінформаційних технологій та космічного моніторингу Землі" %}" />
             <img class="act" src="{% static 'blog/img/theme-3/logo-act.png'%}" alt="{% trans "Кафедра геоінформаційних технологій та космічного моніторингу Землі" %}" /></a>
         <div class="mob-icon">
             <span></span>
+            <b id="mob-lang-selector">
+            {% if LANGUAGE_CODE == 'uk' %}
+                <a href="/en{{ request.path|slice:'3:' }}">
+                    <img  src="{% static 'blog/img/flags/united-kingdom.png'%}" width="30">
+                </a>
+            {% endif %}
+            {% if LANGUAGE_CODE == 'en' %}
+                <a href="/uk{{ request.path|slice:'3:' }}">
+                    <img  src="{% static 'blog/img/flags/ukraine.png'%}" width="30">
+                </a>
+            {% endif %}
+            </b>
         </div>
         <nav>
-            {% get_current_language as LANGUAGE_CODE %}
             <ul>
                 <li><a href="/{{LANGUAGE_CODE}}/" class="submeny-top scroll-to-link {% if active == 'index' %} act {% endif %}">K407</a></li>
                 <li><a href="/{{LANGUAGE_CODE}}/blog" class="{% if active == 'blog' %} act {% endif %}">{% trans "НОВИНИ" %}</a></li>
@@ -61,31 +73,26 @@
                 <li><a href="/{{LANGUAGE_CODE}}/contact" class="{% if active == 'contact' %} act {% endif %}">{% trans "КОНТАКТИ" %}</a></li>
                 <li><a href="https://www.instagram.com/khaigis/" class="centeredsociallinks" style="margin-right: 0px; padding-top:2px;"><i class="fab fa-instagram" style="font-size:32px; max-width: 28px;"></i></a>
                 <li><a href="https://facebook.com/groups/1805705046354019" class="centeredsociallinks" style="margin-right: 0px; margin-left: 0px; padding-top:2px;"><i class="fab fa-facebook-square" style="font-size:32px; max-width: 28px;"></i></a>
-                <li><a href="https://plus.google.com/communities/107663742044689445130" class="centeredsociallinks" style="margin-right: 0px; margin-left: 0px; padding-left: 8px; padding-top:2px;"><i class="fab fa-google-plus-g" style="font-size:32px;  max-width: 28px;"></i></a>
-                <li><a href="https://www.youtube.com/channel/UCgfZNxNYJhfUOsF13orovWQ/featured" class="centeredsociallinks" style="margin-right: 0px; margin-left: 0px; padding-left: 8px; padding-top:2px;"><i class="fab fa-youtube" style="font-size:32px;  max-width: 28px;"></i></a>
+                <!-- <li><a href="https://plus.google.com/communities/107663742044689445130" class="centeredsociallinks" style="margin-right: 0px; margin-left: 0px; padding-left: 8px; padding-top:2px;"><i class="fab fa-google-plus-g" style="font-size:32px;  max-width: 28px;"></i></a> -->
+                <li><a href="https://www.youtube.com/channel/UCgfZNxNYJhfUOsF13orovWQ/featured" class="centeredsociallinks" style="margin-right: 0px; margin-left: 0px; padding-left: 8px; padding-top:2px;"><i class="fab fa-youtube" style="font-size:32px;  max-width: 28px;"></i></a></li>
+                <li>
+                    {% if LANGUAGE_CODE == 'uk' %}
+                    <a href="/en{{ request.path|slice:'3:' }}" class="text-center centeredsociallinks" style="line-height: 10px;">
+                        <img  src="{% static 'blog/img/flags/united-kingdom.png'%}" width="28">
+                        <br/>
+                        <b>ENG</b>
+                    </a>
+                    {% endif %}
+                    {% if LANGUAGE_CODE == 'en' %}
+                    <a href="/uk{{ request.path|slice:'3:' }}" class="text-center centeredsociallinks"  style="line-height: 10px;">
+                        <img  src="{% static 'blog/img/flags/ukraine.png'%}" width="28">
+                        <br/>
+                        <b>UKR</b>
+                    </a>
+                    {% endif %}
+                </li>
             </ul>
         </nav>
-        <!-- LANGUAGE SWITCHER -->
-
-        <form action="{% url 'set_language' %}" method="post" id="language-switcher">{% csrf_token %}
-            <input name="next" type="hidden" value="{{ redirect_to }}">
-            <select name="language" onchange="this.form.submit()" value="Go">
-                {% get_current_language as LANGUAGE_CODE %}
-                {% get_available_languages as LANGUAGES %}
-                {% get_language_info_list for LANGUAGES as languages %}
-                {% for language in languages %}
-                    <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
-                        {% if language.code == 'en' %} 🇬🇧 {% endif %}
-                        {% if language.code == 'ru' %} 🇷🇺{% endif %}
-                        {% if language.code == 'uk' %} 🇺🇦{% endif %}
-                        {{ language.name_local }} ({{ language.code }})
-                    </option>
-                {% endfor %}
-            </select>
-            <input type="hidden" value="Go">
-        </form>
-
-        <!-- END OF LANGUAGE SWITCHER -->
     </header>
     <!-- END OF HEADER -->
 

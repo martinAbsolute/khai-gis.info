@@ -2561,20 +2561,8 @@ li.slick-active button {
     max-height: 100%;
     padding: 10px;
 }
-
-#language-switcher {
+#mob-lang-selector {
   position: absolute;
-  top: 65px;
-  right: 0;
-  width: 128px;
-  z-index: -1;
-}
-#language-switcher select {
-  width: 100%;
-  margin: 0;
-}
-@media (min-width: 1375px) {
-  #language-switcher {
-    top: 75px;
-  }
+  right: 60px;
+  top: 21px;
 }

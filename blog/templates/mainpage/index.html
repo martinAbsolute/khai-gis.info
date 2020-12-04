@@ -64,7 +64,7 @@
           <div class="banner-text-box">
             <h4>{{post.enabstract|linebreaksbr}}</h4>
             <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
-                href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
+                href="/en{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
           </div>
         </div>
         {% endfor %}
@@ -75,7 +75,7 @@
           <div class="banner-text-box">
             <h4>{{post.enabstract|linebreaksbr}}</h4>
             <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
-                href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
+                href="/ru{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
           </div>
         </div>
         {% endfor %}
@@ -86,7 +86,7 @@
           <div class="banner-text-box">
             <h4>{{post.abstract|linebreaksbr}}</h4>
             <h3> {{post.date.day}}.{{post.date.month}}.{{post.date.year}} <a
-                href="{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
+                href="/uk{{post.get_absolute_url}}">{% trans "Детальніше" %}</a></h3>
           </div>
         </div>
         {% endfor %}
@@ -503,11 +503,12 @@
           src="{% static 'blog/img/mainpage/intergraph2.png'%}" alt="intergraph"></a>
       <a class="partner" href="http://www.magellangps.com/"><img src="{% static 'blog/img/mainpage/magellan2.png'%}"
           alt="magellangps"></a>
-      <!--<a class="partner" href="https://www.digitalglobe.com/"><img src="img/content/partners/digitalglobe2.png" alt=""></a>-->
       <a class="partner" href="http://www.mapinfo.ru/"><img src="{% static 'blog/img/mainpage/mapinfo2.png'%}"
           alt="mapinfo"></a>
       <a class="partner" href="http://www.jelvix.com/"><img src="{% static 'blog/img/mainpage/jelvix2.png'%}"
           alt="jelvix"></a>
+      <a class="partner" href="https://eos.com/"><img src="{% static 'blog/img/mainpage/EOS.png'%}"
+          alt="EOS"></a>
     </div>
   </div>
   <!-- Services Section Over -->

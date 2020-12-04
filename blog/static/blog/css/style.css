@@ -266,7 +266,7 @@ form input[type="submit"]{position: absolute; left: 0px; top: 0px; opacity: 0; w
 }
 
 /*video*/
-.block.type-1 *{-webkit-bakface-visibility: hidden;}
+.block.type-1 *{-webkit-backface-visibility: hidden;}
 video.bgvid {position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; width: auto; height: auto; background: url(../assets/intro_for_ipad.jpg) no-repeat; background-size: cover;}
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/

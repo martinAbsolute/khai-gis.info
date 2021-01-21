@@ -1,5 +1,5 @@
-# khaigis
-A website for the department of geoinformation technologies and space monitoring of the earth.
+# khai-gis.info
+A website for the department of geoinformation technology and space monitoring of the Earth.
 
 ## Локальная конфигурация для дебаггинга / разработки:
 Перед началом - убедиться что установлены python 3.4, git, готов к использованию pip (менеджер библиотек для python). Если установлено несколько версий питона, переключится на 3.4

@@ -1,0 +1,8 @@
+AddHandler fcgid-script .fcgi
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(media/.*)$ - [L]
+RewriteRule ^(static/.*)$ - [L]
+RewriteCond %{REQUEST_URI} !(cgi-bin/mysite.fcgi)
+RewriteRule ^(.*)$ cgi-bin/mysite.fcgi/$1 [L]

@@ -32,7 +32,7 @@ ___
 
 5. Активировать virtual environment:
 ```
-source venv/bin/activate
+source venv/bin/Scripts/activate
 ```
 6. Запустить сайт локально, использовав команду runserver в главном entry-pointе приложения - файле manage.py
 ```

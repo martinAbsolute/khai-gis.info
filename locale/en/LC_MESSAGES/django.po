@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-23 15:11+0200\n"
+"POT-Creation-Date: 2021-01-23 22:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .\blog\templates\blog\blogmain.html:7 .\blog\templates\blog\blogpost.html:7
-#: .\blog\templates\blog\layout.html:105
+#: .\blog\templates\blog\layout.html:114
 msgid "Новини"
 msgstr "News"
 
@@ -68,96 +68,101 @@ msgstr "KhAI GIS department 407"
 msgid "uk"
 msgstr "en"
 
-#: .\blog\templates\blog\layout.html:33 .\blog\templates\blog\layout.html:34
+#: .\blog\templates\blog\layout.html:34 .\blog\templates\blog\layout.html:35
 msgid "Кафедра геоінформаційних технологій та космічного моніторингу Землі"
 msgstr ""
 "Department of geoinformation technologies and space monitoring of the Earth"
 
-#: .\blog\templates\blog\layout.html:41
+#: .\blog\templates\blog\layout.html:54
 msgid "НОВИНИ"
 msgstr "NEWS"
 
-#: .\blog\templates\blog\layout.html:42
+#: .\blog\templates\blog\layout.html:55
 msgid "АБІТУРІЄНТУ"
 msgstr "APPLICANTS"
 
-#: .\blog\templates\blog\layout.html:43
+#: .\blog\templates\blog\layout.html:56
 msgid "МІЖНАРОДНІ ВІДНОСИНИ"
 msgstr "INTERNATIONAL RELATIONS"
 
-#: .\blog\templates\blog\layout.html:44
+#: .\blog\templates\blog\layout.html:57
 #: .\blog\templates\mainpage\gallery-container.html:18
 msgid "ГАЛЕРЕЯ"
 msgstr "GALLERY"
 
-#: .\blog\templates\blog\layout.html:46
+#: .\blog\templates\blog\layout.html:59
 msgid "РОЗДІЛИ"
 msgstr "SECTIONS"
 
-#: .\blog\templates\blog\layout.html:48
+#: .\blog\templates\blog\layout.html:61
 msgid "ПРО КАФЕДРУ"
 msgstr "ABOUT DEPARTMENT"
 
-#: .\blog\templates\blog\layout.html:49
+#: .\blog\templates\blog\layout.html:62
 msgid "НАПРЯМИ ПІДГОТОВКИ"
 msgstr "SPECIALIZATIONS"
 
-#: .\blog\templates\blog\layout.html:50
+#: .\blog\templates\blog\layout.html:63
 msgid "МІЖНАРОДНІ ПРОЕКТИ"
 msgstr "INTERNATIONAL PROJECTS"
 
-#: .\blog\templates\blog\layout.html:51
+#: .\blog\templates\blog\layout.html:64
+#: .\blog\templates\mainpage\museum-container.html:18
+msgid "МУЗЕЙ"
+msgstr ""
+
+#: .\blog\templates\blog\layout.html:65
 msgid "АКТУАЛЬНІ ДАНІ ДЗЗ"
 msgstr "REMOTE SENSING DATA"
 
-#: .\blog\templates\blog\layout.html:53
+#: .\blog\templates\blog\layout.html:67
 msgid "ДЕНЬ ГІС"
 msgstr "GIS DAY"
 
-#: .\blog\templates\blog\layout.html:54
+#: .\blog\templates\blog\layout.html:68
 msgid "СТУДЕНТУ"
 msgstr "STUDENTS"
 
-#: .\blog\templates\blog\layout.html:55
+#: .\blog\templates\blog\layout.html:69
 msgid "ПАРТНЕРИ"
 msgstr "PARTNERS"
 
-#: .\blog\templates\blog\layout.html:56
+#: .\blog\templates\blog\layout.html:70
 msgid "ЗВОРОТНІЙ ЗВ'ЯЗОК"
 msgstr "FEEDBACK"
 
-#: .\blog\templates\blog\layout.html:59
+#: .\blog\templates\blog\layout.html:73
 msgid "КОНТАКТИ"
 msgstr "CONTACT"
 
-#: .\blog\templates\blog\layout.html:96
+#: .\blog\templates\blog\layout.html:105
 msgid "Маєте бажання навчатися у нас?"
 msgstr "Do you have the willingness to study with us?"
 
-#: .\blog\templates\blog\layout.html:98
+#: .\blog\templates\blog\layout.html:107
 msgid "ВВЕДІТЬ СВІЙ № ТЕЛЕФОНУ"
 msgstr "ENTER YOUR PHONE NUMBER"
 
-#: .\blog\templates\blog\layout.html:101
+#: .\blog\templates\blog\layout.html:110
 msgid "   і ми з Вами зв'яжемося"
 msgstr "    and we will contact you"
 
-#: .\blog\templates\blog\layout.html:106
+#: .\blog\templates\blog\layout.html:115
 #: .\blog\templates\mainpage\gallery-container.html:6
 #: .\blog\templates\mainpage\gallery.html:6
 msgid "Галерея"
 msgstr "Gallery"
 
-#: .\blog\templates\blog\layout.html:107
+#: .\blog\templates\blog\layout.html:116
 #: .\blog\templates\mainpage\abit.html:18
 msgid "Абітурієнту"
 msgstr "Applicants"
 
-#: .\blog\templates\blog\layout.html:109
+#: .\blog\templates\blog\layout.html:118
 msgid "Контакти"
 msgstr "Contact"
 
-#: .\blog\templates\blog\layout.html:124
+#: .\blog\templates\blog\layout.html:131
 #: .\blog\templates\mainpage\contact.html:96
 msgid "Розробники"
 msgstr "Developers"
@@ -199,20 +204,28 @@ msgid " на офіційному сайті ХАІ"
 msgstr " on the official website of KhAI"
 
 #: .\blog\templates\mainpage\abit.html:54
+#, fuzzy
+#| msgid ""
+#| "ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та "
+#| "Землевпорядкування (бакалаврат)"
 msgid ""
-"ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та Землевпорядкування "
+"ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та Землеустрій "
 "(бакалаврат)"
 msgstr ""
 "KhAI GIS - info - Program of entrance tests - Geodesy and Land management "
 "(bachelor's degree)"
 
 #: .\blog\templates\mainpage\abit.html:57
+#, fuzzy
+#| msgid ""
+#| "ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та "
+#| "Землевпорядкування (бакалаврат)"
 msgid ""
-"ХАІ ГІС - інфо - Програма додаткових вступних тестів - Геодезія та "
-"Землевпорядкування (бакалаврат)"
+"ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та Землеустрій "
+"(скорочена) (бакалаврат)"
 msgstr ""
-"KhAI GIS - info - Program of additional entrance tests - Geodesy and Land "
-"management (bachelor's degree)"
+"KhAI GIS - info - Program of entrance tests - Geodesy and Land management "
+"(bachelor's degree)"
 
 #: .\blog\templates\mainpage\abit.html:60
 msgid ""
@@ -222,88 +235,128 @@ msgstr ""
 "degree)"
 
 #: .\blog\templates\mainpage\abit.html:63
+#, fuzzy
+#| msgid ""
+#| "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Науки про Землю "
+#| "(бакалаврат)"
 msgid ""
 "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Науки про Землю "
-"(бакалаврат)"
+"(скорочена) (бакалаврат)"
 msgstr ""
 "KhAI GIS - info - Program of additional entrance tests - Earth sciences "
 "(bachelor's degree)"
 
-#: .\blog\templates\mainpage\abit.html:69
-#: .\blog\templates\mainpage\abit.html:115
+#: .\blog\templates\mainpage\abit.html:68
+#, fuzzy
+#| msgid ""
+#| "ХАІ ГІС - інфо - Освітньо - професійна програма - Геодезія та "
+#| "Землевпорядкування (магістратура)"
+msgid ""
+"ХАІ ГІС - інфо - Освітньо - професійна програма - Геоінформаційні системи і "
+"технологіі (скорочена) (бакалаврат)"
+msgstr ""
+"KhAI GIS - Info - Educational - Professional Program - Geodesy and Land "
+"Management (master's degree)"
+
+#: .\blog\templates\mainpage\abit.html:70
+#, fuzzy
+#| msgid ""
+#| "ХАІ ГІС - інфо - Освітньо - професійна програма - Науки про Землю "
+#| "(магістратура)"
+msgid ""
+"ХАІ ГІС - інфо - Освітньо - професійна програма - Косічний Моніторинг Землі "
+"(бакалаврат)"
+msgstr ""
+"KhAI GIS - Info - Educational - Professional Program - Earth sciences "
+"(master's degree)"
+
+#: .\blog\templates\mainpage\abit.html:72
+#, fuzzy
+#| msgid ""
+#| "ХАІ ГІС - інфо - Освітньо - професійна програма - Науки про Землю "
+#| "(магістратура)"
+msgid ""
+"ХАІ ГІС - інфо - Освітньо - професійна програма - Косічний Моніторинг Землі "
+"(скорочена) (бакалаврат)"
+msgstr ""
+"KhAI GIS - Info - Educational - Professional Program - Earth sciences "
+"(master's degree)"
+
+#: .\blog\templates\mainpage\abit.html:78
+#: .\blog\templates\mainpage\abit.html:124
 msgid "Спеціальність:"
 msgstr "Speciality:"
 
-#: .\blog\templates\mainpage\abit.html:69
+#: .\blog\templates\mainpage\abit.html:78
 msgid "193 - Геодезія та землеустрій"
 msgstr "193 - Geodesy and Land management"
 
-#: .\blog\templates\mainpage\abit.html:71
-#: .\blog\templates\mainpage\abit.html:117
+#: .\blog\templates\mainpage\abit.html:80
+#: .\blog\templates\mainpage\abit.html:126
 msgid "Тривалість навчання: 4 роки;"
 msgstr "The duration of studies goes 4 years;"
 
-#: .\blog\templates\mainpage\abit.html:72
-#: .\blog\templates\mainpage\abit.html:118
+#: .\blog\templates\mainpage\abit.html:81
+#: .\blog\templates\mainpage\abit.html:127
 msgid "ЗНО:"
 msgstr "External Independent Examinations:"
 
-#: .\blog\templates\mainpage\abit.html:74
-#: .\blog\templates\mainpage\abit.html:121
+#: .\blog\templates\mainpage\abit.html:83
+#: .\blog\templates\mainpage\abit.html:130
 msgid "Українська мова та література;"
 msgstr "Ukrainian language and literature;"
 
-#: .\blog\templates\mainpage\abit.html:75
-#: .\blog\templates\mainpage\abit.html:120
+#: .\blog\templates\mainpage\abit.html:84
+#: .\blog\templates\mainpage\abit.html:129
 msgid "Математика;"
 msgstr "Maths;"
 
-#: .\blog\templates\mainpage\abit.html:76
+#: .\blog\templates\mainpage\abit.html:85
 msgid "Географія, або Історія України;"
 msgstr "Geography or History of Ukraine;"
 
-#: .\blog\templates\mainpage\abit.html:79
+#: .\blog\templates\mainpage\abit.html:88
 msgid "Ліцензійний обсяг набору в 2019 році: 65 місць;"
 msgstr "Licensed volume in 2019: 65 seats;"
 
-#: .\blog\templates\mainpage\abit.html:80
-#: .\blog\templates\mainpage\abit.html:126
+#: .\blog\templates\mainpage\abit.html:89
+#: .\blog\templates\mainpage\abit.html:135
 msgid "Держ. замовлення в 2019 році:"
 msgstr "State orders in 2019:"
 
-#: .\blog\templates\mainpage\abit.html:81
+#: .\blog\templates\mainpage\abit.html:90
 msgid "              на підставі повної загальної середньої освіти: 28 місць;"
 msgstr "              on the basis of full secondary education: 28 seats;"
 
-#: .\blog\templates\mainpage\abit.html:82
-#: .\blog\templates\mainpage\abit.html:128
+#: .\blog\templates\mainpage\abit.html:91
+#: .\blog\templates\mainpage\abit.html:137
 msgid "              на підставі ОКР «молодший спеціаліст» (ІІ курс): 5 місць;"
 msgstr ""
 "              on the basis of the JR 'junior specialist' (II course): 5 "
 "seats;"
 
-#: .\blog\templates\mainpage\abit.html:83
-#: .\blog\templates\mainpage\abit.html:129
+#: .\blog\templates\mainpage\abit.html:92
+#: .\blog\templates\mainpage\abit.html:138
 msgid "Вартість контрактного навчання в 2019 році: 11250 грн/рік;"
 msgstr "In 2019, the contract value is 11250 UAH / year"
 
-#: .\blog\templates\mainpage\abit.html:89
-#: .\blog\templates\mainpage\abit.html:92
 #: .\blog\templates\mainpage\abit.html:98
-#: .\blog\templates\mainpage\abit.html:135
-#: .\blog\templates\mainpage\abit.html:138
+#: .\blog\templates\mainpage\abit.html:101
+#: .\blog\templates\mainpage\abit.html:107
+#: .\blog\templates\mainpage\abit.html:144
+#: .\blog\templates\mainpage\abit.html:147
 msgid "ХАИ ГИС - инфо (стр.1)"
 msgstr "KhAI GIS - info (page 1)"
 
-#: .\blog\templates\mainpage\abit.html:101
+#: .\blog\templates\mainpage\abit.html:110
 msgid "День ГИС - инфо (стр.2)"
 msgstr "GIS Day - Info (page 2)"
 
-#: .\blog\templates\mainpage\abit.html:104
+#: .\blog\templates\mainpage\abit.html:113
 msgid "Що таке бакалаврат?"
 msgstr "What does bachelor's degree mean?"
 
-#: .\blog\templates\mainpage\abit.html:106
+#: .\blog\templates\mainpage\abit.html:115
 msgid ""
 " Бакалаврат - це перша ступінь вищої освіти на рівні світових стандартів, а "
 "диплом бакалавра є документом про вищу освіту."
@@ -311,7 +364,7 @@ msgstr ""
 " The bachelor degree is the first stage of higher education at the level of "
 "world standards and the bachelor's degree is a document of higher education."
 
-#: .\blog\templates\mainpage\abit.html:107
+#: .\blog\templates\mainpage\abit.html:116
 msgid ""
 " Кожна ступінь кваліфікації випускника сучасного ВНЗ відрізняється ступенем "
 "«Занурення» в тонкощі майбутньої спеціалізації. Виходячи з цього, для кожної "
@@ -323,7 +376,7 @@ msgstr ""
 "this understanding, for each qualification a special curriculum is  formed, "
 "which distributes knowledge according to future qualifications. "
 
-#: .\blog\templates\mainpage\abit.html:108
+#: .\blog\templates\mainpage\abit.html:117
 msgid ""
 " На даний час, коли технології та знання оновлюються з великою швидкістю, "
 "недоцільно готувати «вузьких» спеціалістів в стінах вузу, починаючи з "
@@ -336,27 +389,27 @@ msgstr ""
 "the next five or six years. As a result, there was a wider  curriculum which "
 "will more closely match a changing labour market. "
 
-#: .\blog\templates\mainpage\abit.html:115
+#: .\blog\templates\mainpage\abit.html:124
 msgid "103 - Науки про Землю"
 msgstr "103 - Earth sciences"
 
-#: .\blog\templates\mainpage\abit.html:122
+#: .\blog\templates\mainpage\abit.html:131
 msgid "Географія, або Фізика;"
 msgstr "Geography or Physics;"
 
-#: .\blog\templates\mainpage\abit.html:125
+#: .\blog\templates\mainpage\abit.html:134
 msgid "Ліцензійний обсяг набору в 2019 році: 27 місць;"
 msgstr "Licensed volume in 2019: 27 seats"
 
-#: .\blog\templates\mainpage\abit.html:127
+#: .\blog\templates\mainpage\abit.html:136
 msgid "              на підставі повної загальної середньої освіти: 10 місць;"
 msgstr "              on the basis of full secondary education: 10 seats;"
 
-#: .\blog\templates\mainpage\abit.html:141
+#: .\blog\templates\mainpage\abit.html:150
 msgid "особливості підготовки за спеціальностями"
 msgstr "features of vocational training in specialties"
 
-#: .\blog\templates\mainpage\abit.html:144
+#: .\blog\templates\mainpage\abit.html:153
 msgid ""
 "Навчальні плани створені з урахуванням кредитно-модульної сиситеми "
 "відповідно до європейських стандартів;"
@@ -364,7 +417,7 @@ msgstr ""
 "Curriculum created with the credit-modular system in accordance with "
 "European standards;"
 
-#: .\blog\templates\mainpage\abit.html:145
+#: .\blog\templates\mainpage\abit.html:154
 msgid ""
 "Студенти під час навчання працюють з сучасними обчислювальними системами і "
 "геодезичним обладнанням, використовуючи ліцензійне програмне забезпечення "
@@ -374,7 +427,7 @@ msgstr ""
 "geodetic equipment, using the licensed software of leading world "
 "manufacturers;"
 
-#: .\blog\templates\mainpage\abit.html:146
+#: .\blog\templates\mainpage\abit.html:155
 msgid ""
 "Протягом усіх курсів навчання поглиблено вивчаються професійно-орієнтовані "
 "Іноземні мови;"
@@ -382,7 +435,7 @@ msgstr ""
 "Throughout the course, professionally-oriented foreign languages ​​are studied "
 "in depth;"
 
-#: .\blog\templates\mainpage\abit.html:147
+#: .\blog\templates\mainpage\abit.html:156
 msgid ""
 "Можливість продовження навчання в магістратурі та отримання кваліфікації "
 "'Інженер-геоінформатики'"
@@ -390,11 +443,11 @@ msgstr ""
 "Possibility of continuing education in the master's degree and obtaining the "
 "qualification 'Geoinformatics engineer'"
 
-#: .\blog\templates\mainpage\abit.html:148
+#: .\blog\templates\mainpage\abit.html:157
 msgid "Участь студентів в науково-дослідних проектах;"
 msgstr "Students' participation in scientific projects;"
 
-#: .\blog\templates\mainpage\abit.html:149
+#: .\blog\templates\mainpage\abit.html:158
 msgid ""
 "Можливість продовження навчання в аспірантурі (отримання міжнародного "
 "ступеня Ph. D.);"
@@ -402,7 +455,7 @@ msgstr ""
 "Possibility of continuing education in postgraduate studies (obtaining an "
 "international degree from Ph.D.);"
 
-#: .\blog\templates\mainpage\abit.html:150
+#: .\blog\templates\mainpage\abit.html:159
 msgid ""
 "Співпраця з \"ESRI Europe\", \"ECCOM Co\", \"HERE maps\", \"ScanEx\", "
 "\"Leica    Geosystems Geospatial Imaging\", Інститут проблем національної "
@@ -414,8 +467,8 @@ msgstr ""
 "Problems,     Institute of Telecommunications and the Global Information "
 "Space, Center     for Earth Aerospace Research."
 
-#: .\blog\templates\mainpage\abit.html:165
-#: .\blog\templates\mainpage\abit.html:170
+#: .\blog\templates\mainpage\abit.html:174
+#: .\blog\templates\mainpage\abit.html:179
 msgid ""
 "ХАІ ГІС - інфо - Освітньо - професійна програма - Геодезія та "
 "Землевпорядкування (магістратура)"
@@ -423,8 +476,8 @@ msgstr ""
 "KhAI GIS - Info - Educational - Professional Program - Geodesy and Land "
 "Management (master's degree)"
 
-#: .\blog\templates\mainpage\abit.html:167
-#: .\blog\templates\mainpage\abit.html:172
+#: .\blog\templates\mainpage\abit.html:176
+#: .\blog\templates\mainpage\abit.html:181
 msgid ""
 "ХАІ ГІС - інфо - Освітньо - професійна програма - Науки про Землю "
 "(магістратура)"
@@ -432,109 +485,98 @@ msgstr ""
 "KhAI GIS - Info - Educational - Professional Program - Earth sciences "
 "(master's degree)"
 
-#: .\blog\templates\mainpage\abit.html:177
+#: .\blog\templates\mainpage\abit.html:187
+#: .\blog\templates\mainpage\abit.html:192
+#, fuzzy
+#| msgid ""
+#| "ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та "
+#| "Землевпорядкування (магістратура)"
 msgid ""
-"ХАІ ГІС - інфо - Програма вступних тестів - Геодезія та Землевпорядкування "
-"(магістратура)"
+"Програма вступних тестів - Геодезія та Землевпорядкування (магістратура)"
 msgstr ""
 "KhAI GIS - info - Program of entrance tests - Geodesy and Land management "
 "(master's degree)"
 
-#: .\blog\templates\mainpage\abit.html:180
-msgid ""
-"ХАІ ГІС - інфо - Програма додаткових вступних тестів - Геодезія та "
-"Землевпорядкування (магістратура)"
-msgstr ""
-"KhAI GIS - info - Program of additional entrance tests - Geodesy and Land "
-"management (master's degree)"
-
-#: .\blog\templates\mainpage\abit.html:183
+#: .\blog\templates\mainpage\abit.html:189
+#: .\blog\templates\mainpage\abit.html:194
 msgid ""
 "ХАІ ГІС - інфо - Програма вступних тестів - Науки про Землю (магістратура)"
 msgstr ""
 "KhAI GIS - info - Program of entrance tests - Earth sciences (master's "
 "degree)"
 
-#: .\blog\templates\mainpage\abit.html:186
-msgid ""
-"ХАІ ГІС - інфо - Програма додаткових вступних тестів - Науки про Землю "
-"(магістратура)"
-msgstr ""
-"KhAI GIS - info - Program of additional entrance tests - Earth sciences "
-"(master's degree)"
-
-#: .\blog\templates\mainpage\abit.html:191
+#: .\blog\templates\mainpage\abit.html:199
 msgid "СПЕЦІАЛЬНІСТЬ 193 - ГЕОДЕЗІЯ ТА ЗЕМЛЕУСТРІЙ"
 msgstr "SPECIALTY 193 - GEODESY AND LAND MANAGEMENT"
 
-#: .\blog\templates\mainpage\abit.html:192
+#: .\blog\templates\mainpage\abit.html:200
 msgid "ОСВІТНЬО-ПРОФЕСІЙНА ПРОГРАМА «ГЕОІНФОРМАЦІЙНІ СИСТЕМИ І ТЕХНОЛОГІЇ»"
 msgstr ""
 "EDUCATIONAL-PROFESSIONAL PROGRAM «GEOINFORMATION SYSTEMS AND TECHNOLOGIES»"
 
-#: .\blog\templates\mainpage\abit.html:194
-#: .\blog\templates\mainpage\abit.html:212
+#: .\blog\templates\mainpage\abit.html:202
+#: .\blog\templates\mainpage\abit.html:220
 msgid "Тривалість навчання: 1 рік 4 міс.;"
 msgstr "The duration of studies goes 1 year 4 months;"
 
-#: .\blog\templates\mainpage\abit.html:195
+#: .\blog\templates\mainpage\abit.html:203
 msgid "Вступні іспити:"
 msgstr "Entrance exams:"
 
-#: .\blog\templates\mainpage\abit.html:197
-#: .\blog\templates\mainpage\abit.html:215
+#: .\blog\templates\mainpage\abit.html:205
+#: .\blog\templates\mainpage\abit.html:223
 msgid "Комплексний іспит за фахом;"
 msgstr "Specialist examination;"
 
-#: .\blog\templates\mainpage\abit.html:198
-#: .\blog\templates\mainpage\abit.html:216
+#: .\blog\templates\mainpage\abit.html:206
+#: .\blog\templates\mainpage\abit.html:224
 msgid "Іноземна мова;"
 msgstr "Foreign Language;"
 
-#: .\blog\templates\mainpage\abit.html:201
+#: .\blog\templates\mainpage\abit.html:209
 msgid "Ліцензійний обсяг набору в 2019 році: 10 місць; "
 msgstr "Licensed volume in 2019: 10 seats; "
 
-#: .\blog\templates\mainpage\abit.html:202
-#: .\blog\templates\mainpage\abit.html:220
+#: .\blog\templates\mainpage\abit.html:210
+#: .\blog\templates\mainpage\abit.html:228
 msgid "Держ. замовлення в 2019 році: 10 місць; "
 msgstr "State orders in 2019: 10 seats; "
 
-#: .\blog\templates\mainpage\abit.html:203
-#: .\blog\templates\mainpage\abit.html:221
+#: .\blog\templates\mainpage\abit.html:211
+#: .\blog\templates\mainpage\abit.html:229
 msgid "Вартість навчання: 12330 грн / рік; "
 msgstr "The contract value is 12330 UAH / year"
 
-#: .\blog\templates\mainpage\abit.html:204
-#: .\blog\templates\mainpage\abit.html:222
+#: .\blog\templates\mainpage\abit.html:212
+#: .\blog\templates\mainpage\abit.html:230
 msgid "Заочне відділення: так "
 msgstr "Extramural department: yes "
 
-#: .\blog\templates\mainpage\abit.html:210
+#: .\blog\templates\mainpage\abit.html:218
 msgid "СПЕЦІАЛЬНІСТЬ 103 - НАУКИ ПРО ЗЕМЛЮ"
 msgstr "SPECIALTY 103 - EARTH SCIENCES"
 
-#: .\blog\templates\mainpage\abit.html:210
+#: .\blog\templates\mainpage\abit.html:218
 msgid "ОСВІТНЬО-ПРОФЕСІЙНА ПРОГРАМА «КОСМІЧНИЙ МОНІТОРИНГ ЗЕМЛІ»"
 msgstr "EDUCATIONAL PROFESSIONAL PROGRAM «SPACE MONITORING OF EARTH»"
 
-#: .\blog\templates\mainpage\abit.html:213
+#: .\blog\templates\mainpage\abit.html:221
 msgid " Вступні іспити:"
 msgstr " Entrance exams:"
 
-#: .\blog\templates\mainpage\abit.html:219
+#: .\blog\templates\mainpage\abit.html:227
 msgid "Ліцензійний обсяг набору в 2019 році: 15 місць; "
 msgstr "Licensed volume in 2019: 15 seats;"
 
-#: .\blog\templates\mainpage\abit.html:231
+#: .\blog\templates\mainpage\abit.html:239
 msgid "Навчання в аспірантурі"
 msgstr "Postgraduate education"
 
-#: .\blog\templates\mainpage\abit.html:233
+#: .\blog\templates\mainpage\abit.html:241
 msgid "Термін навчання 4 роки."
 msgstr "The duration of studies goes 4 years."
 
-#: .\blog\templates\mainpage\abit.html:234
+#: .\blog\templates\mainpage\abit.html:242
 msgid ""
 "Щорічно кафедра набирає магістрів, що пройшли навчання за однією з "
 "спеціальностей кафедри, до аспірантуру. Вступити до аспірантури ХАІ можна "
@@ -549,7 +591,7 @@ msgstr ""
 "in-depth professional-oriented foreign language throughout their entire "
 "education. "
 
-#: .\blog\templates\mainpage\abit.html:235
+#: .\blog\templates\mainpage\abit.html:243
 msgid ""
 "Значною перевагою навчання в аспірантурі на базі кафедри 407 є можливість "
 "підвищення кваліфікації в Vancouver Island University з отриманням "
@@ -559,18 +601,18 @@ msgstr ""
 "Department 407 is the possibility of continuing education in Vancouver "
 "Island University with obtaining an international certificate."
 
-#: .\blog\templates\mainpage\abit.html:240
-#: .\blog\templates\mainpage\abit.html:301
-#: .\blog\templates\mainpage\abit.html:302
+#: .\blog\templates\mainpage\abit.html:248
+#: .\blog\templates\mainpage\abit.html:309
+#: .\blog\templates\mainpage\abit.html:310
 msgid "аспирантура ХАИ"
 msgstr "postgraduate education in KhAI"
 
-#: .\blog\templates\mainpage\abit.html:247
+#: .\blog\templates\mainpage\abit.html:255
 #: .\blog\templates\mainpage\gisdayteaser.html:6
 msgid "День ГІС"
 msgstr "GIS Day"
 
-#: .\blog\templates\mainpage\abit.html:248
+#: .\blog\templates\mainpage\abit.html:256
 msgid ""
 "Спільно з усією світовою ГІС-спільнотою, кожної другої середи листопада на "
 "нашій кафедрі відзначається день ГІС. Свято є одним з найяскравіших і "
@@ -585,22 +627,22 @@ msgstr ""
 "scientific work,take part in competitions for the best video about study in "
 "KhAI and for the most original cake! See photos in "
 
-#: .\blog\templates\mainpage\abit.html:248
+#: .\blog\templates\mainpage\abit.html:256
 msgid "галереї."
 msgstr "galleries."
 
-#: .\blog\templates\mainpage\abit.html:250
-#: .\blog\templates\mainpage\abit.html:252
-#: .\blog\templates\mainpage\abit.html:254
+#: .\blog\templates\mainpage\abit.html:258
+#: .\blog\templates\mainpage\abit.html:260
+#: .\blog\templates\mainpage\abit.html:262
 #: .\blog\templates\mainpage\gisdayteaser.html:39
 msgid "День ГИС"
 msgstr "GIS Day"
 
-#: .\blog\templates\mainpage\abit.html:256
+#: .\blog\templates\mainpage\abit.html:264
 msgid "1001 ніч"
 msgstr "1001 nights"
 
-#: .\blog\templates\mainpage\abit.html:257
+#: .\blog\templates\mainpage\abit.html:265
 msgid ""
 "Щорічно студенти третього курсу всього університету відправляються на кілька "
 "днів на базу відпочинку, щоб відзначити '1001 ніч', що пройшла за час "
@@ -612,17 +654,17 @@ msgstr ""
 "of the event includes various contests, games, discos. This holiday will "
 "forever remain in the memory of the students of KhAI."
 
-#: .\blog\templates\mainpage\abit.html:259
-#: .\blog\templates\mainpage\abit.html:261
-#: .\blog\templates\mainpage\abit.html:263
+#: .\blog\templates\mainpage\abit.html:267
+#: .\blog\templates\mainpage\abit.html:269
+#: .\blog\templates\mainpage\abit.html:271
 msgid "1001 ніч ХАІ"
 msgstr "1001 nights in KhAI"
 
-#: .\blog\templates\mainpage\abit.html:268
+#: .\blog\templates\mainpage\abit.html:276
 msgid "Профком студентів та аспірантів ХАІ"
 msgstr "The trade union of students and postgraduates of KhAI"
 
-#: .\blog\templates\mainpage\abit.html:269
+#: .\blog\templates\mainpage\abit.html:277
 msgid ""
 "Первинна профспілкова організація студентів та аспірантів - це добровільна "
 "профспілкова організація студентів та аспірантів університету, метою якої є "
@@ -643,18 +685,18 @@ msgstr ""
 "excursions, events, annual visits to the Carpathians and many others. Learn "
 "more about the activities of the KhAI trade union at "
 
-#: .\blog\templates\mainpage\abit.html:269
+#: .\blog\templates\mainpage\abit.html:277
 msgid "офіційному сайті."
 msgstr "official site."
 
-#: .\blog\templates\mainpage\abit.html:270
-#: .\blog\templates\mainpage\abit.html:273
-#: .\blog\templates\mainpage\abit.html:275
-#: .\blog\templates\mainpage\abit.html:277
+#: .\blog\templates\mainpage\abit.html:278
+#: .\blog\templates\mainpage\abit.html:281
+#: .\blog\templates\mainpage\abit.html:283
+#: .\blog\templates\mainpage\abit.html:285
 msgid "День ХАІ"
 msgstr "KhAI Day"
 
-#: .\blog\templates\mainpage\abit.html:271
+#: .\blog\templates\mainpage\abit.html:279
 msgid ""
 "День Харківського авіаційного інституту традиційно вважається головним "
 "святом університету. Відзначається цей день в останню суботу травня. На день "
@@ -667,26 +709,26 @@ msgstr ""
 "Graduates of all years gather and meet in the university.On this day a "
 "concert, fireworks and dances are organized in the campus. "
 
-#: .\blog\templates\mainpage\abit.html:284
+#: .\blog\templates\mainpage\abit.html:292
 msgid "Працевлаштування випускників забезпечується:"
 msgstr "The successful employment of graduates is ensured by::"
 
-#: .\blog\templates\mainpage\abit.html:287
+#: .\blog\templates\mainpage\abit.html:295
 msgid " Національним космічним агентством України; "
 msgstr " National Space Agency of Ukraine; "
 
-#: .\blog\templates\mainpage\abit.html:288
+#: .\blog\templates\mainpage\abit.html:296
 msgid " Обласними науково-геодезичними центрами; "
 msgstr " Regional scientific-geodesic centers; "
 
-#: .\blog\templates\mainpage\abit.html:289
+#: .\blog\templates\mainpage\abit.html:297
 msgid ""
 " Регіональними підрозділами інстітіутов космічних досліджень НАН України; "
 msgstr ""
 " Regional divisions of the Space Research Institutes of the National Academy "
 "of Sciences of Ukraine; "
 
-#: .\blog\templates\mainpage\abit.html:290
+#: .\blog\templates\mainpage\abit.html:298
 msgid ""
 " Регіональними підрозділами державного науково-виробничого центру 'Природа' "
 "НКАУ; "
@@ -694,7 +736,7 @@ msgstr ""
 " Regional divisions of the state scientific and production center 'Nature' "
 "NSAU; "
 
-#: .\blog\templates\mainpage\abit.html:291
+#: .\blog\templates\mainpage\abit.html:299
 msgid ""
 " Науково-дослідними проектними організаціями, котрі підпорядковуються "
 "Міністерству екології України та Аграрній академії України; "
@@ -702,15 +744,15 @@ msgstr ""
 " Scientific research project organizations that are subordinated to the "
 "Ministry of Ecology of Ukraine and the Agrarian Academy of Ukraine; "
 
-#: .\blog\templates\mainpage\abit.html:292
+#: .\blog\templates\mainpage\abit.html:300
 msgid " Обласними управліннями охорони природного середовища; "
 msgstr " Regional Departments of Environmental Protection; "
 
-#: .\blog\templates\mainpage\abit.html:293
+#: .\blog\templates\mainpage\abit.html:301
 msgid " Обласними управліннями земельних і лісових ресурсів; "
 msgstr " Regional departments of land and forest resources; "
 
-#: .\blog\templates\mainpage\abit.html:294
+#: .\blog\templates\mainpage\abit.html:302
 msgid ""
 " Підприємствами, які виконують геодезичні роботи і завдання тематичного "
 "картографування. "
@@ -812,15 +854,32 @@ msgid "Нечаусов Артем  "
 msgstr "Artem Nechausov"
 
 #: .\blog\templates\mainpage\contact.html:104
-msgid "Доцент кафедри 407. Кандидат технічних наук."
+#: .\blog\templates\mainpage\index.html:197
+#: .\blog\templates\mainpage\index.html:230
+#: .\blog\templates\mainpage\index.html:252
+#: .\blog\templates\mainpage\index.html:263
+#: .\blog\templates\mainpage\index.html:274
+#: .\blog\templates\mainpage\index.html:296
+#: .\blog\templates\mainpage\index.html:318
+#: .\blog\templates\mainpage\index.html:329
+#: .\blog\templates\mainpage\index.html:340
+msgid "Доцент кафедри 407"
+msgstr "Associate Professor of the Department 407"
+
+#: .\blog\templates\mainpage\contact.html:105
+#, fuzzy
+#| msgid "Доцент кафедри 407. Кандидат технічних наук."
+msgid "Кандидат технічних наук"
 msgstr "Associate Professor 407. Candidate of Technical Sciences."
 
-#: .\blog\templates\mainpage\contact.html:109
+#: .\blog\templates\mainpage\contact.html:110
 msgid "Багнюк Мартін "
 msgstr "Martin Bagniuk "
 
-#: .\blog\templates\mainpage\contact.html:110
-msgid "Студент кафедри 407."
+#: .\blog\templates\mainpage\contact.html:111
+#, fuzzy
+#| msgid "Студент кафедри 407."
+msgid "Студент кафедри 407"
 msgstr "Student of department 407"
 
 #: .\blog\templates\mainpage\gallery-container.html:25
@@ -1041,18 +1100,6 @@ msgstr "Sergey Andreev"
 msgid "к.т.н, доцент"
 msgstr "PhD, Associate Professor"
 
-#: .\blog\templates\mainpage\index.html:197
-#: .\blog\templates\mainpage\index.html:230
-#: .\blog\templates\mainpage\index.html:252
-#: .\blog\templates\mainpage\index.html:263
-#: .\blog\templates\mainpage\index.html:274
-#: .\blog\templates\mainpage\index.html:296
-#: .\blog\templates\mainpage\index.html:318
-#: .\blog\templates\mainpage\index.html:329
-#: .\blog\templates\mainpage\index.html:340
-msgid "Доцент кафедри 407"
-msgstr "Associate Professor of the Department 407"
-
 #: .\blog\templates\mainpage\index.html:204
 msgid "Бутенко Ольга Станіславівна, Харків, ГІС, GIS"
 msgstr "Olga Butenko, Kharkiv, ГІС, GIS"
@@ -1129,21 +1176,29 @@ msgid "Нечаусов Артем Сергійович"
 msgstr "Artem Nechausov"
 
 #: .\blog\templates\mainpage\index.html:273
+#: .\blog\templates\mainpage\index.html:284
 #: .\blog\templates\mainpage\index.html:328
 msgid "к.т.н"
 msgstr "Ph.D."
 
 #: .\blog\templates\mainpage\index.html:281
-msgid "Гребінь Александр Сергійович, Харків, ГІС, GIS"
+#, fuzzy
+#| msgid "Гребінь Александр Сергійович, Харків, ГІС, GIS"
+msgid "Гребень Олександр Сергійович, Харків, ГІС, GIS"
 msgstr "Alexander Greben, Kharkiv, ГІС, GIS"
 
 #: .\blog\templates\mainpage\index.html:283
-msgid "Гребінь Александр Сергійович"
+#, fuzzy
+#| msgid "Гребінь Александр Сергійович"
+msgid "Гребень Олександр Сергійович"
 msgstr "Alexander Greben"
 
 #: .\blog\templates\mainpage\index.html:285
-msgid "Старший викладач кафедри 407"
-msgstr "Senior lecturer of the department 407"
+msgid ""
+"Доцент кафедри 407. Заступник декана факультету ракетно-космічної техніки"
+msgstr ""
+"Associate Professor of the Department 407. Vice Dean of rocket and space "
+"technology department"
 
 #: .\blog\templates\mainpage\index.html:292
 #, fuzzy
@@ -1437,65 +1492,65 @@ msgstr ""
 "The department co-operates with domestic and foreign companies in different "
 "directions: academic practice, graduates employment and scientific work. "
 
-#: .\blog\templates\mainpage\index.html:519
+#: .\blog\templates\mainpage\index.html:520
 msgid "Напрямки працевлаштування"
 msgstr "Employment Directions"
 
-#: .\blog\templates\mainpage\index.html:528
+#: .\blog\templates\mainpage\index.html:529
 msgid "Підприємства, що виконують геодезичні роботи"
 msgstr "Companies that perform geodetic works"
 
-#: .\blog\templates\mainpage\index.html:529
+#: .\blog\templates\mainpage\index.html:530
 msgid "Геодезисти, інженери-технологи"
 msgstr "Geodesy, engineering technology"
 
-#: .\blog\templates\mainpage\index.html:536
+#: .\blog\templates\mainpage\index.html:537
 msgid "Підприємства із землевпорядкування та кадастру"
 msgstr "Land Management and Cadastre Companies"
 
-#: .\blog\templates\mainpage\index.html:537
+#: .\blog\templates\mainpage\index.html:538
 msgid "Землевпорядники, кадастрові інженери, фахівці з грошової оцінки землі"
 msgstr "Land surveyors, cadastral engineers, land value specialists"
 
-#: .\blog\templates\mainpage\index.html:542
+#: .\blog\templates\mainpage\index.html:543
 msgid "ГИС, ГІС, GIS, it образование Харьков, it спеціальності Харків"
 msgstr "ГИС, ГІС, GIS, it education Kharkiv, it specialty Kharkiv"
 
-#: .\blog\templates\mainpage\index.html:544
+#: .\blog\templates\mainpage\index.html:545
 msgid "IT-компанії та підприємства"
 msgstr "IT companies and enterprises"
 
-#: .\blog\templates\mainpage\index.html:545
+#: .\blog\templates\mainpage\index.html:546
 msgid "Розробники ПЗ, адміністратори систем і баз даних, веб-програмісти"
 msgstr ""
 "Software developers, system and databases administrators , web "
 "developersSoftware developers, system administrators and databases, web "
 "developers"
 
-#: .\blog\templates\mainpage\index.html:550
+#: .\blog\templates\mainpage\index.html:551
 msgid "ГИС, ГІС, GIS, Картографія Харків, Картография Харьков"
 msgstr "ГИС, ГІС, GIS, Cartography Kharkiv, Картографія Харків"
 
-#: .\blog\templates\mainpage\index.html:552
+#: .\blog\templates\mainpage\index.html:553
 msgid "Картографічні підприємства"
 msgstr "Cartographic enterprises"
 
-#: .\blog\templates\mainpage\index.html:553
+#: .\blog\templates\mainpage\index.html:554
 msgid "ГІС-спеціалісти, картографи, геокодери, технологи, керівники"
 msgstr "GIS specialists, cartographers, geocoders, technologists, managers"
 
-#: .\blog\templates\mainpage\index.html:558
+#: .\blog\templates\mainpage\index.html:559
 msgid ""
 "ГИС, GIS, ГІС, Працевлаштування геодезія Харків, Трудоустройство геодезия "
 "Харьков"
 msgstr ""
 "ГИС, GIS, ГІС, Employment geodesy Kharkov, Працевлаштування геодезія Харків"
 
-#: .\blog\templates\mainpage\index.html:560
+#: .\blog\templates\mainpage\index.html:561
 msgid "Державні та обласні управління"
 msgstr "State and regional administrations"
 
-#: .\blog\templates\mainpage\index.html:562
+#: .\blog\templates\mainpage\index.html:563
 msgid ""
 "Спеціалісти з охорони природного серидовища, управління земельними, водними, "
 "лісними ресурсами"
@@ -1503,16 +1558,16 @@ msgstr ""
 "Specialists in environmental protection, management of land, water, forest  "
 "resources"
 
-#: .\blog\templates\mainpage\index.html:568
+#: .\blog\templates\mainpage\index.html:569
 msgid "ГИС, ГІС, GIS, Точне землеробство Харків, Точное земледелие Харьков"
 msgstr ""
 "ГИС, ГІС, GIS, Precision agriculture Kharkiv, Точне землеробство Харків"
 
-#: .\blog\templates\mainpage\index.html:570
+#: .\blog\templates\mainpage\index.html:571
 msgid "Аграрна сфера"
 msgstr "Agrarian area"
 
-#: .\blog\templates\mainpage\index.html:571
+#: .\blog\templates\mainpage\index.html:572
 msgid "Фахівці з точного землеробства, оптимізації процесу збору врожаю"
 msgstr "Specialists in precision farming, optimizing the harvesting process"
 
@@ -1524,9 +1579,14 @@ msgstr "Come back later"
 msgid "РОЗДІЛ В РОЗРОБЦІ"
 msgstr "SECTION IN DEVELOPMENT"
 
-#: .\blog\templates\mainpage\maintenance.html:30
+#: .\blog\templates\mainpage\maintenance.html:31
 msgid "НА ГОЛОВНУ"
 msgstr "TO THE MAIN PAGE"
+
+#: .\blog\templates\mainpage\museum-container.html:6
+#: .\blog\templates\mainpage\museum.html:6
+msgid "Музей"
+msgstr ""
 
 #: .\blog\templates\mainpage\stud.html:6
 msgid "Информація для Студентів"
@@ -1556,9 +1616,1188 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: .\myapp\settings.py:112
-msgid "Russian"
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:7
+msgid "Messages"
 msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:7
+msgid "Site Maps"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:40
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:42
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:47
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:31
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:102
+#: .\venv\Lib\site-packages\django\forms\fields.py:649
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:154
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:165
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:239
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:246
+msgid ""
+"Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:255
+#: .\venv\Lib\site-packages\django\core\validators.py:275
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:260
+#: .\venv\Lib\site-packages\django\core\validators.py:276
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:270
+#: .\venv\Lib\site-packages\django\core\validators.py:274
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:304
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:310
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:341
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:350
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:360
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:375
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:395
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:400
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:405
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:465
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:518
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1125
+#: .\venv\Lib\site-packages\django\forms\models.py:753
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1127
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:105
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:106
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:107
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:108
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:112
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:129
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:882
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1782
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:886
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1780
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:959
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1851
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:971
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:973
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1039
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1102
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1150
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1152
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1294
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1155
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1292
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1296
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1300
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1447
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1449
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1601
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1604
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1656
+msgid "Email address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1680
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1746
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1748
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1866
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1897
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1978
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1980
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2043
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2055
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2068
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2098
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2105
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2133
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2135
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2138
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2263
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2286
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2333
+#, python-format
+msgid "'%(value)s' is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:221
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:359
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:780
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:782
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1001
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1051
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1052
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1094
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:171
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:53
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:245
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:290
+#: .\venv\Lib\site-packages\django\forms\fields.py:325
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:396
+#: .\venv\Lib\site-packages\django\forms\fields.py:1114
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:420
+#: .\venv\Lib\site-packages\django\forms\fields.py:1115
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:442
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:471
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:525
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:526
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:527
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:529
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:532
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:597
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:753
+#: .\venv\Lib\site-packages\django\forms\fields.py:843
+#: .\venv\Lib\site-packages\django\forms\models.py:1267
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:844
+#: .\venv\Lib\site-packages\django\forms\fields.py:959
+#: .\venv\Lib\site-packages\django\forms\models.py:1266
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:960
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1173
+msgid "Enter a valid UUID."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:86
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:207
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:91
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:338
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:345
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:371
+#: .\venv\Lib\site-packages\django\forms\formsets.py:373
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:375
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:748
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:752
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:758
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:767
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1094
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1155
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1269
+#, python-format
+msgid "\"%(pk)s\" is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:162
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:391
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:392
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:393
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:708
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:709
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:710
+msgid "No"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:783
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:812
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:829
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:831
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:833
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:835
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:837
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:839
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:62
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:63
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:68
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:69
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:150
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:152
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:37
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:38
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:51
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:52
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:70
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s..."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:237
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:256
+#: .\venv\Lib\site-packages\django\utils\timesince.py:69
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:58
+msgid "0 minutes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:120
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the 'Referrer-Policy: no-referrer' header, please remove them. The "
+"CSRF protection requires the 'Referer' header to do strict referer checking. "
+"If you're concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" ...> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:61
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:111
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:338
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:585
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:619
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:53
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:67
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:154
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:41
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:43
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:83
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:6
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:345
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:367
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:368
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:383
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:384
+msgid "Topics, references, &amp; how-to's"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:395
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:396
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:407
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:408
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#~ msgid ""
+#~ "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Геодезія та "
+#~ "Землевпорядкування (бакалаврат)"
+#~ msgstr ""
+#~ "KhAI GIS - info - Program of additional entrance tests - Geodesy and Land "
+#~ "management (bachelor's degree)"
+
+#~ msgid ""
+#~ "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Геодезія та "
+#~ "Землевпорядкування (магістратура)"
+#~ msgstr ""
+#~ "KhAI GIS - info - Program of additional entrance tests - Geodesy and Land "
+#~ "management (master's degree)"
+
+#~ msgid ""
+#~ "ХАІ ГІС - інфо - Програма додаткових вступних тестів - Науки про Землю "
+#~ "(магістратура)"
+#~ msgstr ""
+#~ "KhAI GIS - info - Program of additional entrance tests - Earth sciences "
+#~ "(master's degree)"
+
+#~ msgid "Старший викладач кафедри 407"
+#~ msgstr "Senior lecturer of the department 407"
 
 #~ msgid "к.т.н, доцент "
 #~ msgstr "PhD, Associate Professor "

@@ -1131,13 +1131,13 @@ msgstr "Oleksandr Borysenko"
 #, fuzzy
 #| msgid "канд. е. наук, доцент"
 msgid "канд. с.-г. наук"
-msgstr "Candidate of Economical Sciences, Associate Professor"
+msgstr "Ph.D."
 
 #: .\blog\templates\mainpage\index.html:230
 #, fuzzy
 #| msgid "Старший викладач кафедри 407"
 msgid "Cтарший дослідник, Доцент кафедри 407"
-msgstr "Senior lecturer of the department 407"
+msgstr "Senior Researcher, Associate Professor of the Department 407"
 
 #: .\blog\templates\mainpage\index.html:237
 #, fuzzy
@@ -1188,10 +1188,8 @@ msgid "Даншина Світлана Юріївна"
 msgstr "Svetlana Danshyna"
 
 #: .\blog\templates\mainpage\index.html:273
-#, fuzzy
-#| msgid "к.т.н., доцент"
 msgid "д.т.н., доцент"
-msgstr "Ph.D., Associate Professor"
+msgstr "Doctor of Technical Sciences, Associate Professor"
 
 #: .\blog\templates\mainpage\index.html:281
 msgid "Красовська Інеса Григоріївна, Харків, ГІС, GIS"

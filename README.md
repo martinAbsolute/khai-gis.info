@@ -6,24 +6,25 @@ A website for the department of geoinformation technology and space monitoring o
 
 Перед началом - убедиться что установлены python 3.4, git, готов к использованию pip (менеджер библиотек для python). Если установлено несколько версий питона, переключится на 3.4
 
-```
-python --version
+```bash
+python --version // 3.4.4
 git --version
-pip -V
+pip -V // 19.1.1
 ```
 
 (Если проблемы с pip - [можно сделать даунгрейд](https://stackoverflow.com/questions/62084243/pip-doesnt-work-after-upgrade-on-python-3-4-windows-10-how-to-downgrade) до рабочей на питоне 3.4 версии 19.1.1)
 
 1. Создать [virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) (виртуальную среду разработки):
 
-```
+```bash
+python -m pip install virtualenv
 virtualenv venv
 ```
 
 2. Активировать новый virtual environment:
 
 ```
-source venv/bin/Scripts/activate
+source venv/Scripts/activate
 ```
 
 3. Установить в него пакеты из requirements.txt:

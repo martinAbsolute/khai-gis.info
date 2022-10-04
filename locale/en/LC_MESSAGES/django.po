@@ -1125,7 +1125,7 @@ msgstr "Oleksandr Borysenko, Kharkiv, ГІС, GIS"
 #, fuzzy
 #| msgid "Олександр Ігорович Борисенко, Харків, ГІС, GIS"
 msgid "Олександр Ігорович Борисенко"
-msgstr "Oleksandr Borysenko, Kharkiv, ГІС, GIS"
+msgstr "Oleksandr Borysenko"
 
 #: .\blog\templates\mainpage\index.html:229
 #, fuzzy

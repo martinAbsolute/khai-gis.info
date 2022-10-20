@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 16:18+0300\n"
+"POT-Creation-Date: 2022-10-20 18:24+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -277,12 +277,12 @@ msgid "Географія, або Історія України;"
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:88
-msgid "Ліцензійний обсяг набору в 2019 році: 65 місць;"
+msgid "Ліцензійний обсяг набору: 65 місць;"
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:89
 #: .\blog\templates\mainpage\abit.html:135
-msgid "Держ. замовлення в 2019 році:"
+msgid "Держ. замовлення:"
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:90
@@ -296,7 +296,7 @@ msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:92
 #: .\blog\templates\mainpage\abit.html:138
-msgid "Вартість контрактного навчання в 2019 році: 11250 грн/рік;"
+msgid "Вартість контрактного навчання: 11250 грн/рік;"
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:98
@@ -347,7 +347,7 @@ msgid "Географія, або Фізика;"
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:134
-msgid "Ліцензійний обсяг набору в 2019 році: 27 місць;"
+msgid "Ліцензійний обсяг набору: 27 місць;"
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:136
@@ -455,12 +455,12 @@ msgid "Іноземна мова;"
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:209
-msgid "Ліцензійний обсяг набору в 2019 році: 10 місць; "
+msgid "Ліцензійний обсяг набору: 10 місць; "
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:210
 #: .\blog\templates\mainpage\abit.html:228
-msgid "Держ. замовлення в 2019 році: 10 місць; "
+msgid "Держ. замовлення: 10 місць; "
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:211
@@ -486,7 +486,7 @@ msgid " Вступні іспити:"
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:227
-msgid "Ліцензійний обсяг набору в 2019 році: 15 місць; "
+msgid "Ліцензійний обсяг набору: 15 місць; "
 msgstr ""
 
 #: .\blog\templates\mainpage\abit.html:239
@@ -513,18 +513,52 @@ msgid ""
 "сертифіката межднародного зразка."
 msgstr ""
 
+#: .\blog\templates\mainpage\abit.html:245
+msgid "Корисні посилання:"
+msgstr ""
+
+#: .\blog\templates\mainpage\abit.html:247
+msgid "Графік освітнього процесу для третього рівня освіти;"
+msgstr ""
+
 #: .\blog\templates\mainpage\abit.html:248
-#: .\blog\templates\mainpage\abit.html:309
-#: .\blog\templates\mainpage\abit.html:310
+msgid ""
+"Характеристика освітньої програми Дистанційні аерокосмічні дослідження» "
+"третього рівня вищої освіти за спеціальністю 103 «Науки про Землю»;"
+msgstr ""
+
+#: .\blog\templates\mainpage\abit.html:249
+msgid ""
+"Освітньо-наукова програма «Дистанційні аерокосмічні дослідження» третього "
+"рівня вищої освіти за спеціальністю 103 «Науки про Землю»;"
+msgstr ""
+
+#: .\blog\templates\mainpage\abit.html:250
+msgid ""
+"Навчальний план освітньо-наукової програми «Дистанційні аерокосмічні "
+"дослідження»."
+msgstr ""
+
+#: .\blog\templates\mainpage\abit.html:251
+msgid "Робочі програми (силабуси) дисциплін;"
+msgstr ""
+
+#: .\blog\templates\mainpage\abit.html:252
+msgid "Навчально-методичне забезпечення дисциплін;"
+msgstr ""
+
+#: .\blog\templates\mainpage\abit.html:259
+#: .\blog\templates\mainpage\abit.html:320
+#: .\blog\templates\mainpage\abit.html:321
 msgid "аспирантура ХАИ"
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:255
+#: .\blog\templates\mainpage\abit.html:266
 #: .\blog\templates\mainpage\gisdayteaser.html:6
 msgid "День ГІС"
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:256
+#: .\blog\templates\mainpage\abit.html:267
 msgid ""
 "Спільно з усією світовою ГІС-спільнотою, кожної другої середи листопада на "
 "нашій кафедрі відзначається день ГІС. Свято є одним з найяскравіших і "
@@ -534,22 +568,22 @@ msgid ""
 "змаганнях на найоригінальніший торт! Дивіться фотографії в "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:256
+#: .\blog\templates\mainpage\abit.html:267
 msgid "галереї."
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:258
-#: .\blog\templates\mainpage\abit.html:260
-#: .\blog\templates\mainpage\abit.html:262
+#: .\blog\templates\mainpage\abit.html:269
+#: .\blog\templates\mainpage\abit.html:271
+#: .\blog\templates\mainpage\abit.html:273
 #: .\blog\templates\mainpage\gisdayteaser.html:39
 msgid "День ГИС"
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:264
+#: .\blog\templates\mainpage\abit.html:275
 msgid "1001 ніч"
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:265
+#: .\blog\templates\mainpage\abit.html:276
 msgid ""
 "Щорічно студенти третього курсу всього університету відправляються на кілька "
 "днів на базу відпочинку, щоб відзначити '1001 ніч', що пройшла за час "
@@ -557,17 +591,17 @@ msgid ""
 "свято назавжди залишається в пам`яті студентів ХАІ."
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:267
-#: .\blog\templates\mainpage\abit.html:269
-#: .\blog\templates\mainpage\abit.html:271
+#: .\blog\templates\mainpage\abit.html:278
+#: .\blog\templates\mainpage\abit.html:280
+#: .\blog\templates\mainpage\abit.html:282
 msgid "1001 ніч ХАІ"
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:276
+#: .\blog\templates\mainpage\abit.html:287
 msgid "Профком студентів та аспірантів ХАІ"
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:277
+#: .\blog\templates\mainpage\abit.html:288
 msgid ""
 "Первинна профспілкова організація студентів та аспірантів - це добровільна "
 "профспілкова організація студентів та аспірантів університету, метою якої є "
@@ -579,18 +613,18 @@ msgid ""
 "іншим. Дізнайтеся більше про діяльність профкому ХАІ на "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:277
+#: .\blog\templates\mainpage\abit.html:288
 msgid "офіційному сайті."
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:278
-#: .\blog\templates\mainpage\abit.html:281
-#: .\blog\templates\mainpage\abit.html:283
-#: .\blog\templates\mainpage\abit.html:285
+#: .\blog\templates\mainpage\abit.html:289
+#: .\blog\templates\mainpage\abit.html:292
+#: .\blog\templates\mainpage\abit.html:294
+#: .\blog\templates\mainpage\abit.html:296
 msgid "День ХАІ"
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:279
+#: .\blog\templates\mainpage\abit.html:290
 msgid ""
 "День Харківського авіаційного інституту традиційно вважається головним "
 "святом університету. Відзначається цей день в останню суботу травня. На день "
@@ -599,44 +633,44 @@ msgid ""
 "університету."
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:292
+#: .\blog\templates\mainpage\abit.html:303
 msgid "Працевлаштування випускників забезпечується:"
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:295
+#: .\blog\templates\mainpage\abit.html:306
 msgid " Національним космічним агентством України; "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:296
+#: .\blog\templates\mainpage\abit.html:307
 msgid " Обласними науково-геодезичними центрами; "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:297
+#: .\blog\templates\mainpage\abit.html:308
 msgid ""
 " Регіональними підрозділами інстітіутов космічних досліджень НАН України; "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:298
+#: .\blog\templates\mainpage\abit.html:309
 msgid ""
 " Регіональними підрозділами державного науково-виробничого центру 'Природа' "
 "НКАУ; "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:299
+#: .\blog\templates\mainpage\abit.html:310
 msgid ""
 " Науково-дослідними проектними організаціями, котрі підпорядковуються "
 "Міністерству екології України та Аграрній академії України; "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:300
+#: .\blog\templates\mainpage\abit.html:311
 msgid " Обласними управліннями охорони природного середовища; "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:301
+#: .\blog\templates\mainpage\abit.html:312
 msgid " Обласними управліннями земельних і лісових ресурсів; "
 msgstr ""
 
-#: .\blog\templates\mainpage\abit.html:302
+#: .\blog\templates\mainpage\abit.html:313
 msgid ""
 " Підприємствами, які виконують геодезичні роботи і завдання тематичного "
 "картографування. "
@@ -721,12 +755,12 @@ msgstr ""
 
 #: .\blog\templates\mainpage\contact.html:102
 #: .\blog\templates\mainpage\index.html:197
+#: .\blog\templates\mainpage\index.html:252
+#: .\blog\templates\mainpage\index.html:263
+#: .\blog\templates\mainpage\index.html:274
 #: .\blog\templates\mainpage\index.html:285
-#: .\blog\templates\mainpage\index.html:296
 #: .\blog\templates\mainpage\index.html:307
-#: .\blog\templates\mainpage\index.html:329
-#: .\blog\templates\mainpage\index.html:351
-#: .\blog\templates\mainpage\index.html:362
+#: .\blog\templates\mainpage\index.html:318
 msgid "Доцент кафедри 407"
 msgstr ""
 
@@ -940,13 +974,13 @@ msgid "Бутенко Ольга Станіславівна"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:207
-#: .\blog\templates\mainpage\index.html:262
+#: .\blog\templates\mainpage\index.html:229
 msgid "д.т.н, професор"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:208
-#: .\blog\templates\mainpage\index.html:263
-#: .\blog\templates\mainpage\index.html:274
+#: .\blog\templates\mainpage\index.html:230
+#: .\blog\templates\mainpage\index.html:241
 msgid "Професор кафедри 407"
 msgstr ""
 
@@ -963,116 +997,127 @@ msgid "Завідуючий кафедрою 407"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:226
-msgid "Олександр Ігорович Борисенко, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:228
-msgid "Олександр Ігорович Борисенко"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:229
-msgid "канд. с.-г. наук"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:230
-msgid "Cтарший дослідник, Доцент кафедри 407"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:237
-msgid "Топчий Анна Сергіївна, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:239
-msgid "Топчий Анна Сергіївна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:241
-#: .\blog\templates\mainpage\index.html:252
-#: .\blog\templates\mainpage\index.html:318
-#: .\blog\templates\mainpage\index.html:340
-#: .\blog\templates\mainpage\index.html:373
-msgid "Асистент кафедри 407"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:248
-msgid "Бравков Данило Вікторович, Харків, ГІС, GIS"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:250
-msgid "Бравков Данило Вікторович"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:259
 msgid "Пащенко Руслан Едуардович, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:261
+#: .\blog\templates\mainpage\index.html:228
 msgid "Пащенко Руслан Едуардович"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:270
+#: .\blog\templates\mainpage\index.html:237
 msgid "Даншина Світлана Юріївна, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:272
+#: .\blog\templates\mainpage\index.html:239
 msgid "Даншина Світлана Юріївна"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:273
+#: .\blog\templates\mainpage\index.html:240
 msgid "д.т.н., доцент"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:281
+#: .\blog\templates\mainpage\index.html:248
 msgid "Красовська Інеса Григоріївна, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:283
+#: .\blog\templates\mainpage\index.html:250
 msgid "Красовська Інеса Григоріївна"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:284
+#: .\blog\templates\mainpage\index.html:251
 msgid "к.т.н, с.н.с"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:292
+#: .\blog\templates\mainpage\index.html:259
 msgid "Нечаусов Артем Сергійович, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:294
+#: .\blog\templates\mainpage\index.html:261
 msgid "Нечаусов Артем Сергійович"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:295
-#: .\blog\templates\mainpage\index.html:306
+#: .\blog\templates\mainpage\index.html:262
 msgid "к.т.н., доцент"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:303
+#: .\blog\templates\mainpage\index.html:270
 msgid "Гребень Олександр Сергійович, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:305
+#: .\blog\templates\mainpage\index.html:272
 msgid "Гребень Олександр Сергійович"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:314
-msgid "Лазарєва Ольга Євгенівна, Харків, ГІС, GIS"
+#: .\blog\templates\mainpage\index.html:273
+msgid "к.т.н."
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:316
-msgid "Лазарєва Ольга Євгенівна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:325
+#: .\blog\templates\mainpage\index.html:281
 msgid "Сухомлин Людмила Володимирівна, Харків, ГІС, GIS"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:327
+#: .\blog\templates\mainpage\index.html:283
 msgid "Сухомлин Людмила Володимирівна"
 msgstr ""
 
-#: .\blog\templates\mainpage\index.html:328
+#: .\blog\templates\mainpage\index.html:284
 msgid "канд. е. наук, доцент"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:292
+msgid "Олександр Ігорович Борисенко, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:294
+msgid "Олександр Ігорович Борисенко"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:295
+msgid "канд. с.-г. наук"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:296
+msgid "Cтарший дослідник, Доцент кафедри 407"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:303
+msgid "Ковальова Віра Олександрівна, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:305
+msgid "Ковальова Віра Олександрівна"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:306
+msgid "к.т.н"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:314
+msgid "Зубкович Cвітлана Олександрівна, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:316
+msgid "Зубкович Cвітлана Олександрівна"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:317
+msgid "к.геогр.н., доцент"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:325
+msgid "Марюшко Максим В'ячеславович, Харків, ГІС, GIS"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:327
+msgid "Марюшко Максим В'ячеславович"
+msgstr ""
+
+#: .\blog\templates\mainpage\index.html:329
+#: .\blog\templates\mainpage\index.html:340
+#: .\blog\templates\mainpage\index.html:351
+#: .\blog\templates\mainpage\index.html:362
+#: .\blog\templates\mainpage\index.html:373
+msgid "Асистент кафедри 407"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:336
@@ -1084,35 +1129,27 @@ msgid "Ілюхіна Катерина Володимирівна"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:347
-msgid "Ковальова Віра Олександрівна, Харків, ГІС, GIS"
+msgid "Лазарєва Ольга Євгенівна, Харків, ГІС, GIS"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:349
-msgid "Ковальова Віра Олександрівна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:350
-msgid "к.т.н"
+msgid "Лазарєва Ольга Євгенівна"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:358
-msgid "Зубкович Cвітлана Олександрівна, Харків, ГІС, GIS"
+msgid "Топчий Анна Сергіївна, Харків, ГІС, GIS"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:360
-msgid "Зубкович Cвітлана Олександрівна"
-msgstr ""
-
-#: .\blog\templates\mainpage\index.html:361
-msgid "к.геогр.н., доцент"
+msgid "Топчий Анна Сергіївна"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:369
-msgid "Марюшко Максим В'ячеславович, Харків, ГІС, GIS"
+msgid "Бравков Данило Вікторович, Харків, ГІС, GIS"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:371
-msgid "Марюшко Максим В'ячеславович"
+msgid "Бравков Данило Вікторович"
 msgstr ""
 
 #: .\blog\templates\mainpage\index.html:380

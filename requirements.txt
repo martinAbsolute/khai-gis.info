@@ -3,7 +3,7 @@ django-fastcgi-server==0.1
 django-thumbs-v2==0.4.1
 django-tinymce4-lite==1.7.4
 flup6==1.1.1
-jsmin==2.2.2
+jsmin==3.0.1
 olefile==0.46
 Pillow==4.1.1
 pytz==2019.1

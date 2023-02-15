@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:24+0300\n"
+"POT-Creation-Date: 2023-02-15 17:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,6 +161,10 @@ msgstr "Applicants"
 #: .\blog\templates\blog\layout.html:118
 msgid "Контакти"
 msgstr "Contact"
+
+#: .\blog\templates\blog\layout.html:127
+msgid "Всі права захищені."
+msgstr "All rights reserved."
 
 #: .\blog\templates\blog\layout.html:131
 #: .\blog\templates\mainpage\contact.html:94
@@ -556,7 +560,9 @@ msgstr "State ordered: 10 seats; "
 
 #: .\blog\templates\mainpage\abit.html:211
 #: .\blog\templates\mainpage\abit.html:229
-msgid "Вартість навчання: 12330 грн/рік; "
+#, fuzzy
+#| msgid "Вартість навчання: 12330 грн/рік; "
+msgid "Вартість навчання: 12330 грн / рік; "
 msgstr "Contract price: 12330 UAH/year"
 
 #: .\blog\templates\mainpage\abit.html:212
@@ -627,22 +633,25 @@ msgstr "Schedule of the educational process for the third level of education;"
 msgid ""
 "Характеристика освітньої програми Дистанційні аерокосмічні дослідження» "
 "третього рівня вищої освіти за спеціальністю 103 «Науки про Землю»;"
-msgstr "Educational programme for Remote aerospace research"
-"third level of higher education with specialty 103 «Earth Sciences»;"
+msgstr ""
+"Educational programme for Remote aerospace researchthird level of higher "
+"education with specialty 103 «Earth Sciences»;"
 
 #: .\blog\templates\mainpage\abit.html:249
 msgid ""
 "Освітньо-наукова програма «Дистанційні аерокосмічні дослідження» третього "
 "рівня вищої освіти за спеціальністю 103 «Науки про Землю»;"
-msgstr "Educational and scientific program for 'Remote aerospace research' of the third "
-"level of higher education in specialty 103 «Earth Sciences»;"
+msgstr ""
+"Educational and scientific program for 'Remote aerospace research' of the "
+"third level of higher education in specialty 103 «Earth Sciences»;"
 
 #: .\blog\templates\mainpage\abit.html:250
 msgid ""
 "Навчальний план освітньо-наукової програми «Дистанційні аерокосмічні "
 "дослідження»."
-msgstr "Curriculum of the educational and scientific program 'Remote aerospace research"
-"research'."
+msgstr ""
+"Curriculum of the educational and scientific program 'Remote aerospace "
+"researchresearch'."
 
 #: .\blog\templates\mainpage\abit.html:251
 msgid "Робочі програми (силабуси) дисциплін;"

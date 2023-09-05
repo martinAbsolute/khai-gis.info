@@ -1,4 +1,4 @@
-Django==2.0.8
+Django==2.2.28
 django-fastcgi-server==0.1
 django-thumbs-v2==0.4.1
 django-tinymce4-lite==1.7.4
